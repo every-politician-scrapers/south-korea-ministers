@@ -1,1 +1,26 @@
 wdid,name,wdLabel,gender,dob,dobPrecision,source,pid,position,psid
+Q43508765,Baek Woon-kyu,Baek Woon-kyu,male,1964-03-02T00:00:00Z,11,,Q16176893,"Minister of Trade, Industry and Energy",Q43508765-21ff340f-44ff-80cb-e192-cccef732e47d
+Q31180634,Cho Myoung-gyon,Cho Myoung-gyon,male,1957-11-17T00:00:00Z,11,,Q12592549,Minister of Reunification,Q31180634-b06014fe-4bda-12dc-59b4-dadae7834717
+Q81226776,Choi Ki-young,Choi Ki-young,male,1955-01-01T00:00:00Z,9,,Q12592441,Minister of Science and ICT,Q81226776-20ff3e0c-4561-494f-1c92-57a0f14f7a6f
+Q11274387,Choo Mi-ae,Choo Mi-ae,female,1958-10-23T00:00:00Z,11,,Q12592448,Minister of Justice,Q11274387-ad2ba25b-458e-16b1-5bae-f3e728bcb39f
+Q50125291,Chung Hyun-back,Chung Hyun-back,female,1953-01-01T00:00:00Z,9,,Q16177057,Minister of Gender Equality and Family,Q50125291-ce4f2bf1-4786-5d59-d03c-422f5f8b9a4b
+Q50125291,Chung Hyun-back,Chung Hyun-back,female,1953-04-09T00:00:00Z,11,,Q16177057,Minister of Gender Equality and Family,Q50125291-ce4f2bf1-4786-5d59-d03c-422f5f8b9a4b
+Q31180640,Hong Nam-ki,Hong Nam-ki,male,1960-07-29T00:00:00Z,11,,Q12592471,Finance minister of South Korea,Q31180640-889b6def-41e2-4cc2-8bd3-76896b155055
+Q22974878,Jeong Kyeong-doo,Jeong Kyeong-doo,male,1960-01-01T00:00:00Z,9,,Q12592405,Defense minister of South Korea,Q22974878-ef5c7b3e-4625-0fa9-3999-ca5c7cfacdc8
+Q6362240,Kang Kyung-hwa,Kang Kyung-hwa,female,1955-04-07T00:00:00Z,11,,Q12592509,Foreign minister of South Korea,Q6362240-65c5ee2c-4336-a26e-1d0d-6a47b8b8c504
+Q12587534,Kim Boo-kyum,Kim Boo-kyum,male,1956-12-01T00:00:00Z,11,,Q12592496,Minister of Security and Public Administration,Q12587534-b3bd05b4-469a-8615-e204-4ab8043815a2
+Q12587534,Kim Boo-kyum,Kim Boo-kyum,male,1956-12-01T00:00:00Z,11,,Q15407843,Prime Minister of South Korea,Q12587534-475bc3d2-4711-8af9-1bb1-61e6f8f37163
+Q16080198,Kim Dong-yeon,Kim Dong-yeon,male,1957-01-28T00:00:00Z,11,,Q12592471,Finance minister of South Korea,Q16080198-3f279ac2-4ab9-04e6-8077-959851e531df
+Q31178699,Kim Eunkyung,Kim Eunkyung,female,1956-06-09T00:00:00Z,11,,Q12592566,Minister of the Environment,Q31178699-3fea89e8-419a-6617-2029-bcc9efb23dbf
+Q69696972,Kim Hyeon-soo,Kim Hyeon-soo,male,1961-01-01T00:00:00Z,9,,Q16176423,"Minister of Agriculture, Food and Rural Affairs",Q69696972-3e2f81c7-4707-3f16-5a1d-cca143c79a92
+Q16080678,Kim Hyun-mee,Kim Hyun-mee,female,1962-11-29T00:00:00Z,11,,Q12592410,"Minister of Land, Infrastructure and Transport",Q16080678-f0846220-4af6-229c-b1eb-8d6c2412f71f
+Q16080247,Kim Sang-gon,Kim Sang-gon,male,1949-12-05T00:00:00Z,11,,Q12592394,Minister of Education,Q16080247-e8237302-40dd-35fb-f2b0-6de580c55408
+Q16176504,Kim Yung-rok,Kim Yung-rok,male,1955-02-17T00:00:00Z,11,,Q16176423,"Minister of Agriculture, Food and Rural Affairs",Q16176504-37739a3a-41e9-ca39-1885-643d3085e2b9
+Q16091058,Lee In-young,Lee In-young,male,1964-06-28T00:00:00Z,11,,Q12592549,Minister of Reunification,Q16091058-5cd279f5-4646-7947-b787-2722e33afd09
+Q56824997,Lee Jae-gap,Lee Jae-gap,male,1958-01-01T00:00:00Z,9,,Q12592375,Minister of Employment and Labour,Q56824997-3edd6c29-4e9e-69bb-547f-2b3938c2dd2a
+Q21001,Moon Jae-in,Moon Jae-in,male,1953-01-24T00:00:00Z,11,,Q6296418,president of South Korea,Q21001-9fa17aa3-4fbf-2c0c-a109-4534270c54dd
+Q48315800,Park Neung-hoo,Park Neung-hoo,male,1956-06-24T00:00:00Z,11,,Q16176751,Minister of Health and Welfare,Q48315800-00e9b165-470f-970d-1c10-41b4fceea613
+Q16081865,Park Yang-woo,Park Yang-woo,male,1958-11-20T00:00:00Z,11,,Q12592439,"Minister of Culture, Sports and Tourism",Q16081865-db4bd874-45a9-bb80-23a3-709cb5118b05
+Q31179461,Song Young-moo,Song Young-moo,male,1949-02-24T00:00:00Z,11,,Q12592405,Defense minister of South Korea,Q31179461-e006a17d-44da-7d26-0f82-b51196bbdf50
+Q61117556,Suh Wook,Suh Wook,male,1962-01-01T00:00:00Z,9,,Q12592405,Defense minister of South Korea,Q61117556-48a33aeb-4f1d-70f9-ae64-778e4b7865c5
+Q55731004,Sung Yun-mo,Sung Yun-mo,male,1963-01-01T00:00:00Z,9,,Q16176893,"Minister of Trade, Industry and Energy",Q55731004-e2bf5c3d-4a5a-90b4-6547-d122561e8ae5
