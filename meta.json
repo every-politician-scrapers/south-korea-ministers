@@ -1,20 +1,20 @@
 {
     "jurisdiction": {
-      "name": "XXX",
-      "id": "Qxxx"
+      "name": "South Korea",
+      "id": "Q884"
     },
     "cabinet": {
-      "id": "Qxxx",
-      "start": "YYYY-MM-DD",
-      "parent": "Qxxx"
+      "id": "Q31176412",
+      "start": "2017-05-10",
+      "parent": "Q12585780"
     },
     "source": {
-        "url":   "XXX",
-        "title": "XXX",
+        "url":   "https://www.korea.net/Government/Administration/Cabinet",
+        "title": "Cabinet : Korea.net : The official website of the Republic of Korea",
         "lang":  {
             "code": "en",
             "wikidata": "Q1860"
         }
     },
-    "agent": "every-politican-scrapers/XXX"
+    "agent": "every-politican-scrapers/south-korea-ministers"
 }
