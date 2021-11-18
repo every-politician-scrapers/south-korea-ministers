@@ -1,23 +1,23 @@
-wdid,name,wdLabel,gender,dob,dobPrecision,source,pid,position,psid
-Q106514351,An Kyung-duk,An Kyung-duk,male,1963-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q12592375,Minister of Employment and Labor,Q106514351-12239593-3482-4F65-B198-44281FBF02BA
-Q19941071,Chung Eui-yong,Chung Eui-yong,male,1946-04-14T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592509,Minister of Foreign Affairs,Q19941071-39D0F676-2544-48F2-A144-847042AE6729
-Q104525309,Chung Young-ai,Chung Young-ai,female,1955-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q16177057,Minister of Gender Equality and Family,Q104525309-F365427A-C714-4182-9E25-CB6211D3301D
-Q12624300,Han Jeoung Ae,Han Jeoung-ae,female,1965-01-08T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592566,Minister of Environment,Q12624300-83280C44-1587-42E3-8507-AA1FDC687A6B
-Q31180640,Hong Nam-ki,Hong Nam-ki,male,1960-07-29T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q18388356,Deputy Prime Minister,Q31180640-DA9AB246-63F2-48CF-9601-10B07D4FB935
-Q31180640,Hong Nam-ki,Hong Nam-ki,male,1960-07-29T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592471,Minister of Economy and Finance,Q31180640-889b6def-41e2-4cc2-8bd3-76896b155055
-Q24856300,Hwang Hee,Hwang Hee,male,1967-07-28T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592439,"Minister of Culture, Sports and Tourism",Q24856300-7D9DBAE0-2AF8-4707-9D6F-6153C8B93616
-Q16091570,Jeon Hae-cheol,Jeon Hae-cheol,male,1962-05-18T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592496,Minister of the Interior and Safety,Q16091570-B8F2C8CC-389E-46F3-AC8C-E0C42F4D2C3E
-Q12587534,Kim Boo-kyum,Kim Boo-kyum,male,1956-12-01T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q15407843,Prime Minister,Q12587534-475bc3d2-4711-8af9-1bb1-61e6f8f37163
-Q69696972,Kim Hyeonsoo,Kim Hyeon-soo,male,1961-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q16176423,"Minister of Agriculture, Food and Rural Affairs",Q69696972-3e2f81c7-4707-3f16-5a1d-cca143c79a92
-Q24000551,Kwon Chil-seung,Kwon Chil-seung,male,1965-11-18T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592533,Minister of SMEs and Startups,Q24000551-FCF2C538-5F91-4CE9-9355-BA0BF58EB0B0
-Q104450768,Kwon Deok-cheol,Kwon Deok-chul,male,1961-03-22T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q16176751,Minister of Health and Welfare,Q104450768-4954F6B2-86E3-4D6E-89CE-D3BC72BBBB8F
-Q16091058,Lee In-Young,Lee In-young,male,1964-06-28T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592549,Minister of Unification,Q16091058-5cd279f5-4646-7947-b787-2722e33afd09
-Q97198407,Lim Hyesook,Lim Hyesook,female,1963-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q12592441,Minister of Science and ICT,Q97198407-7F3E8B2F-4FC5-42AA-9DBA-C81B707BA981
-Q21001,Moon Jae-in,Moon Jae-in,male,1953-01-24T00:00:00Z,11,,Q6296418,president of South Korea,Q21001-9fa17aa3-4fbf-2c0c-a109-4534270c54dd
-Q63378324,Moon Seong-hyeok,Moon Seong-hyeok,male,1958-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q12592560,Minister of Oceans and Fisheries,Q63378324-0d96fe25-4380-2d60-54ce-6cb768779104
-Q106518639,Moon SungWook,Moon Sung-wook,male,1965-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q16176893,"Minister of Trade, Industry and Energy",Q106518639-C1ADEC0D-401C-40C2-929E-33C7E634571C
-Q31178685,Noh Hyeong-ouk,Noh Hyeong-ouk,male,1962-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q12592410,"Minister of Land, Infrastructure and Transport",Q31178685-577DFB25-8D00-4B0E-8C7A-6728F1D54C78
-Q12596659,Park Beom-Kye,Park Beom-kye,male,1963-04-27T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592448,Minister of Justice,Q12596659-4568BA93-A690-4AFC-B6E5-782F49554566
-Q61117556,Suh Wook,Suh Wook,male,1962-01-01T00:00:00Z,9,https://www.korea.net/Government/Administration/Cabinet,Q12592405,Minister of National Defense,Q61117556-48a33aeb-4f1d-70f9-ae64-778e4b7865c5
-Q16079929,Yoo Eun-hae,Yoo Eun-hae,female,1962-10-02T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q18388356,Deputy Prime Minister,Q16079929-E21FB635-282E-45F9-A966-0F47143EDF9B
-Q16079929,Yoo Eun-hae,Yoo Eun-hae,female,1962-10-02T00:00:00Z,11,https://www.korea.net/Government/Administration/Cabinet,Q12592394,Minister of Education,Q16079929-B1803185-8A07-4BA4-93E1-909CA08FC84E
+wdid,name,wdLabel,gender,dob,dobPrecision,source,sourceDate,pid,position,psid
+Q104450768,Kwon Deok-cheol,Kwon Deok-chul,male,1961-03-22,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q16176751,Minister of Health and Welfare,Q104450768-4954F6B2-86E3-4D6E-89CE-D3BC72BBBB8F
+Q104525309,Chung Young-ai,Chung Young-ai,female,1955-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q16177057,Minister of Gender Equality and Family,Q104525309-F365427A-C714-4182-9E25-CB6211D3301D
+Q106514351,An Kyung-duk,An Kyung-duk,male,1963-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592375,Minister of Employment and Labor,Q106514351-12239593-3482-4F65-B198-44281FBF02BA
+Q106518639,Moon SungWook,Moon Sung-wook,male,1965-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q16176893,"Minister of Trade, Industry and Energy",Q106518639-C1ADEC0D-401C-40C2-929E-33C7E634571C
+Q12587534,Kim Boo-kyum,Kim Boo-kyum,male,1956-12-01,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q15407843,Prime Minister,Q12587534-475bc3d2-4711-8af9-1bb1-61e6f8f37163
+Q12596659,Park Beom-Kye,Park Beom-kye,male,1963-04-27,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592448,Minister of Justice,Q12596659-4568BA93-A690-4AFC-B6E5-782F49554566
+Q12624300,Han Jeoung Ae,Han Jeoung-ae,female,1965-01-08,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592566,Minister of Environment,Q12624300-83280C44-1587-42E3-8507-AA1FDC687A6B
+Q16079929,Yoo Eun-hae,Yoo Eun-hae,female,1962-10-02,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592394,Minister of Education,Q16079929-B1803185-8A07-4BA4-93E1-909CA08FC84E
+Q16079929,Yoo Eun-hae,Yoo Eun-hae,female,1962-10-02,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q18388356,Deputy Prime Minister,Q16079929-E21FB635-282E-45F9-A966-0F47143EDF9B
+Q16091058,Lee In-Young,Lee In-young,male,1964-06-28,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592549,Minister of Unification,Q16091058-5cd279f5-4646-7947-b787-2722e33afd09
+Q16091570,Jeon Hae-cheol,Jeon Hae-cheol,male,1962-05-18,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592496,Minister of the Interior and Safety,Q16091570-B8F2C8CC-389E-46F3-AC8C-E0C42F4D2C3E
+Q19941071,Chung Eui-yong,Chung Eui-yong,male,1946-04-14,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592509,Minister of Foreign Affairs,Q19941071-39D0F676-2544-48F2-A144-847042AE6729
+Q21001,Moon Jae-in,Moon Jae-in,male,1953-01-24,11,,,Q6296418,president of South Korea,Q21001-9fa17aa3-4fbf-2c0c-a109-4534270c54dd
+Q24000551,Kwon Chil-seung,Kwon Chil-seung,male,1965-11-18,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592533,Minister of SMEs and Startups,Q24000551-FCF2C538-5F91-4CE9-9355-BA0BF58EB0B0
+Q24856300,Hwang Hee,Hwang Hee,male,1967-07-28,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592439,"Minister of Culture, Sports and Tourism",Q24856300-7D9DBAE0-2AF8-4707-9D6F-6153C8B93616
+Q31178685,Noh Hyeong-ouk,Noh Hyeong-ouk,male,1962-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592410,"Minister of Land, Infrastructure and Transport",Q31178685-577DFB25-8D00-4B0E-8C7A-6728F1D54C78
+Q31180640,Hong Nam-ki,Hong Nam-ki,male,1960-07-29,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592471,Minister of Economy and Finance,Q31180640-889b6def-41e2-4cc2-8bd3-76896b155055
+Q31180640,Hong Nam-ki,Hong Nam-ki,male,1960-07-29,11,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q18388356,Deputy Prime Minister,Q31180640-DA9AB246-63F2-48CF-9601-10B07D4FB935
+Q61117556,Suh Wook,Suh Wook,male,1962-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592405,Minister of National Defense,Q61117556-48a33aeb-4f1d-70f9-ae64-778e4b7865c5
+Q63378324,Moon Seong-hyeok,Moon Seong-hyeok,male,1958-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592560,Minister of Oceans and Fisheries,Q63378324-0d96fe25-4380-2d60-54ce-6cb768779104
+Q69696972,Kim Hyeonsoo,Kim Hyeon-soo,male,1961-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q16176423,"Minister of Agriculture, Food and Rural Affairs",Q69696972-3e2f81c7-4707-3f16-5a1d-cca143c79a92
+Q97198407,Lim Hyesook,Lim Hyesook,female,1963-01-01,9,https://www.korea.net/Government/Administration/Cabinet,2021-08-24,Q12592441,Minister of Science and ICT,Q97198407-7F3E8B2F-4FC5-42AA-9DBA-C81B707BA981
