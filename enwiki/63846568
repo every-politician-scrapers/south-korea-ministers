@@ -1,0 +1,275 @@
+{
+  "title": "Kim Hyeon-soo",
+  "pageID": 63846568,
+  "categories": [
+    "1961 births",
+    "Living people",
+    "Yonsei University alumni",
+    "Seoul National University alumni",
+    "University of Wisconsin–Madison College of Agricultural and Life Sciences alumni",
+    "People from Daegu",
+    "Government ministers of South Korea",
+    "Agriculture ministers"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Kim Hyeon-soo (also known as Kim Hyun-soo; born 1961) is a South Korean politician currently serving as the Minister of Agriculture, Food and Rural Affairs since his appointment by President Moon Jae-in in August 2019.",
+              "links": [
+                {
+                  "text": "South Korean",
+                  "type": "internal",
+                  "page": "South Korea"
+                },
+                {
+                  "text": "Minister of Agriculture, Food and Rural Affairs",
+                  "type": "internal",
+                  "page": "Ministry of Agriculture, Food and Rural Affairs (South Korea)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Moon Jae-in"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Kim Hyeon-soo",
+                  "Kim Hyun-soo"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He was appointed as Minister three months after he resigned from the Vice Minister - the first deputy head of the Ministry under President Moon."
+            },
+            {
+              "text": "He was previously its Deputy Minister, its third highest ranking position after Minister and Vice Minister, under the preceding conservative president Park Geun-hye.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Park Geun-hye"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "After passing the state exam in 1986, he has spent the entire professional career in public service related to agriculture and trade - mostly at the Ministry."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Kim holds three degrees - a bachelor in economics from Yonsei University, a master's in public administration from Seoul National University and a doctorate in agricultural economics from University of Wisconsin–Madison.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Yonsei University"
+                },
+                {
+                  "type": "internal",
+                  "page": "Seoul National University"
+                },
+                {
+                  "type": "internal",
+                  "page": "University of Wisconsin–Madison"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "description": "South Korean politician",
+          "template": "short description"
+        },
+        {
+          "birth_year": "1961",
+          "template": "birth year and age"
+        },
+        {
+          "list": [
+            "Kim",
+            ""
+          ],
+          "lang": "Korean",
+          "template": "family name hatnote"
+        },
+        {
+          "hangul": "김현수",
+          "hanja": "金炫秀",
+          "template": "korean"
+        }
+      ],
+      "infoboxes": [
+        {
+          "native_name": {
+            "text": "김현수"
+          },
+          "birth_place": {
+            "text": "Daegu, South Korea",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Daegu"
+              },
+              {
+                "type": "internal",
+                "page": "South Korea"
+              }
+            ]
+          },
+          "birth_date": {
+            "text": "1961 (age 60)"
+          },
+          "alma_mater": {
+            "text": "Yonsei University Seoul National University University of Wisconsin-Madison",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Yonsei University"
+              },
+              {
+                "type": "internal",
+                "page": "Seoul National University"
+              },
+              {
+                "type": "internal",
+                "page": "University of Wisconsin-Madison"
+              }
+            ]
+          },
+          "office": {
+            "text": "Minister of Agriculture, Food and Rural Affairs",
+            "links": [
+              {
+                "text": "Minister of Agriculture, Food and Rural Affairs",
+                "type": "internal",
+                "page": "Ministry of Agriculture, Food and Rural Affairs (South Korea)"
+              }
+            ]
+          },
+          "termstart": {
+            "text": "31 August 2019"
+          },
+          "president": {
+            "text": "Moon Jae-in",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Moon Jae-in"
+              }
+            ]
+          },
+          "primeminister": {
+            "text": "Lee Nak-yeon Chung Sye-kyun",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Nak-yeon"
+              },
+              {
+                "type": "internal",
+                "page": "Chung Sye-kyun"
+              }
+            ]
+          },
+          "predecessor": {
+            "text": "Lee Gae-ho",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Gae-ho"
+              }
+            ]
+          },
+          "office1": {
+            "text": "Vice Minister of Agriculture, Food and Rural Affairs",
+            "links": [
+              {
+                "text": "Vice Minister of Agriculture, Food and Rural Affairs",
+                "type": "internal",
+                "page": "Ministry of Agriculture, Food and Rural Affairs (South Korea)"
+              }
+            ]
+          },
+          "termstart1": {
+            "text": "13 June 2017"
+          },
+          "termend1": {
+            "text": "23 May 2019"
+          },
+          "president1": {
+            "text": "Moon Jae-in",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Moon Jae-in"
+              }
+            ]
+          },
+          "primeminister1": {
+            "text": "Lee Nak-yeon",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Nak-yeon"
+              }
+            ]
+          },
+          "predecessor1": {
+            "text": "Lee Joon-won"
+          },
+          "successor1": {
+            "text": "Lee Jae-wook"
+          }
+        }
+      ],
+      "references": [
+        {
+          "title": "Moon appoints new agriculture minister",
+          "url": "http://www.koreaherald.com/view.php?ud=20190830000661",
+          "last": "Herald",
+          "first": "The Korea",
+          "date": "2019-08-30",
+          "website": "www.koreaherald.com",
+          "language": "en",
+          "access-date": "2020-05-03",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "(profile) Experienced, versatile bureaucrat tapped for agriculture minister",
+          "url": "https://en.yna.co.kr/view/AEN20190809002300320",
+          "last": "강윤승",
+          "date": "2019-08-09",
+          "website": "Yonhap News Agency",
+          "language": "en",
+          "access-date": "2020-05-03",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Minister's Biography",
+          "url": "https://www.mafra.go.kr/english/752/subview.do",
+          "website": "www.mafra.go.kr",
+          "access-date": "2020-05-03",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    }
+  ]
+}
