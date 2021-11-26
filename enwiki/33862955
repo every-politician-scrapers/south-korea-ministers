@@ -2703,8 +2703,11 @@
               "links": [
                 {
                   "text": "Embrain",
-                  "type": "internal",
-                  "page": ":kO:엠브레인"
+                  "type": "interwiki",
+                  "wiki": {
+                    "wiki": "",
+                    "lang": "ko"
+                  }
                 },
                 {
                   "text": "coronavirus crisis",
