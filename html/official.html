@@ -4631,6 +4631,30 @@ function fnCopyUrl() {
 	document.body.removeChild(copy);
 	alert("The web address for this text has been copied.");
 };
+
+/* 2021-11-26 MICHAEL 추가 */
+function setOnclick(obj){
+	var text = $(obj).attr('onclick');
+	var results = text.match(/\'/g); 
+	if(results != null && results.length > 2){
+    	var first = text.substr(0,text.lastIndexOf('(')+1);
+    	var last = text.substr(first.length,text.length-1);
+    	var result = last.replace(/\'/gi,"").replace(')','');
+    	result = first+"'"+result+"')"; 
+    	$(obj).attr('onclick',result);
+    }
+} 
+/* 고도화 전 */
+
+$('.textbox a').each(function(i){
+    setOnclick($(this));
+});
+/* 고도화 이후 - a태그 중복 퍼블 수정에 따라 선택자 변경 필요 */
+// $('.tags-wrap ul a').each(function(i){
+$('.tags-wrap ul li a').each(function(i){
+	setOnclick($(this));
+});
+
 </script>
 						</div><!--// view_content_box2 -->
 						
