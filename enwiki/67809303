@@ -533,26 +533,6 @@
           "type": "news"
         }
       ]
-    },
-    {
-      "title": "References",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "김오수",
-              "links": [
-                {
-                  "text": "김오수",
-                  "type": "interwiki",
-                  "wiki": "ko"
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ]
 }

@@ -425,54 +425,6 @@
           "type": "web"
         }
       ]
-    },
-    {
-      "title": "References",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": []
-        }
-      ],
-      "templates": [
-        {
-          "template": "s-start"
-        },
-        {
-          "template": "s-mil"
-        },
-        {
-          "before": "Kim Yong-woo",
-          "template": "s-bef"
-        },
-        {
-          "title": "Chief of Staff of the Army",
-          "years": "2019–2020",
-          "template": "s-ttl"
-        },
-        {
-          "after": "Nam Yeong-shin",
-          "template": "s-aft"
-        },
-        {
-          "template": "s-off"
-        },
-        {
-          "before": "Jeong Kyeong-doo",
-          "template": "s-bef"
-        },
-        {
-          "title": "Minister of National Defense",
-          "years": "2020–present",
-          "template": "s-ttl"
-        },
-        {
-          "template": "s-inc"
-        },
-        {
-          "template": "southkorea-mil-bio-stub"
-        }
-      ]
     }
   ]
 }

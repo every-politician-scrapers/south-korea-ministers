@@ -372,62 +372,6 @@
           "type": "web"
         }
       ]
-    },
-    {
-      "title": "Awards",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": []
-        }
-      ],
-      "lists": [
-        [
-          {
-            "text": "Science and Technology Medal by the government of South Korea (2020)",
-            "links": [
-              {
-                "text": "Science and Technology Medal",
-                "type": "internal",
-                "page": "Orders, decorations, and medals of South Korea"
-              }
-            ]
-          },
-          {
-            "text": "Stars in Computer Networking and Communications by N2Women (2019)"
-          },
-          {
-            "text": "Women in Science and Technologies by then-Ministry of Science, ICT and Future Planning (2014)"
-          }
-        ]
-      ],
-      "references": [
-        {
-          "title": "2019 – Stars in Computer Networking and Communications",
-          "url": "https://n2women.comsoc.org/awards/stars/2019-stars-in-computer-networking-and-communications/",
-          "access-date": "2021-01-19",
-          "language": "en-US",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "last": "Mun",
-          "first": "Ju Hyoung",
-          "last2": "Lim",
-          "first2": "Hyesook",
-          "date": "2016-05-01",
-          "title": "New Approach for Efficient IP Address Lookup Using a Bloom Filter in Trie-Based Algorithms",
-          "url": "http://ieeexplore.ieee.org/document/7122873/",
-          "journal": "IEEE Transactions on Computers",
-          "volume": "65",
-          "issue": "5",
-          "pages": "1558–1565",
-          "doi": "10.1109/TC.2015.2444850",
-          "issn": "0018-9340",
-          "template": "citation",
-          "type": "journal"
-        }
-      ]
     }
   ]
 }

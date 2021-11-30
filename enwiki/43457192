@@ -298,24 +298,6 @@
           "type": "web"
         }
       ]
-    },
-    {
-      "title": "References",
-      "depth": 0,
-      "templates": [
-        {
-          "template": "reflist"
-        },
-        {
-          "template": "g20-cbgovernors"
-        },
-        {
-          "template": "authority control"
-        },
-        {
-          "template": "asia-economist-stub"
-        }
-      ]
     }
   ]
 }

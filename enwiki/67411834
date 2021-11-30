@@ -339,34 +339,6 @@
           "type": "news"
         }
       ]
-    },
-    {
-      "title": "References",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "안경덕",
-              "links": [
-                {
-                  "text": "안경덕",
-                  "type": "interwiki",
-                  "wiki": "ko"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "template": "reflist"
-        },
-        {
-          "template": "gov-bio-stub"
-        }
-      ]
     }
   ]
 }
