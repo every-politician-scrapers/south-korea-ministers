@@ -4633,29 +4633,34 @@ function fnCopyUrl() {
 };
 
 /* 2021-11-26 MICHAEL 추가 */
+function goSearch(keyword){
+	$('#unifiedSearchValue2').val(unescape(keyword));
+	$('#reSearch').submit();
+}
+
 function setOnclick(obj){
-	var text = $(obj).attr('onclick');
-	var results = text.match(/\'/g); 
-	if(results != null && results.length > 2){
-    	var first = text.substr(0,text.lastIndexOf('(')+1);
-    	var last = text.substr(first.length,text.length-1);
-    	var result = last.replace(/\'/gi,"").replace(')','');
-    	result = first+"'"+result+"')"; 
-    	$(obj).attr('onclick',result);
-    }
+	if(obj.match(/\'/g).length > 2 ){
+		var str = escape(obj.substring(obj.indexOf("'")+1,obj.lastIndexOf("'")));
+		var onclick = 'javascript:goSearch("' + str + '")';
+		return onclick;
+	}
 } 
 /* 고도화 전 */
 
 $('.textbox a').each(function(i){
-    setOnclick($(this));
+	$(this).attr("onclick",setOnclick($(this).attr("onclick")));
 });
 /* 고도화 이후 - a태그 중복 퍼블 수정에 따라 선택자 변경 필요 */
 // $('.tags-wrap ul a').each(function(i){
 $('.tags-wrap ul li a').each(function(i){
-	setOnclick($(this));
+	$(this).attr("onclick",setOnclick($(this).attr("onclick")));
 });
 
 </script>
+
+<form id="reSearch" name="reSearch" action="/Others/search" method="post">
+	<input type="hidden" id="unifiedSearchValue2" name="unifiedSearchValue" value=""/>
+</form>
 						</div><!--// view_content_box2 -->
 						
 
