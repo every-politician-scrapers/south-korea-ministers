@@ -125,6 +125,12 @@ $(document).ready(function() {
 	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		isMobile = true;
 	}
+	// 2021-12-22 MICHAEL 모바일 TOP 버튼 안되는 버그로 인한 기능 추가 
+	$('.quick-menu .iconset.ico-top').on('click',function(i){
+		if(isMobile){
+			document.body.scrollTop = 0;
+		}
+	});
 });
 
 
@@ -996,9 +1002,9 @@ function searchKeyword( searchWord ){
 								
 									
 										<div class="block">
-											<div class="img-wrap"><img src="/upload/content/image/f479b24217e043f38aa4df27d00f0740_20211207134254.jpg" ></div>
-											<a href="/NewsFocus/Society/view?articleId=207597">
-												<p class="tit">Aussie think tank ranks Korea 7th in influence in Asia</p>
+											<div class="img-wrap"><img src="/upload/content/image/7e0d320fef29496c9ec712d5a0a18038_20211208154818.jpg" ></div>
+											<a href="/NewsFocus/Society/view?articleId=207690">
+												<p class="tit">[Honorary Reporter highlights] Traveling abroad amid pandemic</p>
 											</a>
 										</div>
 									
@@ -1509,7 +1515,7 @@ function searchKeyword( searchWord ){
 								
 									
 										<div class="block">
-											<div class="img-wrap"><img src="/upload/content/image/0505facda3c14465b82088703064cef2_20211219121940.jpg" ></div>
+											<div class="img-wrap"><img src="/upload/content/image/9a4b2b49bedd42c2823229ba56a9f98d_20211221111856.jpg" ></div>
 											<a href="/AboutKorea/Korean-Life/Food">
 												<p class="tit">Food</p>
 											</a>
@@ -1518,7 +1524,7 @@ function searchKeyword( searchWord ){
 								
 									
 										<div class="block">
-											<div class="img-wrap"><img src="/upload/content/image/306a9307b8204a08b5ff627e166a9b41_20211220165406.jpg" ></div>
+											<div class="img-wrap"><img src="/upload/content/image/203dc0b40a024830be516faa83732d11_20211221142817.jpg" ></div>
 											<a href="/AboutKorea/Korean-Life/Clothing">
 												<p class="tit">Clothing and Fashion</p>
 											</a>
@@ -6499,7 +6505,7 @@ function searchKeyword( searchWord ){
 		
 		
 		<li>
-			<a href="/AboutUs/KOCIS">MORE</a>
+			<a href="/AboutUs/KOCIS">More</a>
 			<div class="depth-2">
 				<div class="h-list">
 					<ul>
@@ -7918,7 +7924,7 @@ function searchKeyword( searchWord ){
 						
 					
 				
-				<li><a href="#tab_more">MORE</a></li>
+				<li><a href="#tab_more">More</a></li>
 			</ul>
 		</div>
 		<div class="r-d-list">
@@ -14408,12 +14414,14 @@ function searchKeyword( searchWord ){
 				<!-- contents -->
 				<div class="contents">	
 					<div class="detail-post">
-						<div class="list-top mt00">
-							<div class="left">
-								<div class="depth-select v1">
-									<p class="page-head">Administration</p>
-									
-									
+						<div class="d-post-tit-wrap mb-inner">
+							<div class="d-post-tit">
+								<div class="list-top">
+									<div class="left">
+										<p class="page-head">Administration</p>
+										<div class="depth-select">
+											
+											
 
 
 
@@ -14459,10 +14467,74 @@ function searchKeyword( searchWord ){
 	</div>
 
 
+											
+										</div>
+									</div>
+								</div>										
+								
+								<div class="others-function">
+									
+									<ul>
+	<li class="only-pc"><a href="javascript:void(0)" onclick="printStat('101','');printContentHome();"><i class="iconset ico-share-print"></i></a></li>
+	
+		
+		
+			<li class="only-pc share-email"><a href="javascript:void(0)"><span class='st_email' displayText=''></span></a></li>
+			<li class="share-twitter"><a href="javascript:void(0)"><span class='st_twitter' displayText=''></span></a></li>
+			<li class="share-facebook"><a href="javascript:void(0)"><span class='st_facebook' displayText=''></span></a></li>
+			<li><a href="javascript:shareKakao()"><i class="iconset ico-share-kakao"></i></a></li>
+			<li class="share-sharethis"><a href="javascript:void(0)"><span class='st_sharethis' displayText=''></span></a></li>
+			<li><a href="#none" onclick="urlCopyStat('101','');fnCopyUrl();"><i class="iconset ico-share-copy"></i></a></li>
+		
+	
+</ul>
+<script>
+	$(document).ready(function (){
+		var share_objs = $(".share-email, .share-sharethis, .share-twitter, .share-facebook"); 
+		share_objs.hide();
+
+		var interval = setInterval(function tick() {
+			if(changeshare("share-email", "ico-share-mail") && changeshare("share-sharethis", "ico-share") && changeshare("share-twitter", "ico-share-twitter") && changeshare("share-facebook", "ico-share-facebook")){
+				share_objs.show();
+				clearInterval(interval);				
+			}
+		}, 100);
+
+		//
+		function changeshare(tname, cname){
+			var result = true;
+			//set
+			$("."+tname+" > a > span > span").html('<i class="iconset '+cname+'"></i>');
+			
+			//check1
+			if($("."+tname+" > a > span > span").html() != '<i class="iconset '+cname+'"></i>'){
+				result = false;
+			}
+			//check2
+			if($("."+tname+" > a > span > span").html() == undefined){
+				result = false;
+			}
+			return result;
+		}
+	});
+</script>
+												
+								</div>
+							</div>
+						</div>
+							
+						<!--  					
+						<div class="list-top mt00">
+							<div class="left">
+								<div class="depth-select v1">
+									<p class="page-head">Administration</p>
+									
 									
 								</div>
 							</div>
 						</div>
+						-->
+						 
 						<!-- 					
 						<div class="d-post-tit-wrap mb-inner">
 							<div class="d-post-tit">
@@ -14495,38 +14567,30 @@ function searchKeyword( searchWord ){
 	$(document).ready(function (){
 		var share_objs = $(".share-email, .share-sharethis, .share-twitter, .share-facebook"); 
 		share_objs.hide();
-		 
-		var success = 0;	
-		var interval = setInterval(function tick() {			
-			if($(".share-email > a > span > span").html() != '<i class="iconset ico-share-mail"></i>'){
-				$(".share-email > a > span > span").html('<i class="iconset ico-share-mail"></i>');
-				success--;
-			}else{
-				success = 0;
-			}
-			if($(".share-sharethis > a > span > span").html() != '<i class="iconset ico-share"></i>'){
-				$(".share-sharethis > a > span > span").html('<i class="iconset ico-share"></i>');
-				success--;			
-			}else{
-				success = 0;
-			}
-			if($(".share-twitter > a > span > span").html() != '<i class="iconset ico-share-twitter"></i>'){
-				$(".share-twitter > a > span > span").html('<i class="iconset ico-share-twitter"></i>');
-				success--;			
-			}else{
-				success = 0;
-			}
-			if($(".share-facebook > a > span > span").html() != '<i class="iconset ico-share-facebook"></i>'){
-				$(".share-facebook > a > span > span").html('<i class="iconset ico-share-facebook"></i>');
-				success--;			
-			}else{
-				success = 0;
-			}
-			if(success == 0){
+
+		var interval = setInterval(function tick() {
+			if(changeshare("share-email", "ico-share-mail") && changeshare("share-sharethis", "ico-share") && changeshare("share-twitter", "ico-share-twitter") && changeshare("share-facebook", "ico-share-facebook")){
 				share_objs.show();
 				clearInterval(interval);				
 			}
 		}, 100);
+
+		//
+		function changeshare(tname, cname){
+			var result = true;
+			//set
+			$("."+tname+" > a > span > span").html('<i class="iconset '+cname+'"></i>');
+			
+			//check1
+			if($("."+tname+" > a > span > span").html() != '<i class="iconset '+cname+'"></i>'){
+				result = false;
+			}
+			//check2
+			if($("."+tname+" > a > span > span").html() == undefined){
+				result = false;
+			}
+			return result;
+		}
 	});
 </script>
 									<p id="urlCopy" style="display:none">https://www.korea.net/Government/Administration/Cabinet</p>
