@@ -437,16 +437,6 @@
           }
         },
         {
-          "honorific-prefix": {
-            "text": "His Excellency",
-            "links": [
-              {
-                "text": "His Excellency",
-                "type": "internal",
-                "page": "Excellency"
-              }
-            ]
-          },
           "native_name": {
             "text": "문재인\n文在寅"
           },
