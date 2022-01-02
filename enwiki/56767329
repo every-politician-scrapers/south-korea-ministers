@@ -253,30 +253,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "url": "https://en.yna.co.kr/view/AEN20210208009000325",
-          "title": "FM Kang leaves office after years of daunting diplomatic tasks",
-          "work": "Yonhap News Agency",
-          "access-date": "2021-02-08",
-          "date": "2021-02-08",
-          "last": "Song",
-          "first": "Sang-ho",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "url": "http://www.koreaherald.com/view.php?ud=20210208000916",
-          "title": "Moon appoints new foreign minister",
-          "work": "The Korea Herald",
-          "access-date": "2021-02-08",
-          "date": "2021-02-08",
-          "last": "Ahn",
-          "first": "Sung-mi",
-          "template": "citation",
-          "type": "news"
-        }
       ]
     }
   ]

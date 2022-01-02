@@ -363,67 +363,6 @@
             "text": "Nam Yeong-shin"
           }
         }
-      ],
-      "references": [
-        {
-          "title": "Republic of Korea Army",
-          "url": "http://www.army.mil.kr/webapp/user/indexSub.do?codyMenuSeq=219070&siteId=english",
-          "access-date": "2020-08-28",
-          "website": "www.army.mil.kr",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "South Korean army’s chief of staff nominated to serve as new defense minister",
-          "url": "https://www.stripes.com/news/pacific/south-korean-army-s-chief-of-staff-nominated-to-serve-as-new-defense-minister-1.642954",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "date": "2020-08-28",
-          "title": "South Korea nominates Army Chief of Staff Suh Wook as new defense minister {{!}} NK News",
-          "url": "https://www.nknews.org/2020/08/south-korea-nominates-army-chief-of-staff-suh-wook-as-new-defense-minister/",
-          "access-date": "2020-08-28",
-          "website": "NK News - North Korea News",
-          "language": "en-US",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "date": "2020-08-28",
-          "title": "Army Chief of Staff Gen. Suh Wook named as new defense minister",
-          "url": "http://www.koreatimes.co.kr/www/nation/2020/09/205_295132.html",
-          "access-date": "2020-09-05",
-          "website": "koreatimes",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Minister Suh Wook Profile",
-          "url": "https://www.mnd.go.kr/mbshome/mbs/mndEN/subview.jsp?id=mndEN_010101000000",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "서욱 :: 네이버 인물검색",
-          "url": "https://people.search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B1&sm=tab_etc&ie=utf8&key=PeopleService&os=6366945",
-          "access-date": "2020-08-28",
-          "website": "people.search.naver.com",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "last": "이치동",
-          "date": "2020-08-28",
-          "title": "(2nd LD) Army chief Gen. Suh Wook tapped as defense minister: Cheong Wa Dae",
-          "url": "https://en.yna.co.kr/view/AEN20200828007952315",
-          "access-date": "2020-08-28",
-          "website": "Yonhap News Agency",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        }
       ]
     }
   ]

@@ -240,50 +240,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "title": "Chief of Staff Biography",
-          "url": "http://www.airforce.mil.kr:8081/user/indexSub.action?codyMenuSeq=56563&siteId=airforce-eng&menuUIType=sub",
-          "url-status": "dead",
-          "archive-url": "https://archive.is/BQmls",
-          "archive-date": "2020-05-15",
-          "access-date": "2020-05-15",
-          "website": "Republic of Korea Air Force (ROKAF)",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Profile, Republic of Korea, Chairman of the Joint Chiefs of Staff",
-          "url": "https://www.jcs.mil.kr/mbshome/mbs/jcs2_eng/subview.jsp?id=jcs2_eng_020200000000",
-          "url-status": "live",
-          "archive-url": "https://archive.is/jP9yp",
-          "archive-date": "2020-10-18",
-          "access-date": "2020-10-18",
-          "website": "Republic of Korea Joint Chiefs of Staff (ROJCS)",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "last": "오석민",
-          "date": "2020-08-31",
-          "title": "(2nd LD) Air Force chief nominated as new Joint Chiefs of Staff chairman",
-          "url": "https://en.yna.co.kr/view/AEN20200831003052325",
-          "access-date": "2020-09-04",
-          "website": "Yonhap News Agency",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Top Air Force general tapped as new Joint Chiefs chair",
-          "url": "https://koreajoongangdaily.joins.com/2020/08/31/national/defense/Joint-Chiefs-of-Staff-Won-Inchoul-Suh-Wook/20200831160700364.html",
-          "access-date": "2020-09-04",
-          "website": "koreajoongangdaily.joins.com",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        }
       ]
     }
   ]
