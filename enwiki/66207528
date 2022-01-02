@@ -249,58 +249,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "title": "Moon Carries Out Cabinet Reshuffle, Replaces 4 Ministers",
-          "url": "http://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=158064",
-          "access-date": "2020-12-27",
-          "website": "world.kbs.co.kr",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "date": "2020-12-04",
-          "title": "여가부 장관 후보자 정영애는 누구?",
-          "url": "http://www.hani.co.kr/arti/society/women/972846.html",
-          "access-date": "2020-12-27",
-          "website": "www.hani.co.kr",
-          "language": "ko",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "date": "2020-12-28",
-          "title": "文대통령, 변창흠·정영애 인사 재가..29일 임기 시작(속보)",
-          "url": "https://www.edaily.co.kr/news/read?newsId=03503046626003112&mediaCodeNo=257",
-          "access-date": "2020-12-28",
-          "website": "이데일리",
-          "language": "ko",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "date": "2020-12-04",
-          "title": "[정영애 여가부 장관 후보자는 누구?] ‘여성학 박사 1호’...성평등 정책 이론·실전 경험 풍부",
-          "url": "http://www.womennews.co.kr/news/articleView.html?idxno=204619",
-          "access-date": "2020-12-27",
-          "website": "여성신문",
-          "language": "ko",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "last": "김보람",
-          "date": "2020-12-04",
-          "title": "(profile) Sociology expert tapped as gender minister",
-          "url": "https://en.yna.co.kr/view/AEN20201204006200315",
-          "access-date": "2020-12-27",
-          "website": "Yonhap News Agency",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        }
       ]
     }
   ]
