@@ -1,3 +1,4 @@
-ordinal,item,itemLabel,inception,inceptionPrecision,startTime,startTimePrecision,abolished,abolishedPrecision,endTime,endTimePrecision,isa,isaLabel,parent,parentLabel,replaces,replacesLabel,replacedBy,replacedByLabel,follows,followsLabel,followedBy,followedByLabel
-,Q16173567,Cabinet of Park Geun-hye,2013-02-25,11,,,2015-04-27,11,,,Q640506,cabinet,,,,,,,,,,
-,Q31176412,Cabinet of Moon Jae-in,2017-05-10,11,,,,,,,Q12585780,State Council of South Korea,,,,,,,,,,
+ordinal,item,itemLabel,inception,inceptionPrecision,startTime,startTimePrecision,abolished,abolishedPrecision,endTime,endTimePrecision,replaces,replacesLabel,replacedBy,replacedByLabel,follows,followsLabel,followedBy,followedByLabel
+,Q6514633,Lee Myung-bak government,2008-02-25,11,,,2013-02-25,11,,,,,,,Q12590358,Roh Moo-hyun Government,Q12596531,Park Geun-hye Government
+,Q16173567,Cabinet of Park Geun-hye,2013-02-25,11,,,2015-04-27,11,,,,,,,,,,
+,Q31176412,Cabinet of Moon Jae-in,2017-05-10,11,,,,,,,,,,,,,,
