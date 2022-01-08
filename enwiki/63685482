@@ -20,13 +20,6 @@
           "sentences": [
             {
               "text": "Park Byeong-seug (, born 25 January 1952) is a South Korean politician and former broadcaster.",
-              "links": [
-                {
-                  "text": "South Korean",
-                  "type": "internal",
-                  "page": "South Korea"
-                }
-              ],
               "formatting": {
                 "bold": [
                   "Park Byeong-seug"

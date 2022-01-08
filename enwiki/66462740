@@ -21,11 +21,6 @@
               "text": "Park Beom-kye (born 27 April 1963) is a South Korean politician serving as Minister of Justice under President Moon Jae-in from January 2021 and a three-term parliamentarian representing Daejeon from 2012.",
               "links": [
                 {
-                  "text": "South Korean",
-                  "type": "internal",
-                  "page": "South Korea"
-                },
-                {
                   "text": "Minister of Justice",
                   "type": "internal",
                   "page": "Ministry of Justice (South Korea)"
@@ -133,16 +128,16 @@
       ],
       "templates": [
         {
+          "description": "South Korean politician",
+          "template": "short description"
+        },
+        {
           "date": "January 2021",
           "template": "blp sources"
         },
         {
           "date": "October 2021",
           "template": "use dmy dates"
-        },
-        {
-          "description": "South Korean politician",
-          "template": "short description"
         },
         {
           "list": [

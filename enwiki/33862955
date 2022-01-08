@@ -303,10 +303,6 @@
           ]
         },
         {
-          "date": "May 2020",
-          "template": "use mdy dates"
-        },
-        {
           "list": [
             "Moon",
             ""
@@ -322,6 +318,10 @@
         },
         {
           "template": "hatnote group"
+        },
+        {
+          "date": "May 2020",
+          "template": "use mdy dates"
         },
         {
           "year": "1953",
