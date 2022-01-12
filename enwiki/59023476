@@ -107,7 +107,7 @@
               "text": "She was the spokesperson of Moon's second presidential campaign in 2017."
             },
             {
-              "text": "From 2012 to 2020, Yoo served as the two-term, Democratic member of the National Assembly from Goyang.",
+              "text": "From 2012 to 2020, Yoo served as the two-term, Democratic member of the National Assembly from Ilsan, Goyang.",
               "links": [
                 {
                   "text": "Democratic",
@@ -118,6 +118,10 @@
                   "text": "National Assembly",
                   "type": "internal",
                   "page": "National Assembly (South Korea)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Ilsan"
                 },
                 {
                   "type": "internal",
