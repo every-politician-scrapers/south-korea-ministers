@@ -251,7 +251,125 @@ $(window).load(function() {
 </script>
 
 <script type="text/javascript">
+<!-- 
+$(window).load(function(){
+	$.ajax({
+		type:'POST',
+		url: '/koreanet/logStat',
+		data:{
+			'categoryId': '101',
+			'statDiv':'category'
+		}
+	});
+	
+	
+	
+	$('#Attached_file').click(function(){
+		$.ajax({
+			type:'POST',
+			url: '/koreanet/logStat',
+			data:{
+				'contentId': '',
+				'categoryId': '101',
+				'statDiv':'file'
+			}
+		});
+	});
+	
+	//cookie option
+	document.cookie = "Name=Value;httpOnly";
+	
+});	
 
+function copy_url() {
+	var urlText  = $.trim($('#urlCopy').text());
+	var IE = (document.all) ? true : false;
+	if (IE) {
+			window.clipboardData.setData("Text", urlText);
+			alert("The web address for this text has been copied.");
+	} else {
+		temp = prompt("Ctrl+C를 눌러 클립보드로 복사하세요.", urlText);
+	};
+};
+
+function pdfDown(){
+	$.ajax({
+		type:'POST',
+		url: '/koreanet/logStat',
+		data:{
+			'contentId': '',
+			'categoryId': '101',
+			'statDiv':'pdf'
+		}
+	});
+};
+
+function epubDown(){
+	$.ajax({
+		type:'POST',
+		url: '/koreanet/logStat',
+		data:{
+			'contentId': '',
+			'categoryId': '101',
+			'statDiv':'epub'
+		}
+	});
+};
+
+function ebookClick(){
+	$.ajax({
+		type:'POST',
+		url: '/koreanet/logStat',
+		data:{
+			'contentId': '',
+			'categoryId': '101',
+			'statDiv':'ebook'
+		}
+	});
+	$.ajax({
+		type:'POST',
+		url: '/koreanet/viewCountStat',
+		data:{
+			'contentId': '',
+			'type' : 'ebook'
+		}
+	});
+};
+
+function videoDown(){
+	$.ajax({
+		type:'POST',
+		url: '/koreanet/logStat',
+		data:{
+			'contentId': '',
+			'categoryId': '101',
+			'statDiv':'video'
+		}
+	});
+};
+
+function searchKeyword( searchWord ){
+	var searchFrm = "<form id='searchFrm' name='searchFrm' method='post' action='/Others/search'>";
+	searchFrm += "<input type='hidden' name='unifiedSearchValue' id='unifiedSearchValue' value='" + searchWord +"'></input>";
+	searchFrm += "<input type='hidden' name='Tab' id='Tab' value='ALL'></input>";
+	searchFrm += "<input type='hidden' name='startCount' id='startCount' value='0'></input>";
+	searchFrm += "</form>";
+	
+	$('body').append( searchFrm );
+	$('#searchFrm').submit();
+}
+
+function searchValue( searchWord ){
+	var searchFrm = "<form id='searchFrm' name='searchFrm' method='post' action='/Others/search'>";
+	searchFrm += "<input type='hidden' name='unifiedSearchValue' id='unifiedSearchValue' value='" + searchWord +"'></input>";
+	searchFrm += "<input type='hidden' name='Tab' id='Tab' value='ALL'></input>";
+	searchFrm += "<input type='hidden' name='startCount' id='startCount' value='0'></input>";
+	searchFrm += "</form>";
+	
+	$('body').append( searchFrm );
+	$('#searchFrm').submit();
+}
+-->
 </script>
 	<script type="text/javascript">
 //<![CDATA[
@@ -475,16 +593,6 @@ function searchKeyword( searchWord ){
 			<div class="hot-topics">
 				<p class="tit">HOT TOPICS</p>
 				<ul class="topic-list">
-					
-						<li >
-							
-								
-								
-									<a  href="#" target onclick="javascript:topicToSearch(this,'2531');">
-								
-							
-							Lunar New Year</a>
-						</li>
 					
 						<li >
 							
@@ -975,16 +1083,16 @@ function searchKeyword( searchWord ){
 										<div class="block">
 											<div class="img-wrap"><img src="/upload/content/image/52f1b67d8d3a452f9a16b36c7e97dff0_20220124142155.jpg" ></div>
 											<a href="/NewsFocus/HonoraryReporters/view?articleId=209817">
-												<p class="tit">Egyptian creators of Korean-related content dish on first lady</p>
+												<p class="tit">Egyptian creators of Korean-related content hail first lady</p>
 											</a>
 										</div>
 									
 								
 									
 										<div class="block">
-											<div class="img-wrap"><img src="/upload/content/image/fe35ce59034044178bb75406480da66e_20220120113322.jpg" ></div>
-											<a href="/NewsFocus/Society/view?articleId=209662">
-												<p class="tit">[Honorary Reporter highlights] Hallyu keeps on rolling in 2022</p>
+											<div class="img-wrap"><img src="/upload/content/image/23e42653d2a04d98b2a31502792655ab_20220124174925.jpg" ></div>
+											<a href="/NewsFocus/HonoraryReporters/view?articleId=209858">
+												<p class="tit">Honorary Reporters from Egypt hail first lady's attention and support</p>
 											</a>
 										</div>
 									
