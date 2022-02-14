@@ -22,11 +22,15 @@
         {
           "sentences": [
             {
-              "text": "Kim Boo-kyum (born 21 January 1958) is a South Korean activist and politician, who has served as the Prime Minister of South Korea since 14 May 2021.",
+              "text": "Kim Boo-kyum (born 21 January 1958) is a South Korean activist and politician, who has served as the Prime Minister of South Korea since 14 May 202 under Moon Jae-in.",
               "links": [
                 {
                   "type": "internal",
                   "page": "Prime Minister of South Korea"
+                },
+                {
+                  "type": "internal",
+                  "page": "Moon Jae-in"
                 }
               ],
               "formatting": {

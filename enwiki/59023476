@@ -22,7 +22,7 @@
         {
           "sentences": [
             {
-              "text": "Yoo Eun-hae (born 2 October 1962) is a South Korean politician currently serving as the Minister of Education and ex officio Deputy Prime Minister of South Korea under President Moon Jae-in from October 2018.",
+              "text": "Yoo Eun-hae (born 2 October 1962) is a South Korean politician currently serving as the Minister of Education and ex officio Deputy Prime Minister of South Korea, along with Hong Nam-ki under President Moon Jae-in from October 2018.",
               "links": [
                 {
                   "text": "Minister of Education",
@@ -32,6 +32,10 @@
                 {
                   "type": "internal",
                   "page": "Deputy Prime Minister of South Korea"
+                },
+                {
+                  "type": "internal",
+                  "page": "Hong Nam-ki"
                 },
                 {
                   "type": "internal",
