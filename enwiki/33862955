@@ -27,22 +27,12 @@
         {
           "sentences": [
             {
-              "text": "Moon Jae-in (born January 24, 1953) is a South Korean politician and lawyer who is the 12th and current president of South Korea since 2017.",
+              "text": "Moon Jae-in (born 24 January 1953) is a South Korean politician and former lawyer who has been serving as the president of South Korea since 2017.",
               "links": [
                 {
                   "text": "South Korean",
                   "type": "internal",
-                  "page": "Demographics of South Korea"
-                },
-                {
-                  "text": "politician",
-                  "type": "internal",
-                  "page": "politician"
-                },
-                {
-                  "text": "lawyer",
-                  "type": "internal",
-                  "page": "lawyer"
+                  "page": "South Korea"
                 },
                 {
                   "text": "president of South Korea",
@@ -57,7 +47,7 @@
               }
             },
             {
-              "text": "He previously served as senior secretary for civil affairs as well as chief of staff to Roh Moo-hyun, member of the 19th National Assembly, and leader of the Democratic Party of Korea.",
+              "text": "Prior to his presidecy, he served as senior secretary for civil affairs as well as chief of staff to Roh Moo-hyun, member of the 19th National Assembly, and leader of the Democratic Party of Korea.",
               "links": [
                 {
                   "text": "chief of staff",
@@ -271,9 +261,10 @@
               }
             },
             {
-              "text": "During the COVID-19 pandemic in South Korea, Moon has received praise domestically and internationally and helped his party win a historic victory in the 2020 legislative election.",
+              "text": "During the COVID-19 pandemic, Moon has received praise domestically and internationally and helped his party win a historic victory in the 2020 legislative election.",
               "links": [
                 {
+                  "text": "COVID-19 pandemic",
                   "type": "internal",
                   "page": "COVID-19 pandemic in South Korea"
                 },
@@ -333,19 +324,6 @@
           "spouse": "Kim Jung-sook",
           "from": "1981",
           "template": "marriage"
-        },
-        {
-          "list": [
-            "South Korea",
-            "1949"
-          ],
-          "template": "flagu"
-        },
-        {
-          "list": [
-            "South Korea"
-          ],
-          "template": "army"
         },
         {
           "list": [
@@ -494,7 +472,13 @@
                 "type": "internal",
                 "page": "Kim Boo-kyum"
               }
-            ]
+            ],
+            "formatting": {
+              "italic": [
+                "acting",
+                "acting"
+              ]
+            }
           },
           "term_start": {
             "text": "May 10, 2017"
@@ -510,7 +494,12 @@
                 "type": "internal",
                 "page": "Hwang Kyo-ahn"
               }
-            ]
+            ],
+            "formatting": {
+              "italic": [
+                "acting"
+              ]
+            }
           },
           "office1": {
             "text": "Leader of the Democratic Party",
@@ -535,7 +524,12 @@
                 "type": "internal",
                 "page": "Moon Hee-sang"
               }
-            ]
+            ],
+            "formatting": {
+              "italic": [
+                "interim"
+              ]
+            }
           },
           "successor1": {
             "text": "Kim Chong-in (interim)",
@@ -544,7 +538,12 @@
                 "type": "internal",
                 "page": "Kim Chong-in"
               }
-            ]
+            ],
+            "formatting": {
+              "italic": [
+                "interim"
+              ]
+            }
           },
           "office2": {
             "text": "Member of the National Assembly",
@@ -716,6 +715,15 @@
           "website": {
             "text": "Official website"
           },
+          "branch": {
+            "text": "Republic of Korea Army",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Republic of Korea Army"
+              }
+            ]
+          },
           "unit": {
             "text": "Army Special Warfare Command",
             "links": [
@@ -730,7 +738,7 @@
             "text": "1975–1978"
           },
           "battles": {
-            "text": "Operation Paul Bunyan (Supporting member in the rear)",
+            "text": "Operation Paul Bunyan",
             "links": [
               {
                 "type": "internal",
@@ -739,7 +747,7 @@
             ]
           },
           "rank": {
-            "text": "ROK Army Byeongjang.png Sergeant (Byeongjang)",
+            "text": "Sergeant\n(Byeongjang)",
             "links": [
               {
                 "text": "Sergeant",
