@@ -143,6 +143,15 @@
       ],
       "infoboxes": [
         {
+          "honorific_prefix": {
+            "text": "The Honourable",
+            "links": [
+              {
+                "type": "internal",
+                "page": "The Honourable"
+              }
+            ]
+          },
           "name": {
             "text": "Oh Se-hoon"
           },
