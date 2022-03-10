@@ -1,252 +1,29 @@
 {
-  "title": "Kwon Deok-chul",
-  "pageID": 66187355,
-  "categories": [
-    "1961 births",
-    "Living people",
-    "Health and Welfare ministers of South Korea"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Kwon Deok-chul (Korean: 권덕철, born 22 March 1961 ) is a South Korean government official currently serving as the Minister of Health and Welfare under President Moon Jae-in from 2020.",
-              "links": [
-                {
-                  "text": "Korean",
-                  "type": "internal",
-                  "page": "Korean language"
-                },
-                {
-                  "text": "Minister of Health and Welfare",
-                  "type": "internal",
-                  "page": "Ministry of Health and Welfare (South Korea)"
-                },
-                {
-                  "type": "internal",
-                  "page": "Moon Jae-in"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Kwon Deok-chul"
-                ]
-              }
-            },
-            {
-              "text": "He previously served as the deputy head of the ministry from 2017 to 2019."
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "description": "South Korean government official",
-          "template": "short description"
-        },
-        {
-          "year": "1961",
-          "month": "3",
-          "day": "22",
-          "df": "yes",
-          "template": "birth date and age"
-        }
-      ],
-      "infoboxes": [
-        {
-          "image": {
-            "text": "Minister of Health and Welfare Kwon Deok-chul taking a commemorative photo with the Speaker of the National Assembly.jpg"
-          },
-          "caption": {
-            "text": "Kwon Deok-chul in 2020"
-          },
-          "name": {
-            "text": "Kwon Deok-chul"
-          },
-          "native_name": {
-            "text": "권덕철"
-          },
-          "native_name_lang": {
-            "text": "ko"
-          },
-          "birth_date": {
-            "text": "March 22, 1961"
-          },
-          "birth_place": {
-            "text": "Namwon, North Jeolla, South Korea",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Namwon"
-              },
-              {
-                "text": "North Jeolla",
-                "type": "internal",
-                "page": "North Jeolla Province"
-              },
-              {
-                "type": "internal",
-                "page": "South Korea"
-              }
-            ]
-          },
-          "citizenship": {
-            "text": "South Korean",
-            "links": [
-              {
-                "text": "South Korean",
-                "type": "internal",
-                "page": "South Korea"
-              }
-            ]
-          },
-          "office1": {
-            "text": "Minister of Health and Welfare",
-            "links": [
-              {
-                "text": "Minister of Health and Welfare",
-                "type": "internal",
-                "page": "Ministry of Health and Welfare (South Korea)"
-              }
-            ]
-          },
-          "president1": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "term_start1": {
-            "text": "24 December 2020"
-          },
-          "predecessor1": {
-            "text": "Park Neung-hoo",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Park Neung-hoo"
-              }
-            ]
-          },
-          "office2": {
-            "text": "Vice Minister of Health and Welfare",
-            "links": [
-              {
-                "text": "Vice Minister of Health and Welfare",
-                "type": "internal",
-                "page": "Ministry of Health and Welfare (South Korea)"
-              }
-            ]
-          },
-          "president2": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "minister2": {
-            "text": "Park Neung-hoo",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Park Neung-hoo"
-              }
-            ]
-          },
-          "term_start2": {
-            "text": "7 June 2017"
-          },
-          "term_end2": {
-            "text": "23 May 2019"
-          },
-          "predecessor2": {
-            "text": "Bang Moon-kyu",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Bang Moon-kyu"
-              }
-            ]
-          },
-          "successor2": {
-            "text": "Kim Ganglip",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Ganglip"
-              }
-            ]
-          },
-          "office3": {
-            "text": "Director of the Korea Health Industry Development Institute",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Korea Health Industry Development Institute"
-              }
-            ]
-          },
-          "term_start3": {
-            "text": "19 September 2019"
-          },
-          "term_end3": {
-            "text": "16 December 2020"
-          },
-          "predecessor3": {
-            "text": "Lee Young-chan",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Lee Young-chan"
-              }
-            ]
-          },
-          "successor3": {
-            "text": "Vacant",
-            "formatting": {
-              "italic": [
-                "Vacant"
-              ]
-            }
-          },
-          "party": {
-            "text": "Independent",
-            "links": [
-              {
-                "text": "Independent",
-                "type": "internal",
-                "page": "Independent politician"
-              }
-            ]
-          },
-          "alma_mater": {
-            "text": "Sungkyunkwan University German University of Administrative Sciences, Speyer",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Sungkyunkwan University"
-              },
-              {
-                "type": "internal",
-                "page": "German University of Administrative Sciences, Speyer"
-              }
-            ]
-          },
-          "occupation": {
-            "text": "Government official"
-          }
-        }
-      ]
-    }
-  ]
+  "image": "Minister of Health and Welfare Kwon Deok-chul taking a commemorative photo with the Speaker of the National Assembly.jpg",
+  "caption": "Kwon Deok-chul in 2020",
+  "name": "Kwon Deok-chul",
+  "native_name": "권덕철",
+  "native_name_lang": "ko",
+  "birth_date": "March 22, 1961",
+  "birth_place": "Namwon, North Jeolla, South Korea",
+  "citizenship": "South Korean",
+  "office1": "Minister of Health and Welfare",
+  "president1": "Moon Jae-in",
+  "term_start1": "24 December 2020",
+  "predecessor1": "Park Neung-hoo",
+  "office2": "Vice Minister of Health and Welfare",
+  "president2": "Moon Jae-in",
+  "minister2": "Park Neung-hoo",
+  "term_start2": "7 June 2017",
+  "term_end2": "23 May 2019",
+  "predecessor2": "Bang Moon-kyu",
+  "successor2": "Kim Ganglip",
+  "office3": "Director of the Korea Health Industry Development Institute",
+  "term_start3": "19 September 2019",
+  "term_end3": "16 December 2020",
+  "predecessor3": "Lee Young-chan",
+  "successor3": "Vacant",
+  "party": "Independent",
+  "alma_mater": "Sungkyunkwan University German University of Administrative Sciences, Speyer",
+  "occupation": "Government official"
 }

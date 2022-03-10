@@ -1,263 +1,28 @@
 {
-  "title": "Noh Hyeong-ouk",
-  "pageID": 67413794,
-  "categories": [
-    "1962 births",
-    "Living people",
-    "South Korean politicians",
-    "South Korean activists"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Noh Hyeong-ouk (Korean: 노형욱, born 1962) is a South Korean activist and government official who has been the Minister of Land, Infrastructure and Transport since 14 May 2021.",
-              "links": [
-                {
-                  "text": "Korean",
-                  "type": "internal",
-                  "page": "Korean language"
-                },
-                {
-                  "text": "Minister of Land, Infrastructure and Transport",
-                  "type": "internal",
-                  "page": "Ministry of Land, Infrastructure and Transport (South Korea)"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Noh Hyeong-ouk"
-                ]
-              }
-            },
-            {
-              "text": "He previously served as the Minister for Government Policy Coordination from 2018 to 2020, and the 2nd Deputy Minister from 2016 to 2018.",
-              "links": [
-                {
-                  "text": "Minister for Government Policy Coordination",
-                  "type": "internal",
-                  "page": "Office for Government Policy Coordination"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "date": "April 2021",
-          "template": "use british english"
-        },
-        {
-          "date": "April 2021",
-          "template": "use dmy dates"
-        },
-        {
-          "birth_year": "1962",
-          "template": "birth year and age"
-        }
-      ],
-      "infoboxes": [
-        {
-          "image": {
-            "text": "Minister of Land, Infrastructure and Transport Noh Hyeong-ouk taking a commemorative photo with the Speaker of the National Assembly.jpg"
-          },
-          "name": {
-            "text": "Noh Hyeong-ouk"
-          },
-          "native_name": {
-            "text": "노형욱"
-          },
-          "native_name_lang": {
-            "text": "ko"
-          },
-          "birth_date": {
-            "text": "1962 (age 60)"
-          },
-          "birth_place": {
-            "text": "Sunchang County, North Jeolla, South Korea",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Sunchang County, North Jeolla"
-              }
-            ]
-          },
-          "office1": {
-            "text": "Minister of Land, Infrastructure and Transport",
-            "links": [
-              {
-                "text": "Minister of Land, Infrastructure and Transport",
-                "type": "internal",
-                "page": "Ministry of Land, Infrastructure and Transport (South Korea)"
-              }
-            ]
-          },
-          "president1": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "term_start1": {
-            "text": "14 May 2021"
-          },
-          "predecessor1": {
-            "text": "Byeon Chang-heum\nYoon Sung-won (acting)",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Byeon Chang-heum"
-              },
-              {
-                "type": "internal",
-                "page": "Yoon Sung-won"
-              }
-            ]
-          },
-          "office2": {
-            "text": "Minister for Government Policy Coordination",
-            "links": [
-              {
-                "text": "Minister for Government Policy Coordination",
-                "type": "internal",
-                "page": "Office for Government Policy Coordination"
-              }
-            ]
-          },
-          "president2": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "term_start2": {
-            "text": "9 November 2018"
-          },
-          "term_end2": {
-            "text": "8 May 2020"
-          },
-          "predecessor2": {
-            "text": "Hong Nam-ki",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Hong Nam-ki"
-              }
-            ]
-          },
-          "successor2": {
-            "text": "Koo Yun-cheol",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Koo Yun-cheol"
-              }
-            ]
-          },
-          "office3": {
-            "text": "2nd Deputy Minister for Government Policy Coordination",
-            "links": [
-              {
-                "text": "2nd Deputy Minister for Government Policy Coordination",
-                "type": "internal",
-                "page": "Office for Government Policy Coordination"
-              }
-            ]
-          },
-          "president3": {
-            "text": "Park Geun-hye\nMoon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Park Geun-hye"
-              },
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "minister3": {
-            "text": "Lee Seok-jun\nHong Nam-ki",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Lee Seok-jun"
-              },
-              {
-                "type": "internal",
-                "page": "Hong Nam-ki"
-              }
-            ]
-          },
-          "term_start3": {
-            "text": "25 August 2016"
-          },
-          "term_end3": {
-            "text": "9 November 2018"
-          },
-          "predecessor3": {
-            "text": "Cho Kyung-kyu",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Cho Kyung-kyu"
-              }
-            ]
-          },
-          "successor3": {
-            "text": "Cha Young-hwan",
-            "links": [
-              {
-                "text": "Cha Young-hwan",
-                "type": "internal",
-                "page": "Cha Young-hwan (1964)"
-              }
-            ]
-          },
-          "party": {
-            "text": "Independent",
-            "links": [
-              {
-                "text": "Independent",
-                "type": "internal",
-                "page": "Independent politician"
-              }
-            ]
-          },
-          "alma_mater": {
-            "text": "Yonsei University\nSeoul National University\nSciences Po",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Yonsei University"
-              },
-              {
-                "type": "internal",
-                "page": "Seoul National University"
-              },
-              {
-                "type": "internal",
-                "page": "Sciences Po"
-              }
-            ]
-          },
-          "occupation": {
-            "text": "Activist, government official"
-          }
-        }
-      ]
-    }
-  ]
+  "image": "Minister of Land, Infrastructure and Transport Noh Hyeong-ouk taking a commemorative photo with the Speaker of the National Assembly.jpg",
+  "name": "Noh Hyeong-ouk",
+  "native_name": "노형욱",
+  "native_name_lang": "ko",
+  "birth_date": "1962 (age 60)",
+  "birth_place": "Sunchang County, North Jeolla, South Korea",
+  "office1": "Minister of Land, Infrastructure and Transport",
+  "president1": "Moon Jae-in",
+  "term_start1": "14 May 2021",
+  "predecessor1": "Byeon Chang-heum\nYoon Sung-won (acting)",
+  "office2": "Minister for Government Policy Coordination",
+  "president2": "Moon Jae-in",
+  "term_start2": "9 November 2018",
+  "term_end2": "8 May 2020",
+  "predecessor2": "Hong Nam-ki",
+  "successor2": "Koo Yun-cheol",
+  "office3": "2nd Deputy Minister for Government Policy Coordination",
+  "president3": "Park Geun-hye\nMoon Jae-in",
+  "minister3": "Lee Seok-jun\nHong Nam-ki",
+  "term_start3": "25 August 2016",
+  "term_end3": "9 November 2018",
+  "predecessor3": "Cho Kyung-kyu",
+  "successor3": "Cha Young-hwan",
+  "party": "Independent",
+  "alma_mater": "Yonsei University\nSeoul National University\nSciences Po",
+  "occupation": "Activist, government official"
 }
