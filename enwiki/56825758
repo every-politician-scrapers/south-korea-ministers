@@ -1,166 +1,25 @@
 {
-  "title": "Suh Hoon",
-  "pageID": 56825758,
-  "categories": [
-    "1954 births",
-    "Living people",
-    "Seoul National University alumni",
-    "Paul H. Nitze School of Advanced International Studies alumni",
-    "Dongguk University alumni",
-    "Experts on North Korea",
-    "Directors of the National Intelligence Service (South Korea)"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Suh Hoon (서훈; born 1954) is the Director of National Security Office previously served as his first director of the National Intelligence Service.",
-              "links": [
-                {
-                  "text": "Director of National Security Office",
-                  "type": "internal",
-                  "page": "Office of National Security"
-                },
-                {
-                  "text": "National Intelligence Service",
-                  "type": "internal",
-                  "page": "National Intelligence Service (South Korea)"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Suh Hoon"
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "birth_year": "1954",
-          "template": "birth year and age"
-        },
-        {
-          "list": [
-            "Suh",
-            ""
-          ],
-          "lang": "Korean",
-          "template": "family name hatnote"
-        }
-      ],
-      "infoboxes": [
-        {
-          "child": {
-            "text": "yes"
-          },
-          "hangul": {
-            "text": "서훈"
-          },
-          "hanja": {
-            "text": "徐薰"
-          },
-          "rr": {
-            "text": "Seo Hun"
-          },
-          "mr": {
-            "text": "Sŏ Hun"
-          }
-        },
-        {
-          "name": {
-            "text": "Suh Hoon"
-          },
-          "native_name": {
-            "text": "서훈"
-          },
-          "birth_date": {
-            "text": "1954 (age 68)"
-          },
-          "native_name_lang": {
-            "text": "ko"
-          },
-          "image": {
-            "text": "Suh Hoon in 2020.jpg"
-          },
-          "caption": {
-            "text": "Suh Hoon in 2020"
-          },
-          "office": {
-            "text": "Director of National Security Office",
-            "links": [
-              {
-                "text": "Director of National Security Office",
-                "type": "internal",
-                "page": "Office of National Security"
-              }
-            ]
-          },
-          "term_start": {
-            "text": "3 July 2020"
-          },
-          "president": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "predecessor": {
-            "text": "Chung Eui-yong",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Chung Eui-yong"
-              }
-            ]
-          },
-          "office1": {
-            "text": "13th Director of the National Intelligence Service",
-            "links": [
-              {
-                "text": "Director of the National Intelligence Service",
-                "type": "internal",
-                "page": "List of directors of the National Intelligence Service (South Korea) and predecessor organizations"
-              }
-            ]
-          },
-          "president1": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "successor1": {
-            "text": "Park Jie-won",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Park Jie-won"
-              }
-            ]
-          },
-          "predecessor1": {
-            "text": "Lee Byung-ho"
-          },
-          "termstart1": {
-            "text": "1 June 2017"
-          },
-          "termend1": {
-            "text": "2 July 2020"
-          }
-        }
-      ]
-    }
-  ]
+  "child": "yes",
+  "hangul": "서훈",
+  "hanja": "徐薰",
+  "rr": "Seo Hun",
+  "mr": "Sŏ Hun"
+}
+{
+  "name": "Suh Hoon",
+  "native_name": "서훈",
+  "birth_date": "1954 (age 68)",
+  "native_name_lang": "ko",
+  "image": "Suh Hoon in 2020.jpg",
+  "caption": "Suh Hoon in 2020",
+  "office": "Director of National Security Office",
+  "term_start": "3 July 2020",
+  "president": "Moon Jae-in",
+  "predecessor": "Chung Eui-yong",
+  "office1": "13th Director of the National Intelligence Service",
+  "president1": "Moon Jae-in",
+  "successor1": "Park Jie-won",
+  "predecessor1": "Lee Byung-ho",
+  "termstart1": "1 June 2017",
+  "termend1": "2 July 2020"
 }

@@ -1,460 +1,55 @@
 {
-  "title": "Park Jie-won",
-  "pageID": 36073592,
-  "categories": [
-    "1942 births",
-    "Minjoo Party of Korea politicians",
-    "Living people",
-    "Members of the National Assembly (South Korea)",
-    "South Korean Roman Catholics",
-    "People from South Jeolla Province",
-    "Dankook University alumni",
-    "Government ministers of South Korea",
-    "People's Party (South Korea, 2016) politicians",
-    "South Korean politicians with physical disabilities"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Park Jie-won(born 5 June 1942) is a South Korean politician currently serving as Director of the National Intelligence Service.",
-              "links": [
-                {
-                  "text": "National Intelligence Service",
-                  "type": "internal",
-                  "page": "National Intelligence Service (South Korea)"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Park Jie-won"
-                ]
-              }
-            },
-            {
-              "text": "He was the chief presidential secretary to President Kim Dae-jung, and served as the Minister of Ministry of Culture, Sports and Tourism and coined the term \"Esports\" during his administration.",
-              "links": [
-                {
-                  "text": "chief presidential secretary",
-                  "type": "internal",
-                  "page": "Chief Presidential Secretary"
-                },
-                {
-                  "type": "internal",
-                  "page": "Kim Dae-jung"
-                },
-                {
-                  "type": "internal",
-                  "page": "Ministry of Culture, Sports and Tourism"
-                },
-                {
-                  "type": "internal",
-                  "page": "Esports"
-                }
-              ]
-            },
-            {
-              "text": "On 9 April 2008, he was elected as a member of 18th National Assembly of South Korea for Mokpo as an independent.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "National Assembly of South Korea"
-                },
-                {
-                  "type": "internal",
-                  "page": "Mokpo"
-                }
-              ]
-            },
-            {
-              "text": "After being elected, he returned to the Democratic party.",
-              "links": [
-                {
-                  "text": "Democratic party",
-                  "type": "internal",
-                  "page": "Democratic Party (South Korea, 2008)"
-                }
-              ]
-            },
-            {
-              "text": "In May 2012, he became the floor leader for the Democratic United Party.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Democratic United Party"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentences": [
-            {
-              "text": "In 2018, he declared that he would leave People's Party and joined to the Party for Democracy and Peace.",
-              "links": [
-                {
-                  "text": "People's Party",
-                  "type": "internal",
-                  "page": "People's Party (South Korea, 2016)"
-                },
-                {
-                  "type": "internal",
-                  "page": "Party for Democracy and Peace"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "list": [
-            "Park Jie-won (born 1942)",
-            "",
-            "Bak Jiwon (disambiguation)",
-            "Bak Jiwon"
-          ],
-          "template": "about"
-        },
-        {
-          "date": "June 2012",
-          "template": "blp sources"
-        },
-        {
-          "list": [
-            "Park",
-            ""
-          ],
-          "lang": "Korean",
-          "template": "family name hatnote"
-        },
-        {
-          "year": "1942",
-          "month": "6",
-          "day": "5",
-          "df": "y",
-          "template": "birth date and age"
-        },
-        {
-          "list": [
-            "박",
-            "지원"
-          ],
-          "template": "linktext"
-        },
-        {
-          "list": [
-            "朴",
-            "智",
-            "源"
-          ],
-          "template": "linktext"
-        },
-        {
-          "hangul": "박지원",
-          "hanja": "朴智源",
-          "template": "korean"
-        }
-      ],
-      "infoboxes": [
-        {
-          "name": {
-            "text": "Park Jie-won"
-          },
-          "native_name": {
-            "text": "박지원"
-          },
-          "native_name_lang": {
-            "text": "ko"
-          },
-          "image": {
-            "text": "File:Park Ji-won in 2017.png"
-          },
-          "office1": {
-            "text": "Director of the National Intelligence Service",
-            "links": [
-              {
-                "text": "Director of the National Intelligence Service",
-                "type": "internal",
-                "page": "List of directors of the National Intelligence Service (South Korea) and predecessor organizations"
-              }
-            ]
-          },
-          "president1": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "term_start1": {
-            "text": "29 July 2020"
-          },
-          "predecessor1": {
-            "text": "Suh Hoon",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Suh Hoon"
-              }
-            ]
-          },
-          "office2": {
-            "text": "Floor Leader of the People's Party",
-            "links": [
-              {
-                "text": "People's Party",
-                "type": "internal",
-                "page": "People's Party (South Korea, 2016)"
-              }
-            ]
-          },
-          "term_start2": {
-            "text": "30 May 2016"
-          },
-          "term_end2": {
-            "text": "29 December 2016"
-          },
-          "predecessor2": {
-            "text": "Position Established"
-          },
-          "successor2": {
-            "text": "Joo Syung-yong"
-          },
-          "office3": {
-            "text": "Leader of the People's Party"
-          },
-          "term_start3": {
-            "text": "15 January 2017"
-          },
-          "term_end3": {
-            "text": "10 May 2017"
-          },
-          "predecessor3": {
-            "text": "Kim Dong-cheol (Interim)"
-          },
-          "successor3": {
-            "text": "Joo Seung-yong (Acting)"
-          },
-          "term_start4": {
-            "text": "29 June 2016"
-          },
-          "term_end4": {
-            "text": "5 December 2016 (Interim)"
-          },
-          "predecessor4": {
-            "text": "Ahn Cheol-soo Chun Jung-bae",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Ahn Cheol-soo"
-              },
-              {
-                "type": "internal",
-                "page": "Chun Jung-bae"
-              }
-            ]
-          },
-          "successor4": {
-            "text": "Kim Dong-cheol (Interim)"
-          },
-          "office5": {
-            "text": "Member of the National Assembly",
-            "links": [
-              {
-                "text": "National Assembly",
-                "type": "internal",
-                "page": "National Assembly of South Korea"
-              }
-            ]
-          },
-          "constituency5": {
-            "text": "Mokpo",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Mokpo"
-              }
-            ]
-          },
-          "term_start5": {
-            "text": "30 May 2008"
-          },
-          "term_end5": {
-            "text": "29 May 2020"
-          },
-          "predecessor5": {
-            "text": "Lee Sang-yeol"
-          },
-          "successor5": {
-            "text": "Kim Won-i"
-          },
-          "constituency6": {
-            "text": "Proportional Representation"
-          },
-          "term_start6": {
-            "text": "30 May 1992"
-          },
-          "term_end6": {
-            "text": "29 May 1996"
-          },
-          "office7": {
-            "text": "Chief Presidential Secretary",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Chief Presidential Secretary"
-              }
-            ]
-          },
-          "president7": {
-            "text": "Kim Dae-jung",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Dae-jung"
-              }
-            ]
-          },
-          "term_start7": {
-            "text": "15 April 2002"
-          },
-          "term_end7": {
-            "text": "24 February 2003"
-          },
-          "predecessor7": {
-            "text": "Jeon Yun-churl"
-          },
-          "successor7": {
-            "text": "Moon Hee-sang",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Hee-sang"
-              }
-            ]
-          },
-          "office8": {
-            "text": "Minister of Culture, Sports and Tourism",
-            "links": [
-              {
-                "text": "Minister of Culture, Sports and Tourism",
-                "type": "internal",
-                "page": "Ministry of Culture, Sports and Tourism"
-              }
-            ]
-          },
-          "term_start8": {
-            "text": "23 May 1999"
-          },
-          "term_end8": {
-            "text": "19 September 2000"
-          },
-          "predecessor8": {
-            "text": "Shin Nak-gyun"
-          },
-          "successor8": {
-            "text": "Kim Han-gil",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Han-gil"
-              }
-            ]
-          },
-          "birth_date": {
-            "text": "June 5, 1942"
-          },
-          "birth_place": {
-            "text": "Jindo, South Jeolla, Japanese Korea\n(now Jindo, South Korea)",
-            "links": [
-              {
-                "text": "Jindo",
-                "type": "internal",
-                "page": "Jindo County"
-              },
-              {
-                "text": "South Jeolla",
-                "type": "internal",
-                "page": "South Jeolla Province"
-              },
-              {
-                "text": "Japanese Korea",
-                "type": "internal",
-                "page": "Korea under Japanese rule"
-              }
-            ]
-          },
-          "party": {
-            "text": "Minsaeng (2020~ )",
-            "links": [
-              {
-                "text": "Minsaeng",
-                "type": "internal",
-                "page": "Minsaeng Party"
-              }
-            ]
-          },
-          "otherparty": {
-            "text": "New Alternatives (2020)\nDemocracy and Peace (2018~2019)\nPeople's (2016~2018)\nIndependent (2016)\nNPAD (2014~2016)",
-            "links": [
-              {
-                "type": "internal",
-                "page": "New Alternatives"
-              },
-              {
-                "text": "Democracy and Peace",
-                "type": "internal",
-                "page": "Party for Democracy and Peace"
-              },
-              {
-                "text": "People's",
-                "type": "internal",
-                "page": "People's Party (South Korea, 2016)"
-              },
-              {
-                "text": "Independent",
-                "type": "internal",
-                "page": "Independent (politician)"
-              },
-              {
-                "text": "NPAD",
-                "type": "internal",
-                "page": "New Politics Alliance for Democracy"
-              }
-            ]
-          },
-          "alma_mater": {
-            "text": "Dankook University",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Dankook University"
-              }
-            ]
-          },
-          "website": {
-            "text": "http://www.jwp615.com/"
-          }
-        },
-        {
-          "width": {
-            "text": "130px"
-          },
-          "rr": {
-            "text": "Bak Ji-won"
-          },
-          "mr": {
-            "text": "Pak chi-wŏn"
-          }
-        }
-      ]
-    }
-  ]
+  "name": "Park Jie-won",
+  "native_name": "박지원",
+  "native_name_lang": "ko",
+  "image": "File:Park Ji-won in 2017.png",
+  "office1": "Director of the National Intelligence Service",
+  "president1": "Moon Jae-in",
+  "term_start1": "29 July 2020",
+  "predecessor1": "Suh Hoon",
+  "office2": "Floor Leader of the People's Party",
+  "term_start2": "30 May 2016",
+  "term_end2": "29 December 2016",
+  "predecessor2": "Position Established",
+  "successor2": "Joo Syung-yong",
+  "office3": "Leader of the People's Party",
+  "term_start3": "15 January 2017",
+  "term_end3": "10 May 2017",
+  "predecessor3": "Kim Dong-cheol (Interim)",
+  "successor3": "Joo Seung-yong (Acting)",
+  "term_start4": "29 June 2016",
+  "term_end4": "5 December 2016 (Interim)",
+  "predecessor4": "Ahn Cheol-soo Chun Jung-bae",
+  "successor4": "Kim Dong-cheol (Interim)",
+  "office5": "Member of the National Assembly",
+  "constituency5": "Mokpo",
+  "term_start5": "30 May 2008",
+  "term_end5": "29 May 2020",
+  "predecessor5": "Lee Sang-yeol",
+  "successor5": "Kim Won-i",
+  "constituency6": "Proportional Representation",
+  "term_start6": "30 May 1992",
+  "term_end6": "29 May 1996",
+  "office7": "Chief Presidential Secretary",
+  "president7": "Kim Dae-jung",
+  "term_start7": "15 April 2002",
+  "term_end7": "24 February 2003",
+  "predecessor7": "Jeon Yun-churl",
+  "successor7": "Moon Hee-sang",
+  "office8": "Minister of Culture, Sports and Tourism",
+  "term_start8": "23 May 1999",
+  "term_end8": "19 September 2000",
+  "predecessor8": "Shin Nak-gyun",
+  "successor8": "Kim Han-gil",
+  "birth_date": "June 5, 1942",
+  "birth_place": "Jindo, South Jeolla, Japanese Korea\n(now Jindo, South Korea)",
+  "party": "Minsaeng (2020~ )",
+  "otherparty": "New Alternatives (2020)\nDemocracy and Peace (2018~2019)\nPeople's (2016~2018)\nIndependent (2016)\nNPAD (2014~2016)",
+  "alma_mater": "Dankook University",
+  "website": "http://www.jwp615.com/"
+}
+{
+  "width": "130px",
+  "rr": "Bak Ji-won",
+  "mr": "Pak chi-wŏn"
 }

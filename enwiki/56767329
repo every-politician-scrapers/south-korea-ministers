@@ -1,254 +1,29 @@
 {
-  "title": "Chung Eui-yong",
-  "pageID": 56767329,
-  "categories": [
-    "1946 births",
-    "Living people",
-    "Seoul National University alumni",
-    "Harvard Kennedy School alumni",
-    "Ambassadors of South Korea to Israel",
-    "Members of the National Assembly (South Korea)",
-    "Uri Party politicians",
-    "Experts on North Korea",
-    "South Korean diplomats",
-    "Government ministers of South Korea",
-    "Minjoo Party of Korea politicians",
-    "Foreign ministers of South Korea"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Chung Eui-yong (born 14 April 1946) is a South Korean diplomat and a politician currently serving as Minister of Foreign Affairs under President Moon Jae-in from February 2021 after serving as his first Director of National Security from 2017 to 2020.",
-              "links": [
-                {
-                  "text": "Minister of Foreign Affairs",
-                  "type": "internal",
-                  "page": "Ministry of Foreign Affairs (South Korea)"
-                },
-                {
-                  "type": "internal",
-                  "page": "Moon Jae-in"
-                },
-                {
-                  "text": "Director of National Security",
-                  "type": "internal",
-                  "page": "Office of National Security"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Chung Eui-yong"
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "year": "1946",
-          "month": "4",
-          "day": "14",
-          "df": "y",
-          "template": "birth date and age"
-        },
-        {
-          "list": [
-            "정",
-            "의",
-            "용"
-          ],
-          "template": "linktext"
-        },
-        {
-          "list": [
-            "鄭",
-            "義",
-            "溶"
-          ],
-          "template": "linktext"
-        },
-        {
-          "list": [
-            "Chung",
-            ""
-          ],
-          "lang": "Korean",
-          "template": "family name hatnote"
-        },
-        {
-          "list": [
-            "정의용"
-          ],
-          "hanja": "鄭義溶",
-          "template": "korean"
-        }
-      ],
-      "infoboxes": [
-        {
-          "rr": {
-            "text": "Jeong Uiyong"
-          },
-          "mr": {
-            "text": "Chŏng Ŭiyong"
-          },
-          "child": {
-            "text": "yes"
-          }
-        },
-        {
-          "name": {
-            "text": "Chung Eui-yong"
-          },
-          "native_name": {
-            "text": "정의용"
-          },
-          "office": {
-            "text": "37th Minister of Foreign Affairs",
-            "links": [
-              {
-                "text": "Minister of Foreign Affairs",
-                "type": "internal",
-                "page": "Ministry of Foreign Affairs (South Korea)"
-              }
-            ]
-          },
-          "president": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "term_start": {
-            "text": "9 February 2021"
-          },
-          "predecessor": {
-            "text": "Kang Kyung-wha",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kang Kyung-wha"
-              }
-            ]
-          },
-          "office1": {
-            "text": "Special Advisor to the President on Foreign Affairs, Diplomacy and National Security",
-            "links": [
-              {
-                "text": "Special Advisor to the President on Foreign Affairs, Diplomacy and National Security",
-                "type": "internal",
-                "page": "Office of the President (South Korea)"
-              }
-            ]
-          },
-          "term_start1": {
-            "text": "3 July 2020"
-          },
-          "president1": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "birth_date": {
-            "text": "April 14, 1946"
-          },
-          "alma_mater": {
-            "text": "Seoul National University Harvard University",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Seoul National University"
-              },
-              {
-                "type": "internal",
-                "page": "Harvard University"
-              }
-            ]
-          },
-          "image": {
-            "text": "정의용.png"
-          },
-          "office2": {
-            "text": "Director of the National Security Office",
-            "links": [
-              {
-                "text": "Director of the National Security Office",
-                "type": "internal",
-                "page": "Office of National Security"
-              }
-            ]
-          },
-          "termstart2": {
-            "text": "20 May 2017"
-          },
-          "termend2": {
-            "text": "2 July 2020"
-          },
-          "predecessor2": {
-            "text": "Kim Kwan-jin",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Kwan-jin"
-              }
-            ]
-          },
-          "successor2": {
-            "text": "Suh Hoon",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Suh Hoon"
-              }
-            ]
-          },
-          "president2": {
-            "text": "Moon Jae-in",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Moon Jae-in"
-              }
-            ]
-          },
-          "caption": {
-            "text": "Chung in 2018"
-          },
-          "term_end1": {
-            "text": "20 January 2021"
-          },
-          "successor1": {
-            "text": "Kim Hyun-jong",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Hyun-jong"
-              }
-            ]
-          },
-          "primeminister": {
-            "text": "Chung Sye-kyun",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Chung Sye-kyun"
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ]
+  "rr": "Jeong Uiyong",
+  "mr": "Chŏng Ŭiyong",
+  "child": "yes"
+}
+{
+  "name": "Chung Eui-yong",
+  "native_name": "정의용",
+  "office": "37th Minister of Foreign Affairs",
+  "president": "Moon Jae-in",
+  "term_start": "9 February 2021",
+  "predecessor": "Kang Kyung-wha",
+  "office1": "Special Advisor to the President on Foreign Affairs, Diplomacy and National Security",
+  "term_start1": "3 July 2020",
+  "president1": "Moon Jae-in",
+  "birth_date": "April 14, 1946",
+  "alma_mater": "Seoul National University Harvard University",
+  "image": "정의용.png",
+  "office2": "Director of the National Security Office",
+  "termstart2": "20 May 2017",
+  "termend2": "2 July 2020",
+  "predecessor2": "Kim Kwan-jin",
+  "successor2": "Suh Hoon",
+  "president2": "Moon Jae-in",
+  "caption": "Chung in 2018",
+  "term_end1": "20 January 2021",
+  "successor1": "Kim Hyun-jong",
+  "primeminister": "Chung Sye-kyun"
 }
