@@ -1,0 +1,101 @@
+id,name,relationship,relative,relativename
+Q10855915,Kim Han-gil,spouse,Q16177000,Lee Min-ah
+Q10855915,Kim Han-gil,spouse,Q623856,Choi Myung-gil
+Q11464859,Yoon Mee-hyang,spouse,Q56256518,Kim Sam-seok
+Q12587534,Kim Boo-kyum,child,Q12610323,윤세인
+Q12587534,Kim Boo-kyum,relative,Q11266353,Lee Young-hoon
+Q12587695,,father,Q108391826,김상영
+Q12587695,,sibling,Q12588950,Robert Chaegon Kim
+Q12588667,Kim Jong-seok,father,Q12587796,김세배
+Q12589320,Kim Hong-gul,father,Q45785,Kim Dae-jung
+Q12589320,Kim Hong-gul,mother,Q11267083,Lee Hui-ho
+Q12589329,Kim Hong-eop,father,Q45785,Kim Dae-jung
+Q12589329,Kim Hong-eop,mother,Q12618516,Cha Yong-ae
+Q12589333,Kim Hong-il,father,Q45785,Kim Dae-jung
+Q12589333,Kim Hong-il,mother,Q12618516,Cha Yong-ae
+Q12610444,Yun Ju-keyng,relative,Q491240,Yoon Bong-Gil
+Q12610901,,spouse,Q12619482,Choi Kyu-Sung
+Q12611423,Lee Mi-gyeong,father,Q12611345,Lee Maeng-hui
+Q12611423,Lee Mi-gyeong,sibling,Q16091081,Lee Jae-hyeon
+Q12612132,Lee Wan-koo,spouse,Q109564635,Λι Μπέικ-γεόν
+Q12612629,Lee Jong-koo,father,Q12612763,이중재
+Q12614683,Chang Je-won,child,Q55728779,Noel
+Q12614683,Chang Je-won,father,Q19940963,Chang Sŏng-man
+Q12615206,Jeon Soon-ok,mother,Q16178678,So-sŏn Yi
+Q12615206,Jeon Soon-ok,sibling,Q482694,Jeon Tae-il
+Q12616175,,father,Q12615521,Chung Dae-chul
+Q12616590,Cho Kuk,child,Q107617686,Cho Min
+Q12616590,Cho Kuk,spouse,Q72291512,Chung Kyung-shim
+Q12617992,Ji Sang-wook,father,Q59299044,지성한
+Q12617992,Ji Sang-wook,spouse,Q489874,Shim Eun-ha
+Q12619482,Choi Kyu-Sung,spouse,Q12610901,이경숙
+Q138048,Park Geun-hye,father,Q14356,Park Chung-hee
+Q138048,Park Geun-hye,mother,Q390099,Yuk Young-soo
+Q138048,Park Geun-hye,sibling,Q20859562,Park Jae-ok
+Q138048,Park Geun-hye,sibling,Q7848255,Park Geun-ryeong
+Q138048,Park Geun-hye,sibling,Q7848332,Park Ji-man
+Q14342,Lee Myung-bak,child,Q56806003,I Su-yeon
+Q14342,Lee Myung-bak,father,Q110941547,Lee Chung-u
+Q14342,Lee Myung-bak,spouse,Q496572,Kim Yoon-ok
+Q14345,Roh Moo-hyun,father,Q57156908,Roh Pan-seok
+Q14345,Roh Moo-hyun,spouse,Q482738,Kwon Yang-sook
+Q16068080,Park In-suk,spouse,Q12613979,Im Chae-mu
+Q16080217,Kim Moo-sung,child,Q16177870,Go Yoon
+Q16080217,Kim Moo-sung,father,Q12588209,김용주
+Q16080266,Kim Seon-mi,spouse,Q12604838,Shim Kyu-seop
+Q16080285,Kim Se-yeon,father,Q16180037,김진재
+Q16080301,Kim Yang,father,Q16929680,Kim Shin
+Q16081058,,spouse,Q47004960,민유숙
+Q16081942,,spouse,Q23994986,석동현
+Q16083277,Suh Byung-soo,sibling,Q93752810,Suh Bum-soo
+Q16090431,Yu Seong-yeop,sibling,Q97198138,유재길
+Q16090573,Yoo Il-ho,father,Q3700561,Yu Chi-song
+Q16090635,Yoon Suk-yeol,father,Q111175072,Yoon Ki-jung
+Q16090635,Yoon Suk-yeol,spouse,Q107805133,Kim Kun-hee
+Q16091294,Lee Hye-hoon,spouse,Q33082981,Youngse Kim
+Q16094929,Park Yoo-cheol,relative,Q16081841,Park Si-chang
+Q20995,Ahn Cheol-soo,child,Q58900826,Ahn Surl-Hee
+Q20995,Ahn Cheol-soo,spouse,Q22973121,Kim Mi-kyung
+Q21001,Moon Jae-in,child,Q74499817,Moon Joon-yong
+Q21001,Moon Jae-in,child,Q74500749,Moon Da-hye
+Q21001,Moon Jae-in,father,Q41520899,Moon Yong-hyung
+Q21001,Moon Jae-in,mother,Q41520985,Kang Han-ok
+Q21001,Moon Jae-in,spouse,Q29881198,Kim Jung-sook
+Q21058754,Sohn Hye-won,father,Q61100567,손용우
+Q224639,Lee Jung-hee,spouse,Q31176842,Shim Jae-hwan
+Q236485,Han Myeong-sook,spouse,Q3365409,Park Jung-sun
+Q24000552,Choung Tae-ok,spouse,Q62396988,Yoo Myung-hee
+Q24000620,Park Kyung-mee,spouse,Q42326418,Heejoon Myung
+Q24000773,Chang Jung-sook,father,Q12614608,장영순
+Q24856148,Oh Se-jung,spouse,Q61716898,홍난실
+Q2947463,In Jae-keun,spouse,Q485574,Kim Geun-tae
+Q31178499,Oh Yeong-hwan,spouse,Q578141,Jain Kim
+Q356675,Han Seung-soo,child,Q56833518,Han Sang-jun
+Q356675,Han Seung-soo,spouse,Q56833272,Hong So-ja
+Q45785,Kim Dae-jung,child,Q12589320,Kim Hong-gul
+Q45785,Kim Dae-jung,child,Q12589329,Kim Hong-eop
+Q45785,Kim Dae-jung,child,Q12589333,Kim Hong-il
+Q45785,Kim Dae-jung,father,Q57312654,Kim Won Sik
+Q45785,Kim Dae-jung,spouse,Q11267083,Lee Hui-ho
+Q45785,Kim Dae-jung,spouse,Q12618516,Cha Yong-ae
+Q485574,Kim Geun-tae,spouse,Q2947463,In Jae-keun
+Q490114,Chung Mong-joon,child,Q55734052,Chung Kisun
+Q490114,Chung Mong-joon,father,Q468467,Chung Ju-yung
+Q490114,Chung Mong-joon,mother,Q12598213,Byeon Jung-seok
+Q490114,Chung Mong-joon,spouse,Q12588010,Kim Yeong-myeong
+Q4934381,Kim Eul-dong,child,Q484840,Song Il-kook
+Q4934381,Kim Eul-dong,father,Q486374,Kim Du-han
+Q496509,Lee Hoi-chang,child,Q56804332,I Jeong-yeon
+Q496509,Lee Hoi-chang,child,Q56804639,I Yeon-hui
+Q496509,Lee Hoi-chang,father,Q16091306,I Hong-gyu
+Q496509,Lee Hoi-chang,mother,Q56804778,Kim Sa-sun
+Q496509,Lee Hoi-chang,sibling,Q21074800,Hoesung Lee
+Q496509,Lee Hoi-chang,spouse,Q56804591,Han In-ok
+Q55728795,,sibling,Q31178702,노태강
+Q5894111,Hong Jung-wook,father,Q6961101,Namkoong Won
+Q5894111,Hong Jung-wook,spouse,Q56434662,손정희
+Q624531,Sohn Hak-kyu,child,Q97338773,Sohn Won-pyung
+Q625487,Lee Sang-deuk,father,Q110941547,Lee Chung-u
+Q625487,Lee Sang-deuk,sibling,Q14342,Lee Myung-bak
+Q6956410,Na Kyung-won,spouse,Q6408844,Kim Jae-ho
+Q93752810,Suh Bum-soo,sibling,Q16083277,Suh Byung-soo
