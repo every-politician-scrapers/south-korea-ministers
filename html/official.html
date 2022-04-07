@@ -185,6 +185,20 @@ function bannerClick( bannerId ){
 		data:{'bannerId': bannerId}
 	});
 }
+function hitCountTopLogo( topLogoId ){		// 탑 로고 클릭시 뷰카운트 누적 2022-04-06 추가
+	$.ajax({
+		type: 'POST',
+		url: '/koreanet/hitCountTopLogo',
+		data:{'topLogoId' : topLogoId}
+		});
+}
+function hitCountMobileTopLogo( topLogoId ){		// 탑 로고 클릭시 뷰카운트 누적(모바일) 2022-04-06 추가
+	$.ajax({
+		type: 'POST',
+		url: '/koreanet/hitCountMobileTopLogo',
+		data:{'topLogoId' : topLogoId}
+		});
+}
 function hotTopicsClick( hotTopicsId ){
 	$.ajax({
 		type:'POST',
@@ -574,9 +588,30 @@ function searchKeyword( searchWord ){
 	<div class="m-menu">
 		<a href=""><i class="iconset ico-menu">menu</i></a>
 	</div>
+	<!-- 2022-04-06 로고 DB에서 가져오는 방식으로 변경
 	<h1 class="logo">		
 		<a href="/">korea.net</a>
-	</h1>
+	</h1> -->
+
+	<!-- new logo start -->
+	<!-- topLogo pc -->
+	<div class="logo">
+		
+			
+				<a href="/" target="_self" title="Korea.net"><img src="/upload/banner/logo/4ffef9b6f18142df8a27a8f6e00cd0f5_20220406184727.png" onclick="javascript:hitCountTopLogo(1)"></a>
+			
+			
+	</div>
+	<!-- topLogo mobile -->
+	<div class="m-logo">
+		
+			
+				<a href="/" target="_self" title="Korea.net"><img src="/upload/banner/logo/35cdf519ee7e47ddb2264ca177c73a67_20220406184727.png" onclick="javascript:hitCountMobileTopLogo(1)"></a>
+			
+		
+	</div>
+	<!-- logo end -->
+
 	<div class="search-wrap">
 		<button type="button" class="focus-search">Search</button>
 		<a href="" class="m-search-btn"></a>
