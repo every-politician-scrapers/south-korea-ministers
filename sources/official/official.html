@@ -2,23 +2,45 @@
 
 
 
+
+<!-- 2021-02-26 MICHAEL 임시 추가 -->
+
+<!-- ./ 2021-02-26 MICHAEL 임시 추가 -->
+
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-	<meta property="og:image" content="https://www.korea.net/upload/content/editImage/20200229113807771_SBVFB9YY.png" />
-	<title>Cabinet: Korea.net : The official website of the Republic of Korea</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Korea.net" />
+<meta property="og:url" content="http://www.korea.net" />
+<meta property="og:description" content="Korea.net" />
+<meta property="og:site_name" content="Korea.net"/>
+<meta property="og:image" content="https://newsroom.korea.net/upload/content/editImage/20200229113807771_SBVFB9YY.png?param" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Korea.net" />
+<meta name="twitter:url" content="http://www.korea.net" />
+<meta name="twitter:description" content="Korea.net" />
+<meta name="twitter:site" content="http://www.korea.net" />
+<meta name="twitter:image" content="https://newsroom.korea.net/upload/content/editImage/20200229113807771_SBVFB9YY.png?param" />
+
+<meta itemprop="name" content="Korea.net">
+<meta itemprop="description" content="Korea.net" />
+<meta itemprop="image" content="https://newsroom.korea.net/upload/content/editImage/20200229113807771_SBVFB9YY.png?param" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+<title>: Korea.net : The official website of the Republic of Korea</title>
+
 	
 	
-		
-		
-	
-	
-	
-	
+
+
+
+
 
 
 
@@ -271,7 +293,7 @@ $(window).load(function(){
 		type:'POST',
 		url: '/koreanet/logStat',
 		data:{
-			'categoryId': '101',
+			'categoryId': '',
 			'statDiv':'category'
 		}
 	});
@@ -284,7 +306,7 @@ $(window).load(function(){
 			url: '/koreanet/logStat',
 			data:{
 				'contentId': '',
-				'categoryId': '101',
+				'categoryId': '',
 				'statDiv':'file'
 			}
 		});
@@ -312,7 +334,7 @@ function pdfDown(){
 		url: '/koreanet/logStat',
 		data:{
 			'contentId': '',
-			'categoryId': '101',
+			'categoryId': '',
 			'statDiv':'pdf'
 		}
 	});
@@ -324,7 +346,7 @@ function epubDown(){
 		url: '/koreanet/logStat',
 		data:{
 			'contentId': '',
-			'categoryId': '101',
+			'categoryId': '',
 			'statDiv':'epub'
 		}
 	});
@@ -336,7 +358,7 @@ function ebookClick(){
 		url: '/koreanet/logStat',
 		data:{
 			'contentId': '',
-			'categoryId': '101',
+			'categoryId': '',
 			'statDiv':'ebook'
 		}
 	});
@@ -356,7 +378,7 @@ function videoDown(){
 		url: '/koreanet/logStat',
 		data:{
 			'contentId': '',
-			'categoryId': '101',
+			'categoryId': '',
 			'statDiv':'video'
 		}
 	});
@@ -385,51 +407,66 @@ function searchValue( searchWord ){
 }
 -->
 </script>
-	<script type="text/javascript">
-//<![CDATA[
-function copy_url() {
-	var urlText  = 'https://www.korea.net/Government/Administration/Cabinet';
-	var IE = (document.all) ? true : false;
-	if (IE) {
-			window.clipboardData.setData("Text", urlText);
-			alert("The web address for this text has been copied.");
-	} else {
-		temp = prompt("Ctrl+C를 눌러 클립보드로 복사하세요.", urlText);
-	};
-}
 
-function listLink( linkURL, viewQueryString, flag ){
-	var viewParam = viewQueryString.split("&");
-	for( var num=0; num < viewParam.length; num++ ){
-		var paramArr = viewParam[ num ].split("=");
-		var str = "<input type='hidden' name='" + paramArr[0] + "' id='" + paramArr[0] + "' value='" + paramArr[1] + "' />";
-		$('#listFrm').append( str );
+<script type="text/javascript">
+//<![CDATA[ 
+	function contentView( linkURL, articleId, listQueryString, flag ){
+		var attr = "";
+		attr = '/view?articleId='+articleId;
+
+		var listParam = listQueryString.split("&");
+		
+		for( var num=0; num < listParam.length; num++ ){
+			var paramArr = listParam[ num ].split("=");
+			if (paramArr[0]=='subId')
+			{
+				attr = attr+'&subId='+paramArr[1];
+			}
+			else if (paramArr[0]=='affairId')
+			{
+				attr = attr+'&affairId='+paramArr[1];
+			}
+			else if (paramArr[0]=='lgroupId')
+			{
+				attr = attr+'&lgroupId='+paramArr[1];
+			}
+			else if (paramArr[0]!='')
+			{
+				attr = attr+'&'+paramArr[0]+'='+paramArr[1];
+			}
+		}
+		
+		if( flag ){
+			attr = attr+'&flag='+flag;
+		}
+		
+		$('#viewFrm').attr('action',linkURL + attr);	
+		$('#viewFrm').submit();
 	}
 	
-	if( flag ){
-		$('#listFrm').append( "<input type='hidden' name='flag' id='flag' value='" + flag + "' />" );
-	}
-	
-	$('#listFrm').attr('action',linkURL);
-	$('#listFrm').submit();
-}
-
-function searchKeyword( searchWord ){
-	var searchFrm = "<form id='searchFrm' name='searchFrm' method='post' action='/Others/search'>";
-	searchFrm += "<input type='hidden' name='unifiedSearchValue' id='unifiedSearchValue' value='" + searchWord +"'></input>";
-	searchFrm += "<input type='hidden' name='Tab' id='Tab' value='ALL'></input>";
-	searchFrm += "<input type='hidden' name='startCount' id='startCount' value='0'></input>";
-	searchFrm += "</form>";
-	
-	$('body').append( searchFrm );
-	$('#searchFrm').submit();
-}
+	function searchKeyword( searchWord ){
+		var searchFrm = "<form id='searchFrm' name='searchFrm' method='post' action='/Others/search'>";
+		searchFrm += "<input type='hidden' name='unifiedSearchValue' id='unifiedSearchValue' value='" + searchWord +"'></input>";
+		searchFrm += "<input type='hidden' name='Tab' id='Tab' value='ALL'></input>";
+		searchFrm += "<input type='hidden' name='startCount' id='startCount' value='0'></input>";
+		searchFrm += "</form>";
+		
+		$('body').append( searchFrm );
+		$('#searchFrm').submit();
+	}	
 //]]>
 </script>
-<form id="listFrm" name="listFrm" method="post" action=""></form>
-	
-	
-	
+<form id="viewFrm" name="viewFrm" method="post" action="/NewsFocus/Policies"></form>
+
+
+<script type="text/javascript">
+var url = window.location.href;
+if(url.indexOf('/koreanet/renewal2019') == -1 && url.indexOf('/main') != -1){
+ location.href='/';
+}
+</script>
+
+
 
 <script type="text/javascript">var switchTo5x=false;</script>
 <script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
@@ -504,7 +541,7 @@ function searchKeyword( searchWord ){
 		 Kakao.Link.sendCustom({
 		      templateId: TempleCode, // PC는 도메인이달라 9개 각기 locale로 걸러서 설정해야함
 		      templateArgs: {
-		        'title':  'Cabinet',
+		        'title':  '',
 		        'description' : title,
 		        'image' : image,
 		        'path': window.location.pathname + window.location.search
@@ -515,7 +552,7 @@ function searchKeyword( searchWord ){
 // 		Kakao.Link.sendDefault({
 //  			  objectType: 'feed',           	// Type : Feed
 //  			  content: {
-// 	  			    title : 'Cabinet', // Text : 큰 검은색  글자 
+// 	  			    title : '', // Text : 큰 검은색  글자 
 // 	  			    description : title,        // Text : 작은 회색 글자
 // 	 			    imageUrl : image,         
 //  			    link: {
@@ -544,15 +581,22 @@ function searchKeyword( searchWord ){
 </script>
 
 
-	
+
+
+<link rel="stylesheet" href="/css/magnific-popup.min.css" />
+<script src="/interKorean3/js/jquery.magnific-popup.min.js"></script>
+
 </head>
+
 <body class="english">
 	<div class="skip">
 		<a href="#contents">Skip to contents</a>
 	</div>
 
-	<div id="wrap">
-		<!-- header -->
+	
+	<div id="wrap" class="main-wrap">
+
+		
 		
 
 
@@ -1127,27 +1171,23 @@ function searchKeyword( searchWord ){
 								
 	 								
 								
-	 								
-								
-	 								
-								
 							</div>
 							<div class="img-cont">
-								
-									
-										<div class="block">
-											<div class="img-wrap"><img src="/upload/content/image/33145af617a643749f52e4d541815a3c_20220502154317.jpg" ></div>
-											<a href="/NewsFocus/HonoraryReporters/view?articleId=214145">
-												<p class="tit">Why you should apply to be a K-influencer for Korea.net</p>
-											</a>
-										</div>
-									
 								
 									
 										<div class="block">
 											<div class="img-wrap"><img src="/upload/content/image/46f3d4e5cd7148c59f470a83de581cce_20220504105928.jpg" ></div>
 											<a href="/NewsFocus/FoodTravel/view?articleId=214317">
 												<p class="tit">🎧 2 provincial airports to allow visa-free foreign arrivals from June 1</p>
+											</a>
+										</div>
+									
+								
+									
+										<div class="block">
+											<div class="img-wrap"><img src="/upload/content/image/33145af617a643749f52e4d541815a3c_20220502154317.jpg" ></div>
+											<a href="/NewsFocus/HonoraryReporters/view?articleId=214145">
+												<p class="tit">Why you should apply to be a K-influencer for Korea.net</p>
 											</a>
 										</div>
 									
@@ -1524,10 +1564,6 @@ function searchKeyword( searchWord ){
 									
 										
 											<li subId="206"><a href="/AboutKorea/Inter-Korean-Relations">Inter-Korean Relations</a></li>
-										
-									
-										
-									
 										
 									
 										
@@ -2812,10 +2848,6 @@ function searchKeyword( searchWord ){
 									
 										
 									
-										
-									
-										
-									
 								</ul>
 							</div>
 							<div class="img-cont">
@@ -3349,10 +3381,6 @@ function searchKeyword( searchWord ){
 														
 													
 														
-													
-														
-													
-														
 																										
 												</ul>												
 											</li>
@@ -3610,10 +3638,6 @@ function searchKeyword( searchWord ){
 														
 													
 														
-													
-														
-													
-														
 																										
 												</ul>												
 											</li>
@@ -3627,10 +3651,6 @@ function searchKeyword( searchWord ){
 											<li>
 												<a href="/Resources/Newsletter">Newsletter</a>
 												<ul class="depth-3">
-													
-														
-													
-														
 													
 														
 													
@@ -4112,10 +4132,6 @@ function searchKeyword( searchWord ){
 														
 													
 														
-													
-														
-													
-														
 																										
 												</ul>												
 											</li>
@@ -4361,17 +4377,9 @@ function searchKeyword( searchWord ){
 														
 													
 														
-													
-														
-													
-														
 																										
 												</ul>												
 											</li>
-										
-									
-										
-									
 										
 									
 										
@@ -4832,265 +4840,8 @@ function searchKeyword( searchWord ){
 									
 										
 											<li>
-												<a href="/Government/Administration/Cabinet">Administration</a>
-												<ul class="depth-3">
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-															<li subId="101"><a href="/Government/Administration/Cabinet">Cabinet</a></li>
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-													
-														
-																										
-												</ul>												
-											</li>
-										
-									
-										
-									
-										
-											<li>
 												<a href="/Government/Current-Affairs/National-Affairs">Issue Focus</a>
 												<ul class="depth-3">
-													
-														
-													
-														
 													
 														
 													
@@ -5538,10 +5289,6 @@ function searchKeyword( searchWord ){
 														
 													
 														
-													
-														
-													
-														
 															<li subId="109"><a href="/Government/Briefing-Room/Press-Releases">Press Releases</a></li>
 														
 													
@@ -5617,10 +5364,6 @@ function searchKeyword( searchWord ){
 											<li>
 												<a href="/Government/Constitution-and-Government">Constitution and Government</a>
 												<ul class="depth-3">
-													
-														
-													
-														
 													
 														
 													
@@ -6521,40 +6264,6 @@ function searchKeyword( searchWord ){
 				
 				
 			
-			
-			
-				
-				
-				
-				
-				
-				
-				
-							
-					
-					
-				
-				
-				
-				
-			
-			
-			
-				
-				
-				
-				
-				
-				
-				
-							
-					
-					
-				
-				
-				
-				
-			
 		
 		
 		<li>
@@ -6759,18 +6468,10 @@ function searchKeyword( searchWord ){
 				
 						
 				
-						
-				
-						
-				
 					<a href="/AboutUs/KOCIS" title="ABOUT US">ABOUT US</a>
 					<div class="depth-2">
 						<div class="v-list">
 							<ul>
-								
-									
-								
-									
 								
 									
 								
@@ -7583,16 +7284,6 @@ function searchKeyword( searchWord ){
 					
 						
 						
-					
-					
-					
-						
-						
-					
-					
-					
-						
-						
 							
 		                
 					
@@ -7692,10 +7383,6 @@ function searchKeyword( searchWord ){
 					
 				
 				
-							
-					
-							
-					
 							
 					
 							
@@ -8200,10 +7887,6 @@ function searchKeyword( searchWord ){
 					
 						
 					
-						
-					
-						
-					
 				</ul>
 			</div>		
 			<div id="tab_12" class="r-d-cont">
@@ -8341,10 +8024,6 @@ function searchKeyword( searchWord ){
 					
 						
 							<li><a href="/AboutKorea/Inter-Korean-Relations">Inter-Korean Relations</a></li>
-						
-					
-						
-					
 						
 					
 						
@@ -8618,10 +8297,6 @@ function searchKeyword( searchWord ){
 					
 						
 							<li><a href="/Events/Overseas" >Overseas</a></li>
-						
-					
-						
-					
 						
 					
 						
@@ -9115,10 +8790,6 @@ function searchKeyword( searchWord ){
 								
 									
 								
-									
-								
-									
-								
 								<a href="/Resources/Publications/About-Korea" pId="72" title="PUBLICATIONS">Publications</a>								
 								
 									<ul class="depth-3">
@@ -9281,10 +8952,6 @@ function searchKeyword( searchWord ){
 										
 											
 												<li subId="76"><a href="/Resources/Publications/Others">Others</a></li>
-											
-										
-											
-										
 											
 										
 											
@@ -9548,10 +9215,6 @@ function searchKeyword( searchWord ){
 								
 									
 										
-									
-								
-									
-								
 									
 								
 									
@@ -9875,10 +9538,6 @@ function searchKeyword( searchWord ){
 											
 										
 											
-										
-											
-										
-											
 											
 									</ul>
 								
@@ -9892,10 +9551,6 @@ function searchKeyword( searchWord ){
 						
 							<li>
 								
-								
-									
-								
-									
 								
 									
 								
@@ -10378,10 +10033,6 @@ function searchKeyword( searchWord ){
 								
 									
 								
-									
-								
-									
-								
 								<a href="/Resources/Website-Directory" pId="81" title="WEBSITE DIRECTORY">Website Directory</a>								
 								
 							</li>
@@ -10627,17 +10278,9 @@ function searchKeyword( searchWord ){
 								
 									
 								
-									
-								
-									
-								
 								<a href="/Resources/Social-Media" pId="82" title="SOCIAL MEDIA">Social Media</a>								
 								
 							</li>
-						
-					
-						
-					
 						
 					
 						
@@ -11060,509 +10703,6 @@ function searchKeyword( searchWord ){
 									
 								
 									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-								<a href="/Government/Administration/Cabinet" pId="98" title="ADMINISTRATION">Administration</a>								
-								
-									<ul class="depth-3">
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-												<li subId="101"><a href="/Government/Administration/Cabinet">Cabinet</a></li>
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-										
-											
-											
-									</ul>
-								
-							</li>
-						
-					
-						
-					
-						
-							<li>
-								
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-								
-									
-										
-									
-								
-									
 										
 									
 								
@@ -11639,10 +10779,6 @@ function searchKeyword( searchWord ){
 								<a href="/Government/Current-Affairs/National-Affairs" pId="103" title="ISSUE FOCUS">Issue Focus</a>								
 								
 									<ul class="depth-3">
-										
-											
-										
-											
 										
 											
 										
@@ -12090,10 +11226,6 @@ function searchKeyword( searchWord ){
 									
 								
 									
-								
-									
-								
-									
 										
 									
 								
@@ -12158,10 +11290,6 @@ function searchKeyword( searchWord ){
 								<a href="/Government/Briefing-Room/Press-Releases" pId="108" title="BRIEFING ROOM">Briefing Room</a>								
 								
 									<ul class="depth-3">
-										
-											
-										
-											
 										
 											
 										
@@ -12609,10 +11737,6 @@ function searchKeyword( searchWord ){
 									
 								
 									
-								
-									
-								
-									
 										
 									
 								
@@ -12673,10 +11797,6 @@ function searchKeyword( searchWord ){
 								<a href="/Government/Constitution-and-Government" pId="112" title="CONSTITUTION AND GOVERNMENT">Constitution and Government</a>								
 								
 									<ul class="depth-3">
-										
-											
-										
-											
 										
 											
 										
@@ -13181,16 +12301,8 @@ function searchKeyword( searchWord ){
 						
 								
 						
-								
-						
-								
-						
 							<li>
 								
-								
-									
-								
-									
 								
 									
 								
@@ -13437,10 +12549,6 @@ function searchKeyword( searchWord ){
 								<a href="/AboutUs/KOCIS" pId="119" title="ABOUT US">About Us</a>								
 								
 									<ul class="depth-3">
-										
-											
-										
-											
 										
 											
 										
@@ -13916,10 +13024,6 @@ function searchKeyword( searchWord ){
 									
 								
 									
-								
-									
-								
-									
 										
 									
 								
@@ -13960,10 +13064,6 @@ function searchKeyword( searchWord ){
 								<a href="/Others/Site-Guide" pId="125" title="OTHERS">Others</a>								
 								
 									<ul class="depth-3">
-										
-											
-										
-											
 										
 											
 										
@@ -14286,489 +13386,1672 @@ function searchKeyword( searchWord ){
 </div>
 <!--// header -->
 		
-		<!--// header -->
 		
-		<!-- breadcrumbs -->
-		
-
-
-
-<div class="breadcrumbs-wrap">
-	<div class="breadcrumbs">
-		<ul>
-			<li class="home">home</li>
-			
-				<li><a href="/Government/Administration/Cabinet">Government</a></li>
-			
-			
-				<li><a href="/Government/Administration/Cabinet">Administration</a></li>
-			
-			
-				<li><a href="/Government/Administration/Cabinet">Cabinet</a></li>
-			
-		</ul>
-	</div>
-</div>
-		<!--// breadcrumbs -->
-		
+				 		
 		<!-- container -->
 		<div id="container" class="no-left">
-			<div class="inner">
+
+			<!-- contents -->
+			<div class="contents">
+				<div class="main-top-banner">
 				
-				<!-- contents -->
-				<div class="contents">	
-					<div class="detail-post">
-						<div class="d-post-tit-wrap mb-inner">
-							<div class="d-post-tit">
-								<div class="list-top">
-									<div class="left">
-										<p class="page-head">Administration</p>
-										<div class="depth-select">
+					<!-- 메인 섹션1-left -->
+					<div class="half-block first">
+						<div class="main-swiper">
+							<div class="swiper-wrapper">						
+							
+																
+									<!-- swiper -->
+									<div class="swiper-slide">
+										
+											<a href="#" id="fnSlider1_0" data-link="/NewsFocus/policies/view?articleId=214551">
+											
+											<div class="img-wrap">
+												<img src="/upload/main/news/image/7cea5f4f64b74307b401d416a9e16569_20220511162830.jpg" />
+											</div>									
+											<div class="txt-wrap">								
+												<p class="tit">
+													<!-- //a tag1 -->												
+													
+														
+															
+																
+																	🎧 President Yoon conducts &#039;letter diplomacy&#039; with US, China, Japan
+																
+																
+															
+															
+														
+																								
+												</p>											
+											
+												<!-- a tag2 -->
+												
+													<input type="hidden" name="" id="mainUrl_1" value="https://www.kocis.go.kr/koreanet/view.do?seq=1041487&page=1&pageSize=10&photoPageSize=6&totalCount=0&searchType=null&searchText=&RN=&cateCode=">
+													<a href="#" id="mainTopLogo_1">
+														
+															
+															
+															
+															
+															
+															
+															
+															
+															KOREAN
+														
+													</a>													
+												
+												<!-- //a tag2 -->
+											</div>
+										
+											</a>
+																				
+									</div>	
+									<!-- //swiper -->
+								
+							</div>
+							<!-- 
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+							 -->
+						</div>
+					</div>
+					<!-- //메인 섹션1-left -->
+					
+					<!-- 메인 섹션1-right -->
+					<div class="half-block last">
+						<div class="main-swiper2">
+							<div class="swiper-wrapper">
+								
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_1" data-link="/NewsFocus/Culture/view?articleId=214571">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/1aa23015088242058a6773d6922478d5_20220511163008.jpg" />
+												</div>
+											
+												</a>
 											
 											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_1" data-link="/NewsFocus/Culture/view?articleId=214571">
+																					
+													<p class="tit">
+														
+															
+																Nation&#039;s largest cultural heritage festival kicks off in Seoul
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_2" data-link="/NewsFocus/policies/view?articleId=214510">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/1fd74e1d423d4982bc4f9c34dcdd9383_20220511153159.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_2" data-link="/NewsFocus/policies/view?articleId=214510">
+																					
+													<p class="tit">
+														
+															
+																President Yoon takes office under &#039;Again, Republic of Korea&#039; motto
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_3" data-link="/NewsFocus/Society/view?articleId=214500">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/22908df48b614242ab53140118f85448_20220511090835.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_3" data-link="/NewsFocus/Society/view?articleId=214500">
+																					
+													<p class="tit">
+														
+															
+																Cheong Wa Dae reopened to public after 74 years
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_4" data-link="/NewsFocus/Korea_in_photos/view?articleId=214532">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/3fd4caaff6bf4c0190e8442fbfe043c3_20220510191523.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_4" data-link="/NewsFocus/Korea_in_photos/view?articleId=214532">
+																					
+													<p class="tit">
+														
+															
+																President Yoon Suk Yeol inaugurated as nation&#039;s 20th leader
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_5" data-link="/NewsFocus/Culture/view?articleId=214434">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/e6d40ee6da2a432a899235096c56d95d_20220509164612.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_5" data-link="/NewsFocus/Culture/view?articleId=214434">
+																					
+													<p class="tit">
+														
+															
+																🎧 &#039;Sound of Magic&#039; 4th on Netflix global chart, tops in 13 countries
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_6" data-link="https://www.youtube.com/watch?v=EYjuXNZLs2k">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/cb593bfa3e7d4a7a85f4dc79958e310e_20220508153545.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_6" data-link="https://www.youtube.com/watch?v=EYjuXNZLs2k">
+																					
+													<p class="tit">
+														
+															
+																2022 Dharma Ceremony: &#039;Back to the Life of Blossoming Hope’
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_7" data-link="/NewsFocus/policies/view?articleId=214444">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/0ee189b84acf4f4cb0c21a82c579dd19_20220510105536.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_7" data-link="/NewsFocus/policies/view?articleId=214444">
+																					
+													<p class="tit">
+														
+															
+																President bids farewell, calls Korea &#039;nation of great people&#039;
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_8" data-link="/NewsFocus/Business/view?articleId=214375">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/30ad186ab07d4e04bd4dddff87d1dfbd_20220511103254.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_8" data-link="/NewsFocus/Business/view?articleId=214375">
+																					
+													<p class="tit">
+														
+															
+																🎧 Samsung, LG win top energy-conserving honors from US gov&#039;t
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+									
+										<div class="swiper-slide">
+												
+												<a href="#" id="fnSlider1_9" data-link="https://www.youtube.com/watch?v=sHGXs54ahLM">
+																							
+												<div class="img-wrap">
+													<img src="/upload/main/news/image/b9829afffef043d8b69555ba0e639cd4_20220511095331.jpg" />
+												</div>
+											
+												</a>
+											
+											
+											<div class="txt-wrap">	
+													
+													<a href="#" id="fnSlider1_9" data-link="https://www.youtube.com/watch?v=sHGXs54ahLM">
+																					
+													<p class="tit">
+														
+															
+																DDP holds outdoor events to mark 100th Children&#039;s Day
+															
+															
+														
+													</p>	
+												
+													</a>
+																								
+											</div>										
+ 										</div>
+									
+								
+							</div>
 
 
-
-
-
-
-
-
-
-
-
-	<a href="" class="btn-sel-on" id="print_title">Cabinet</a>
-	<div class="depth-list">	
-		
-						<ul>
+							<div class="ctrl-group">
+								<div class="swiper-pagination"></div>
+								<div class="swiper-button-play"></div>
+								<div class="swiper-button-pause"></div>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<!-- //메인 섹션1-right -->
+			
+				<!-- 공지사항 -->
+					
+				<!-- //공지사항 -->
+							
+				<!-- //메인 섹션2 -->
+				<div class="main-second-banner">
+					<div class="scroll-wrap">
+					<!--	 22.01.03 요청에 의해 end="2" > end="3" 변경 	-->	
 						
+							<div class="block">
+								
+									<a href="#" id="fnSlider2_1" data-link="/NewsFocus/Business/view?articleId=214561">
+																
+									<div class="img-wrap"><img src="/upload/content/image/3553ae437d6944189b79bf056e1187c0_20220511134426.jpg" /></div>
+								
+									</a>
+									
+								
+								<p class="tit-cate">Business</p>		
+								
+									<a href="#" id="fnSlider2_1" data-link="/NewsFocus/Business/view?articleId=214561">
+																
+									<p class="tit">
+										
+											
+												Last month saw 865K new jobs, most for April in 22 years
+											
+											
+										
+									</p>											
+								
+									</a>
+								
+								
+							</div>
 						
-							<li class='active'>
-								<a href="/Government/Administration/Cabinet"	 class="lh">
-									<strong>Cabinet</strong>
-								</a>
-							</li>	
+							<div class="block">
+								
+									<a href="#" id="fnSlider2_2" data-link="/NewsFocus/Culture/view?articleId=214521">
+																
+									<div class="img-wrap"><img src="/upload/content/image/85ff9565d93b410bbab6108c14ee45c2_20220510154409.jpg" /></div>
+								
+									</a>
+									
+								
+								<p class="tit-cate">Culture</p>		
+								
+									<a href="#" id="fnSlider2_2" data-link="/NewsFocus/Culture/view?articleId=214521">
+																
+									<p class="tit">
+										
+											
+												🎧 6 Korean items added to global trademark list
+											
+											
+										
+									</p>											
+								
+									</a>
+								
+								
+							</div>
+						
+							<div class="block">
+								
+									<a href="#" id="fnSlider2_3" data-link="/NewsFocus/Sports/view?articleId=214455">
+																
+									<div class="img-wrap"><img src="/upload/content/image/d025ae9dc3fc4bbda758d9949234a579_20220509140220.jpg" /></div>
+								
+									</a>
+									
+								
+								<p class="tit-cate">Sports</p>		
+								
+									<a href="#" id="fnSlider2_3" data-link="/NewsFocus/Sports/view?articleId=214455">
+																
+									<p class="tit">
+										
+											
+												Son becomes 1st Asian to score 20 goals in top 5 European league
+											
+											
+										
+									</p>											
+								
+									</a>
+								
+								
+							</div>
+						
+							<div class="block">
+								
+									<a href="#" id="fnSlider2_4" data-link="/NewsFocus/Culture/view?articleId=214470">
+																
+									<div class="img-wrap"><img src="/upload/content/image/30725805f5c9441884f49eea3a8c5382_20220509151234.jpg" /></div>
+								
+									</a>
+									
+								
+								<p class="tit-cate">Culture</p>		
+								
+									<a href="#" id="fnSlider2_4" data-link="/NewsFocus/Culture/view?articleId=214470">
+																
+									<p class="tit">
+										
+											
+												Why Frankfurt is Germany&#039;s K-pop capital: daily
+											
+											
+										
+									</p>											
+								
+									</a>
+								
+								
+							</div>
+						
+						<!--  22.01.03 SangHoon 추가
+						
+							
+								<div class="block">									
+									<div class="img-wrap"><img src="/upload/content/image/75b1d78b25ff4ca09b83af11aa443a1d_20220511102433.jpg" alt="crop_썸네일.jpg" /></div>
+									<p class="tit-cate">
+										
+											Honorary Reporters
+											
+											
+											
+											
+											
+											
+											
+											
+											
+									</p>		
+									<a href="/NewsFocus/HonoraryReporters/view?articleId=214547&pageIndex=1">							
+										<p class="tit">Uzbek college student discusses observing Ramadan in Korea</p>
+									</a>
+									<p class="date">May 11, 2022</p>
+								</div>
 							
 						
-						</ul>
+							
 						
-	</div>
-
-
-											
+							
+						
+							
+						
+							
+								-->
+					</div>
+				</div>
+				<!-- //메인 섹션2 -->
+				
+				<!-- 메인 섹션3(Issue Focus, Most popular) -->
+				<div class="middle-cont">
+					<div class="issue-focus-wrap">
+						<h2 class="tit">Issue Focus</h2>
+						<div class="swiper-wrapper">
+															
+								<div class="block swiper-slide">
+									<a href="/Government/Current-Affairs/National-Affairs/view?affairId=2285&articleId=214490&subId=95&viewId=62574">
+										<div class="img-wrap"><img src="/upload/content/image/007fccd5ff50449582da28543a02b108_20220510135906.jpg" ></div>
+										<div class="txt-wrap">
+											<p class="tit">Yoon Suk Yeol sworn in as Korea's new president</p>
+											<!-- <p class="txt">President Yoon Suk Yeol on May 10 is sworn into office at the nation's 20th presidential inauguration ceremony held at N</p>-->
+											<p class="txt">President Yoon Suk Yeol on May 10 is sworn into office at the nation's 20th presidential inauguration ceremony held at National Assembly Plaza in the Yeouido area of Seoul's Yeongdeungpo-gu District.</p>								
 										</div>
-									</div>
-								</div>										
-								
-								<div class="others-function">
-									
-									<ul>
-	<li class="only-pc"><a href="javascript:void(0)" onclick="printStat('101','');printContentHome();"><i class="iconset ico-share-print"></i></a></li>
-	
-		
-		
-			<li class="only-pc share-email"><a href="javascript:void(0)"><span class='st_email' displayText=''></span></a></li>
-			<li class="share-twitter"><a href="javascript:void(0)"><span class='st_twitter' displayText=''></span></a></li>
-			<li class="share-facebook"><a href="javascript:void(0)"><span class='st_facebook' displayText=''></span></a></li>
-			<li><a href="javascript:shareKakao()"><i class="iconset ico-share-kakao"></i></a></li>
-			<li class="share-sharethis"><a href="javascript:void(0)"><span class='st_sharethis' displayText=''></span></a></li>
-			<li><a href="#none" onclick="urlCopyStat('101','');fnCopyUrl();"><i class="iconset ico-share-copy"></i></a></li>
-		
-	
-</ul>
-<script>
-	$(document).ready(function (){
-		var share_objs = $(".share-email, .share-sharethis, .share-twitter, .share-facebook"); 
-		share_objs.hide();
-
-		var interval = setInterval(function tick() {
-			if(changeshare("share-email", "ico-share-mail") && changeshare("share-sharethis", "ico-share") && changeshare("share-twitter", "ico-share-twitter") && changeshare("share-facebook", "ico-share-facebook")){
-				share_objs.show();
-				clearInterval(interval);				
-			}
-		}, 100);
-
-		//
-		function changeshare(tname, cname){
-			var result = true;
-			//set
-			$("."+tname+" > a > span > span").html('<i class="iconset '+cname+'"></i>');
-			
-			//check1
-			if($("."+tname+" > a > span > span").html() != '<i class="iconset '+cname+'"></i>'){
-				result = false;
-			}
-			//check2
-			if($("."+tname+" > a > span > span").html() == undefined){
-				result = false;
-			}
-			return result;
-		}
-	});
-</script>
-												
+									</a>
 								</div>
-							</div>
-						</div>
+															
+								<div class="block swiper-slide">
+									<a href="/Government/Current-Affairs/National-Affairs/view?affairId=2285&articleId=214532&subId=95&viewId=62585">
+										<div class="img-wrap"><img src="/upload/content/image/e0e4f63e641c4a979224ead05252fa0e_20220510165424.jpg" ></div>
+										<div class="txt-wrap">
+											<p class="tit">President Yoon Suk Yeol inaugurated as nation's 20th leader</p>
+											<!-- <p class="txt">President Yoon Suk Yeol on the morning of May 10 was sworn in as the nation's 20th leader at his inauguration ceremony a</p>-->
+											<p class="txt">President Yoon Suk Yeol on the morning of May 10 was sworn in as the nation's 20th leader at his inauguration ceremony at the National Assembly in the Yeouido area of Seoul's Yeongdeungpo-gu District to start a five-year term. Below are photos of the beginning of the new administration to take charge of Korea through 2027.</p>								
+										</div>
+									</a>
+								</div>
+															
+								<div class="block swiper-slide">
+									<a href="/Government/Current-Affairs/National-Affairs/view?affairId=2285&articleId=214510&subId=95&viewId=62593">
+										<div class="img-wrap"><img src="/upload/content/image/a170e290b77341c39238d510db5aa738_20220510153505.jpg" ></div>
+										<div class="txt-wrap">
+											<p class="tit">President Yoon takes office under 'Again, Republic of Korea' motto</p>
+											<!-- <p class="txt">President Yoon Suk Yeol, the nation's 20th head of state, on the morning of May 10 was inaugurated at National Assembly </p>-->
+											<p class="txt">President Yoon Suk Yeol, the nation's 20th head of state, on the morning of May 10 was inaugurated at National Assembly Plaza in the Yeouido area of Seoul's Yeongdeungpo-gu District to begin a five-year term.</p>								
+										</div>
+									</a>
+								</div>
 							
-						<!--  					
-						<div class="list-top mt00">
-							<div class="left">
-								<div class="depth-select v1">
-									<p class="page-head">Administration</p>
-									
-									
-								</div>
-							</div>
 						</div>
-						-->
-						 
-						<!-- 					
-						<div class="d-post-tit-wrap mb-inner">
-							<div class="d-post-tit">
-								<p class="page-head">Administration</p>
-								<h2 class="tit" id="print_title">Cabinet</h2>
-							</div>
-						</div>
-						 -->
-						
-						<div class="post-main-cont">
-							<div class="post-util">
-								
-								<div class="others-function">
-									
-									<ul>
-	<li class="only-pc"><a href="javascript:void(0)" onclick="printStat('101','');printContentHome();"><i class="iconset ico-share-print"></i></a></li>
-	
-		
-		
-			<li class="only-pc share-email"><a href="javascript:void(0)"><span class='st_email' displayText=''></span></a></li>
-			<li class="share-twitter"><a href="javascript:void(0)"><span class='st_twitter' displayText=''></span></a></li>
-			<li class="share-facebook"><a href="javascript:void(0)"><span class='st_facebook' displayText=''></span></a></li>
-			<li><a href="javascript:shareKakao()"><i class="iconset ico-share-kakao"></i></a></li>
-			<li class="share-sharethis"><a href="javascript:void(0)"><span class='st_sharethis' displayText=''></span></a></li>
-			<li><a href="#none" onclick="urlCopyStat('101','');fnCopyUrl();"><i class="iconset ico-share-copy"></i></a></li>
-		
-	
-</ul>
-<script>
-	$(document).ready(function (){
-		var share_objs = $(".share-email, .share-sharethis, .share-twitter, .share-facebook"); 
-		share_objs.hide();
-
-		var interval = setInterval(function tick() {
-			if(changeshare("share-email", "ico-share-mail") && changeshare("share-sharethis", "ico-share") && changeshare("share-twitter", "ico-share-twitter") && changeshare("share-facebook", "ico-share-facebook")){
-				share_objs.show();
-				clearInterval(interval);				
-			}
-		}, 100);
-
-		//
-		function changeshare(tname, cname){
-			var result = true;
-			//set
-			$("."+tname+" > a > span > span").html('<i class="iconset '+cname+'"></i>');
-			
-			//check1
-			if($("."+tname+" > a > span > span").html() != '<i class="iconset '+cname+'"></i>'){
-				result = false;
-			}
-			//check2
-			if($("."+tname+" > a > span > span").html() == undefined){
-				result = false;
-			}
-			return result;
-		}
-	});
-</script>
-									<p id="urlCopy" style="display:none">https://www.korea.net/Government/Administration/Cabinet</p>
-									
-								</div>
-							</div>
-
-							<div id="content_text_ALLBOX">	
-								<div class="person-list">
-									
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881827793.png" alt="Kim Boo-kyum"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Kim Boo-kyum</p>
-													<p class="txt">Prime Minister</p>
-													<a href="https://www.opm.go.kr/en/prime/greeting.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881846297.png" alt="Hong Nam-ki"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Hong Nam-ki</p>
-													<p class="txt">Deputy Prime Minister, Minister of Economy and Finance</p>
-													<a href="http://english.mosf.go.kr/co/selectAboutMosf.do?boardCd=C0001" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881860791.png" alt="Yoo Eun-hae"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Yoo Eun-hae</p>
-													<p class="txt">Deputy Prime Minister, Minister of Education</p>
-													<a href="http://english.moe.go.kr/sub/info.do?m=010201&s=english" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881869766.png" alt="Lim Hyesook"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Lim Hyesook</p>
-													<p class="txt">Minister of Science and ICT</p>
-													<a href="https://www.msit.go.kr/eng/contents/cont.do?sCode=eng&mPid=19&mId=20" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881879705.png" alt="Chung Eui-yong"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Chung Eui-yong</p>
-													<p class="txt">Minister of Foreign Affairs</p>
-													<a href="http://www.mofa.go.kr/eng/wpge/m_5739/contents.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881887325.png" alt="Lee In-Young"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Lee In-Young</p>
-													<p class="txt">Minister of Unification</p>
-													<a href="https://www.unikorea.go.kr/eng_unikorea/about/ministers/minister/biography/" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881907802.png" alt="Park Beom-Kye"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Park Beom-Kye</p>
-													<p class="txt">Minister of Justice</p>
-													<a href="http://www.moj.go.kr/moj_eng/1785/subview.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881917111.png" alt="Suh Wook"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Suh Wook</p>
-													<p class="txt">Minister of National Defense</p>
-													<a href="https://www.mnd.go.kr/mbshome/mbs/mndEN/subview.jsp?id=mndEN_010101000000" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881931480.png" alt="Jeon Hae-cheol"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Jeon Hae-cheol</p>
-													<p class="txt">Minister of the Interior and Safety</p>
-													<a href="https://www.mois.go.kr/eng/sub/a02/minister_2/screen.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881943067.png" alt="Hwang Hee"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Hwang Hee</p>
-													<p class="txt">Minister of Culture, Sports and Tourism</p>
-													<a href="https://www.mcst.go.kr/english/about/profile.jsp" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881951451.png" alt="Kim Hyeonsoo"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Kim Hyeonsoo</p>
-													<p class="txt">Minister of Agriculture, Food and Rural Affairs</p>
-													<a href="http://mafra.go.kr/english/752/subview.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881962028.png" alt="Moon SungWook"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Moon SungWook</p>
-													<p class="txt">Minister of Trade, Industry and Energy</p>
-													<a href="http://english.motie.go.kr/en/am/minister/Minister/MINISTER/Minister.jsp" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881975978.png" alt="Kwon Deok-cheol"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Kwon Deok-cheol</p>
-													<p class="txt">Minister of Health and Welfare</p>
-													<a href="http://www.mohw.go.kr/react/sg/ssg0101mn.jsp?PAR_MENU_ID=05&MENU_ID=050302" target="_blank"><i class="iconset ico-link"></i> Profile (Korean Only)</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881986904.png" alt="Han Jeoung Ae"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Han Jeoung Ae</p>
-													<p class="txt">Minister of Environment</p>
-													<a href="http://eng.me.go.kr/eng/web/index.do?menuId=473&firstItemIndex=About%20Us" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639881994603.png" alt="An Kyung-duk"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">An Kyung-duk</p>
-													<p class="txt">Minister of Employment and Labor</p>
-													<a href="https://www.moel.go.kr/english/about/minister.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639882003647.png" alt="Chung Young-ai"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Chung Young-ai</p>
-													<p class="txt">Minister of Gender Equality and Family</p>
-													<a href="http://www.mogef.go.kr/eng/am/eng_am_f003.do" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639882013824.png" alt="Noh Hyeong-ouk"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Noh Hyeong-ouk</p>
-													<p class="txt">Minister of Land, Infrastructure and Transport</p>
-													<a href="http://www.molit.go.kr/english/USR/WPGE0201/m_28266/DTL.jsp" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639882022875.png" alt="Moon Seong-hyeok"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Moon Seong-hyeok</p>
-													<p class="txt">Minister of Oceans and Fisheries</p>
-													<a href="https://www.mof.go.kr/en/page.do?menuIdx=1466" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
-											<div class="list">
-												
-													
-														<div class="img-wrap"><img src="/upload/content/cabinet/1639882030340.png" alt="Kwon Chil-seung"></div>
-													
-													
-												
-												<div class="person-detail">
-													<p class="tit">Kwon Chil-seung</p>
-													<p class="txt">Minister of SMEs and Startups</p>
-													<a href="https://www.mss.go.kr/site/eng/01/20103010000002019110625.jsp" target="_blank"><i class="iconset ico-link"></i> Profile</a>
-												</div>
-											</div>
-										
+						<div class="swiper-pagination2"></div>
+					</div>
+					<div class="most-pop-wrap">
+						<h2 class="tit">Most popular</h2>
+						<ol class="round-num">
+							
+								<li><strong class="">Food/Travel</strong><a href="/NewsFocus/FoodTravel/view?articleId=214317">🎧 2 provincial airports to allow visa-free foreign arrivals from June 1</a></li>
+							
+								<li><strong class="">Honorary Reporters</strong><a href="/NewsFocus/HonoraryReporters/view?articleId=214145">Why you should apply to be a K-influencer for Korea.net</a></li>
+							
+								<li><strong class="">Food/Travel</strong><a href="/NewsFocus/FoodTravel/view?articleId=213984">[Hidden charms of Korea: Namhae] ② Stories of a tourist hotspot</a></li>
+							
+								<li><strong class="">Society</strong><a href="/NewsFocus/Society/view?articleId=214265">100th edition of Children's Day to feature array of events</a></li>
+							
+								<li><strong class="">Policies</strong><a href="/NewsFocus/policies/view?articleId=214019">🎧 Outdoor mask mandate to be lifted on May 2</a></li>
+							
+						</ol>
+					</div>
+				</div>
+				<!-- //메인 섹션3(Issue Focus, Most popular) -->
+				
+				<!-- 메인 섹션4(Featured Video) -->
+				<div class="featured-wrap">
+					<h2 class="tit">Featured Video</h2>
+					<div class="video-wrap">
+						<div class="swiper-wrapper">
+							
 																	
+								<div class="block swiper-slide">
+									
+									
+									<iframe width="776" height="442" src="https://www.youtube.com/embed/cHmCN8kpy0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									
+									<p class="tit">[Quiz on the Road] Street of the young and fashionable 💖👕👗 | Ep.6 Myeongdong</p>
+								</div>						
+							
+																	
+								<div class="block swiper-slide">
+									
+									
+									<iframe width="776" height="442" src="https://www.youtube.com/embed/EYjuXNZLs2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									
+									<p class="tit">2022 Dharma Ceremony, 'Back to the Life of Blossoming Hope’ / 부처님오신날 조계사 법요식</p>
+								</div>						
+							
+																	
+								<div class="block swiper-slide">
+									
+									
+									<iframe width="776" height="442" src="https://www.youtube.com/embed/pthDqqtppQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									
+									<p class="tit">[K-crossword Quiz] How much do you know about Korean history? 💖 | Ep.5 History</p>
+								</div>						
+							
+																	
+								<div class="block swiper-slide">
+									
+									
+									<iframe width="776" height="442" src="https://www.youtube.com/embed/sHGXs54ahLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									
+									<p class="tit">DDP holds outdoor events to mark 100th Children's Day / DDP 디자인 놀이동산</p>
+								</div>						
+							
+						</div>			
+						<div class="swiper-pagination3"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>			
+					<div class="video-list">
+						
+							
+						
+							
+								<div class="v-list">
+									<a target="_blank" href="https://youtu.be/EYjuXNZLs2k">
+										<div class="thum-wrap"><img src="/upload/main/news/image/731073a8f5fb4791965fcf3986fb899c_20220509091257.webp" alt="" ></div>
+										<p class="tit">2022 Dharma Ceremony, 'Back to the Life of Blossoming Hope’ / 부처님오신날 조계사 법요식</p>
+									</a>
 								</div>
-							</div>
+							
+						
+							
+								<div class="v-list">
+									<a target="_blank" href="https://youtu.be/pthDqqtppQ4">
+										<div class="thum-wrap"><img src="/upload/main/news/image/b5abd5e4f0cb46379deb566405720382_20220509105459.jpg" alt="" ></div>
+										<p class="tit">[K-crossword Quiz] How much do you know about Korean history? 💖 | Ep.5 History</p>
+									</a>
+								</div>
+							
+						
+							
+								<div class="v-list">
+									<a target="_blank" href="https://youtu.be/sHGXs54ahLM">
+										<div class="thum-wrap"><img src="/upload/main/news/image/ebe29e11af0c4e7bb7019cba7d0d90c9_20220506170851.jpg" alt="" ></div>
+										<p class="tit">DDP holds outdoor events to mark 100th Children's Day / DDP 디자인 놀이동산</p>
+									</a>
+								</div>
+							
+						
+	 				</div>
+		 			
+				</div>				 
+				<!-- //메인 섹션4(Featured Video) -->
 
+				<!-- 메인 섹션5(Honorary Reporters) -->
+				<div class="outer-tit">
+					<h2 class="tit">
+						<a href="/NewsFocus/HonoraryReporters">
+						
+							Honorary Reporters
+							
+							
+							
+							
+							
+							
+							
+							
+							
+						
+						</a>
+					</h2>
+				</div>
+				<div class="honorary-wrap">
+					<div class="scroll-wrap">
+					
+					
+						
+							<div class="block">
+								<a href="/NewsFocus/HonoraryReporters/view?articleId=214547&pageIndex=1">
+									<div class="img-wrap"><img src="/upload/content/image/75b1d78b25ff4ca09b83af11aa443a1d_20220511102433.jpg" alt="crop_썸네일.jpg"/></div>
+									<p class="tit">Uzbek college student discusses observing Ramadan in Korea</p>								
+								</a>
+								<p class="date"></p>
+							</div>
+						
+					
+					
+						
+							<div class="block">
+								<a href="/NewsFocus/HonoraryReporters/view?articleId=214545&pageIndex=1">
+									<div class="img-wrap"><img src="/upload/content/image/54807293cbde42c7a3f2b77248bd7a49_20220511091122.jpg" alt="crop_9a87a22c5e1049f4a85041ac506e7047.jpg"/></div>
+									<p class="tit">Designer promotes modern Hanbok via girl group's video</p>								
+								</a>
+								<p class="date">Preeti Rawat</p>
+							</div>
+						
+					
+					
+						
+							<div class="block">
+								<a href="/NewsFocus/HonoraryReporters/view?articleId=214543&pageIndex=1">
+									<div class="img-wrap"><img src="/upload/content/image/c7b482537b5f48fcb4c384a0383c2219_20220511085451.jpg" alt="crop_1.jpg"/></div>
+									<p class="tit">How competing in Korean art contests raised my skills</p>								
+								</a>
+								<p class="date">Tri Iva Fitriani</p>
+							</div>
+						
+					
+					
+						
+							<div class="block">
+								<a href="/NewsFocus/HonoraryReporters/view?articleId=214424&pageIndex=1">
+									<div class="img-wrap"><img src="/upload/content/image/4ef56d598f694d38b040512d101ea8ca_20220509082322.jpg" alt="crop_461ec25d97b04beda09d8ae1253c7d3f.jpg"/></div>
+									<p class="tit">Egyptian reflects on first year as K-influencer for Korea.net</p>								
+								</a>
+								<p class="date">Yara Amin</p>
+							</div>
+						
+					
+					
+						
+												
+					</div>
+				</div>
+				<!-- //메인 섹션5(Honorary Reporters) -->
+
+				<!-- 메인 섹션6 -->
+				<div class="main-bottom-banner">				
+					
+					<div class="col-1-swiper">
+						<div class="swiper-wrapper">
+							
+								<div class="swiper-slide">
+									<a href="https://www.korea.net/Government/Current-Affairs/National-Affairs?affairId=2285" target="_self" title="President Yoon Suk Yeol">
+										<img src="/upload/main/news/image/21d83578b1b04d42b339daa5378f4232_20220509171801.jpg" alt="President Yoon Suk Yeol"/>
+									</a>
+								</div>
+							
+								<div class="swiper-slide">
+									<a href="https://www.korea.net/Government/Current-Affairs/National-Affairs?affairId=2247" target="_blank" title="Cheong Wa Dae: Back to the people">
+										<img src="/upload/main/news/image/b8f510a76e4049e6bfd6e3b7d12a24a1_20220412172832.jpg" alt="Cheong Wa Dae: Back to the people"/>
+									</a>
+								</div>
+							
+								<div class="swiper-slide">
+									<a href="https://www.korea.net/Government/Current-Affairs/National-Affairs?affairId=2229" target="_self" title="Gov't response to Japan's bid to get UNESCO status for Sado mines">
+										<img src="/upload/main/news/image/d994efe73a0d4225a29d894eb7cde594_20220214165434.jpg" alt="Gov't response to Japan's bid to get UNESCO status for Sado mines"/>
+									</a>
+								</div>
+								
+						</div>
+						<div class="swiper-pagination4"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+
+					
+					<div class="col-2-swiper">
+						<div class="swiper-wrapper">
+							
+								<div class="swiper-slide">
+									<a href="https://www.kocis.go.kr/eng/webzine/202205/index.html" target="_blank" title="Special Theme Waterworks">
+										<img src="/upload/banner/event/d34b30dfa6684fa69acd99e79863bdde_20220509134257.jpg" alt="Special Theme Waterworks" onclick="javascript:bannerClick(2098);"/>
+									</a>									
+								</div>
+							
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/user/GatewayToKorea/live" target="_blank" title="Korea.net Live Streaming">
+										<img src="/upload/banner/event/c9ab8b7082484a2982b60abd43cb7e2b_20220331130532.png" alt="Korea.net Live Streaming" onclick="javascript:bannerClick(2125);"/>
+									</a>									
+								</div>
+							
+								<div class="swiper-slide">
+									<a href="https://www.korea.net/TalkTalkKorea/English/community/community" target="_blank" title="Community  for  Honorary  reporters">
+										<img src="/upload/banner/event/d9d185135bf1470ca79322f9484c1e1c_20211219104434.png" alt="Community  for  Honorary  reporters" onclick="javascript:bannerClick(954);"/>
+									</a>									
+								</div>
+							
+								<div class="swiper-slide">
+									<a href="https://www.korea.net/Government/Current-Affairs/National-Affairs?affairId=83" target="_blank" title="Dokdo & East Sea">
+										<img src="/upload/banner/event/e873588dcdeb49858b4d7d3bacf63960_20211219104456.png" alt="Dokdo & East Sea" onclick="javascript:bannerClick(2135);"/>
+									</a>									
+								</div>
 							
 						</div>
+						<div class="swiper-pagination5"></div>
+					</div>
+				</div>
+				<!-- //메인 섹션6 -->
 
+				<!-- 메인 섹션7(Korea in photos) -->
+				<div class="outer-tit"><h2 class="tit">Korea in photos</h2></div>
+				<div class="k-photo-wrap">
+					<div class="photo-list">
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214585" title="">
+									<div class="img-wrap"><img src="/upload/content/image/6262acdb930e49329adae5c2835468b7_20220511170904.jpg" alt="/upload/content/image/6262acdb930e49329adae5c2835468b7_20220511170904.jpg" /></div>
+									<p class="tit">Water skiing on Hangang River</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214490" title="">
+									<div class="img-wrap"><img src="/upload/content/image/007fccd5ff50449582da28543a02b108_20220510135906.jpg" alt="/upload/content/image/007fccd5ff50449582da28543a02b108_20220510135906.jpg" /></div>
+									<p class="tit">Yoon Suk Yeol sworn in as Korea's new president</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214532" title="">
+									<div class="img-wrap"><img src="/upload/content/image/e0e4f63e641c4a979224ead05252fa0e_20220510165424.jpg" alt="/upload/content/image/e0e4f63e641c4a979224ead05252fa0e_20220510165424.jpg" /></div>
+									<p class="tit">President Yoon Suk Yeol inaugurated as nation's 20th leader</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214473" title="">
+									<div class="img-wrap"><img src="/upload/content/image/7b57dadc630f4d388c9a8b25377b5d47_20220509164451.jpg" alt="/upload/content/image/7b57dadc630f4d388c9a8b25377b5d47_20220509164451.jpg" /></div>
+									<p class="tit">Rehearsal for presidential inauguration ceremony</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214365" title="">
+									<div class="img-wrap"><img src="/upload/content/image/cc5a230d67f24200874a9692909f22eb_20220506104700.jpg" alt="/upload/content/image/cc5a230d67f24200874a9692909f22eb_20220506104700.jpg" /></div>
+									<p class="tit">Banner at Gov't Complex-Seoul announces Cheong Wa Dae's opening</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214335" title="">
+									<div class="img-wrap"><img src="/upload/content/image/c57dfa8a2ec3465fa4db982b67f373eb_20220504160221.jpg" alt="/upload/content/image/c57dfa8a2ec3465fa4db982b67f373eb_20220504160221.jpg" /></div>
+									<p class="tit">Chunhyang Festival honors spirit of traditional love story</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214217" title="">
+									<div class="img-wrap"><img src="/upload/content/image/fcb9d541a4174203bce90273fc13b50c_20220503164105.jpg" alt="/upload/content/image/fcb9d541a4174203bce90273fc13b50c_20220503164105.jpg" /></div>
+									<p class="tit">Best Warrior Competition of US Forces Korea</p>										
+								</a>
+							</div>							
+						
+							<div class="block swiper-slide">
+								<a href="/NewsFocus/Korea_in_photos/view?articleId=214147" title="">
+									<div class="img-wrap"><img src="/upload/content/image/94b72aa8e19f44d991fde9fced1ca583_20220502154819.jpg" alt="/upload/content/image/94b72aa8e19f44d991fde9fced1ca583_20220502154819.jpg" /></div>
+									<p class="tit">Light walk on first day after lifting of outdoor mask mandate</p>										
+								</a>
+							</div>							
+						
+					</div>
+					<div class="swiper-pagination6"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+				<!-- //메인 섹션7(Korea in photos) -->
+
+				<!-- 메인 섹션8(Government) -->
+				<div class="government-wrap">
+					<div class="block">
+						<h2 class="tit">
+							<!-- 2022.01.13 중국어 폰트 문제로 인해 임시 조치 -->
+							
+								
+								
+									Government <br class="only-pc"/>Policies
+								
+							
+						</h2>
+					</div>
+					<div class="block">
+						<ul class="gover-news-list">
+							
+								<li><a href="/Government/Current-Affairs/National-Affairs/view?affairId=882&subId=742&articleId=47692">A Government of the People</a></li>
+							
+								<li><a href="/Government/Current-Affairs/National-Affairs/view?affairId=882&subId=742&articleId=47691">An Economy Pursuing Mutual Prosperity</a></li>
+							
+								<li><a href="/Government/Current-Affairs/National-Affairs/view?affairId=882&subId=742&articleId=47690">A Nation Taking Responsibility for Each Individual</a></li>
+							
+								<li><a href="/Government/Current-Affairs/National-Affairs/view?affairId=882&subId=742&articleId=47689">A Peaceful and Prosperous Korean Peninsula</a></li>
+							
+						</ul>
+					</div>
+					
+						<div class="block">
+							<p class="tit">Cheong Wa Dae</p>
+							<a href="http://www.korea.net/Government/Briefing-Room/Presidential-Speeches/view?articleId=214422">							
+								<p class="txt">Opening Remarks by President Moon Jae-in at 20th Cabinet Meeting</p>
+							</a>
+						</div>
+					
+						<div class="block">
+							<p class="tit">Cheong Wa Dae</p>
+							<a href="http://www.korea.net/Government/Briefing-Room/Presidential-Speeches/view?articleId=214267">							
+								<p class="txt">Keynote Address by President Moon Jae-in at 15th World Forestry Congress</p>
+							</a>
+						</div>
+					
+				</div>
+				<!-- //메인 섹션8(Government) -->
+
+				<!-- 메인 섹션9(Opinion,Events,Overseas) -->
+				<div class="others-wrap">
+					<div class="left-cont-wrap">
+						
+						<div class="opinion-wrap">
+							<h2 class="tit">
+								<a href="/NewsFocus/Opinion">
+									Opinion
+								</a>
+							</h2>
+							<div class="opinion-list">
+								<div class="swiper-wrapper">
+									
+										
+											<div class="block swiper-slide">											
+												<div class="prof">
+													<img src="/upload/content/image/c9bdc84bc33341d2b33ea845b04114f2_20220302094239.jpg" alt="/upload/content/image/c9bdc84bc33341d2b33ea845b04114f2_20220302094239.jpg"  style="width:60px;height:60px;"/>
+												</div>
+												<p class="tit">Mark Peterson</p>
+												<p class="tit-sub">Professor emeritus at Brigham Young University</p>
+												<a href="/NewsFocus/Opinion/view?articleId=211271&pageIndex=1">	
+													<p class="txt">The Sado Island gold mines and UNESCO: Here we go again</p>
+												</a>
+											</div>
+										
+									
+										
+											<div class="block swiper-slide">											
+												<div class="prof">
+													<img src="/upload/content/image/46ca219dfdc2459681daf5b0d22ca112_20220303091452.jpg" alt="/upload/content/image/46ca219dfdc2459681daf5b0d22ca112_20220303091452.jpg"  style="width:60px;height:60px;"/>
+												</div>
+												<p class="tit">Vitali V. Fen</p>
+												<p class="tit-sub">Uzbek Ambassador to Korea</p>
+												<a href="/NewsFocus/Opinion/view?articleId=210429&pageIndex=1">	
+													<p class="txt">Endless opportunities await ahead of 30th anniversary of Korea-Uzbekistan ties</p>
+												</a>
+											</div>
+										
+									
+										
+											<div class="block swiper-slide">											
+												<div class="prof">
+													<img src="/upload/content/image/c7aa85c1a9d14e8fa9d443e25ffb1361_20211215081705.JPG" alt="/upload/content/image/c7aa85c1a9d14e8fa9d443e25ffb1361_20211215081705.JPG"  style="width:60px;height:60px;"/>
+												</div>
+												<p class="tit">Ophelie Surcouf</p>
+												<p class="tit-sub">Freelance journalist from France</p>
+												<a href="/NewsFocus/Opinion/view?articleId=207929&pageIndex=1">	
+													<p class="txt">Four secrets behind Hallyu's record-breaking march</p>
+												</a>
+											</div>
+										
+									
+										
+									
+										
+									
+								</div>
+								<div class="swiper-pagination7"></div>
+							</div>
+						</div>
+						
+						
+						
+						<div class="events-wrap">
+							<h2 class="tit">
+								<a href="/Events/Festivals">
+									Events
+								</a>
+							</h2>
+							<div class="event-scroll">
+								<div class="scroll-wrap">
+									
+										<div class="block">
+											
+												
+												<a href="/Events/Exhibitions/view?articleId=12140&pageIndex=1">
+												
+																						
+												<div class="img-wrap">
+													<img src="/upload/content/image/e25cc951a01f493aabc2d6ad3aa97321_20220509154801.jpg" alt="crop_NFM.jpg" />
+												</div>
+												<p class="tit">Aztecs</p>
+											</a>
+											<p class="date">May 03, 2022 ~ Aug 28, 2022</p>
+										</div>
+									
+										<div class="block">
+											
+												<a href="/Events/Festivals/view?articleId=12129&pageIndex=1">
+												
+												
+																						
+												<div class="img-wrap">
+													<img src="/upload/content/image/0c103cd9b45a434a86be56732d6eb385_20220509152135.jpg" alt="crop_석조전.jpg" />
+												</div>
+												<p class="tit">'Night at Seokjojeon Hall'</p>
+											</a>
+											<p class="date">May 03, 2022 ~ Jun 12, 2022</p>
+										</div>
+									
+										<div class="block">
+											
+												<a href="/Events/Festivals/view?articleId=12102&pageIndex=1">
+												
+												
+																						
+												<div class="img-wrap">
+													<img src="/upload/content/image/e378fad85f414376b90fbe65d0283ec6_20220509150301.jpg" alt="crop_rose.jpg" />
+												</div>
+												<p class="tit">Seoul Rose Festival</p>
+											</a>
+											<p class="date">May 02, 2022 ~ May 22, 2022</p>
+										</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="oversea-wrap">
+						<h2 class="tit">
+							<a href="/Events/Overseas">
+								Overseas
+							</a>
+						</h2>
+						<div class="oversea-list">
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+																				
+										<img src="/renewal2021/images/national_flag/flag/hongkong.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060123"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">Hong Kong</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14219');">													
+										<p class="txt">[Event] Quiz-On Korea 2022 Hong Kong Primaries 4th Round Winner Announcement</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/southafrica.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060113"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">South Africa</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14207');">													
+										<p class="txt">Yoon signals tougher line on the North</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/thailand.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060119"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">Thailand</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14203');">													
+										<p class="txt">Result of 2022 Quiz On Korea (Thailand's Southern Regional Qualifiers)</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/indonesia.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060115"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">Indonesia</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14199');">													
+										<p class="txt">'Let's Kimchi' Event with Local Journalist</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/philippines.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060106"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">Philippines</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14198');">													
+										<p class="txt">[Manila Times] DA, Kopia eye better agricultural ties</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/poland.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060125"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">Poland</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14192');">													
+										<p class="txt">Korean Language Card – (08) Verbs (Homophones)</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/australia.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060104"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">Sydney</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14174');">													
+										<p class="txt">2022 K-Pop Cover Dance Festival in Sydney</p>	
+									</a>														
+								</div>
+							
+								<div class="block">
+									<div class="flag">
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+											
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+																				
+										<img src="/renewal2021/images/national_flag/flag/india.png" onerror="this.onerror=null; this.src='/images/common/koreanet_img.gif';" alt="A060110"  style="width:48px;height:48px;">
+									</div>
+									<p class="tit">India</p>
+									<a href="javascript:void(0)" onclick="fnMove('/english/Events/Overseas/view?articleId=14150');">													
+										<p class="txt">Korean Film Screening at the Habitat International Film Festival!</p>	
+									</a>														
+								</div>
+							
+						</div>
 					</div>
 					
 				</div>
-				<!--// contents -->
-
-				<!-- quick-menu -->
+				<!-- 메인 섹션9(Opinion,Events,Overseas) -->
+			</div>				
+			<!--// contents -->
+			<div class="inner">
+				
 				
 
 
@@ -14791,11 +15074,11 @@ function searchKeyword( searchWord ){
 		<li><a href="#"><i class="iconset ico-top"></i></a></li>
 	</ul>
 </div>
-				<!--// quick-menu -->
+				
 			</div>
 		</div>
 		
-		<!-- footer -->
+		
 		
 <!-- footer -->
 <div id="footer">
@@ -14878,10 +15161,43 @@ function searchKeyword( searchWord ){
 	</div>
 </div>
 <!--// footer -->
-<input type="hidden" id="urlCopy" value="https://www.korea.net/Government/Administration/Cabinet"/>
+<input type="hidden" id="urlCopy" value=""/>
 <script type="text/javascript" src="/js/1158_Insight_WebAnalytics.js"></script>
-		<!--// footer -->
+		
 	</div>
 	
+
+	<script>
+	//Overseas 클릭시 페이지 이동
+	function fnMove(link){
+		var lang = 'english';
+		var url = link;
+		url = url.replace('/english','');
+		
+		location.href=url;
+	}	
+	
+	//메인 섹션-1-left에서 제목이 클릭된경우
+	function sliderlink(act, type, idx){
+		var get_value = $("#"+act+"_"+type+"_"+idx).val();
+		if(get_value != ""){
+			var browse = navigator.userAgent.toLowerCase();
+			/* if(sbval == 'youtu.be'){ */
+			if(get_value.indexOf('youtu') != -1){
+				if((navigator.appName == 'Netscape'&& browse.indexOf('trident')!= -1) || (browse.indexOf('msie')!= -1)){
+					//window.open('https://www.youtube.com/user/GatewayToKorea');
+					window.open(get_value);
+				}else{
+					window.open(get_value);
+				}
+			}else{
+				location.href = get_value;
+			}
+		}
+	}
+	
+	$(document).ready(function() {	
+	});
+	</script>
 </body>
 </html>
