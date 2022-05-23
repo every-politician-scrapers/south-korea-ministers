@@ -19,6 +19,10 @@ class MemberList
     def member_container
       noko.css('.person-list .person-detail')
     end
+
+    def member_items
+      super.reject { |mem| mem.name.to_s.empty? }
+    end
   end
 end
 
