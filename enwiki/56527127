@@ -2,11 +2,14 @@
   "name": "Yoo Nam-seok",
   "native_name": "유남석",
   "native_name_lang": "ko",
-  "office": "7th President of the Constitutional Court of Korea",
-  "term_start": "21 September 2018",
-  "appointer": "Moon Jae-in",
-  "predecessor": "Lee Jin-sung",
   "birth_date": "May 1, 1957",
   "birth_place": "Mokpo, South Jeolla Province, South Korea",
-  "alma_mater": "Seoul National University (LL.M.)"
+  "alma_mater": "Seoul National University (LL.M.)",
+  "office1": "Justice of the Constitutional Court of Korea",
+  "term_start1": "November 2017",
+  "term_end1": "September 2018",
+  "office2": "7th President of the Constitutional Court of Korea",
+  "term_start2": "21 September 2018",
+  "appointer2": "Moon Jae-in",
+  "predecessor2": "Lee Jin-sung"
 }
