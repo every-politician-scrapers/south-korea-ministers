@@ -1,61 +1,45 @@
 #!/bin/env ruby
 # frozen_string_literal: true
 
-require 'csv'
+require 'every_politician_scraper/scraper_data'
 require 'pry'
-require 'scraped'
-# require 'wikidata_ids_decorator'
 
-require 'open-uri/cached'
+class MemberList
+  class Members
+    decorator RemoveReferences
+    decorator UnspanAllTables
+    # decorator WikidataIdsDecorator::Links
 
-class RemoveReferences < Scraped::Response::Decorator
-  def body
-    Nokogiri::HTML(super).tap do |doc|
-      doc.css('sup.reference').remove
-    end.to_s
-  end
-end
-
-class MinistersList < Scraped::HTML
-  decorator RemoveReferences
-  # decorator WikidataIdsDecorator::Links
-
-  field :officeholders do
-    member_entries.map { |ul| fragment(ul => Officeholder).to_h }
+    def member_container
+      noko.xpath('//h2[contains(.,"Attendees")]/following::table[1]//tr[td]')
+    end
   end
 
-  private
+  class Member
+    field :name do
+      tds[2].text.tidy
+    end
 
-  def member_entries
-    table.flat_map { |table| table.xpath('.//tr[td]') }
-  end
+    field :position do
+      tds[0].text.tidy
+    end
 
-  def table
-    noko.xpath('//h2[contains(.,"Attendees")]/following::table[.//th[contains(.,"Portfolio")]]')
-  end
-end
+    field :began do
+      tds[3].text.tidy
+    end
 
-class Officeholder < Scraped::HTML
-  field :office do
-    tds[0].text.tidy
-  end
+    field :ended do
+      tds[4].text.tidy
+    end
 
-  field :person do
-    tds[1].text.tidy
-  end
+    private
 
-  private
-
-  def tds
-    noko.css('td')
+    def tds
+      noko.css('td')
+    end
   end
 end
 
 url = 'https://en.wikipedia.org/wiki/Cabinet_of_Moon_Jae-in'
-data = MinistersList.new(response: Scraped::Request.new(url: url).response).officeholders
+puts EveryPoliticianScraper::ScraperData.new(url).csv
 
-header = data.first.keys.to_csv
-rows = data.map { |row| row.values.to_csv }
-abort 'No results' if rows.count.zero?
-
-puts header + rows.join
