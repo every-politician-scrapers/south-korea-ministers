@@ -28,12 +28,12 @@ class OfficeholderList < OfficeholderListBase
       Korean
     end
 
-    def empty?
-      tds[3].nil?
-    end
-
     def combo_date
       raw_combo_date.tidy.split('~')
+    end
+
+    def name_node
+      name_cell.css('a').first
     end
   end
 end
