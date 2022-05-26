@@ -29,8 +29,8 @@ class OfficeholderList < OfficeholderListBase
       raw_combo_date.tidy.split('~')
     end
 
-    def empty?
-      tds[2].nil?
+    def ignore_before
+      1999
     end
 
     def date_class
