@@ -1,14 +1,39 @@
-office,person
-President's Chief of Staff,You Young-min
-Director of National Security Office,Suh Hoon
-Chief Presidential Secretary for Policy,Lee Ho-seung
-Minister for Government Policy Coordination,Koo Yun-cheol
-Minister of Patriots and Veterans Affairs,Hwang Ki-chul
-Minister of Personnel Management,Hwang Seo-chong
-Minister of Government Legislation,Lee Kang-seop
-Minister of Food and Drug Safety,Kim Ganglip
-Chairperson of Korea Fair Trade Commission,Joh Sung-wook
-Chairperson of Financial Services Commission,Koh Seungbeom
-"Vice Minister for Science, Technology and Innovation",Kim Sung-soo
-Minister for Trade,Yeo Han-koo
-Mayor of Seoul,Oh Se-hoon
+name,began,ended,position
+Im Jong-seok,10 May 2017,8 January 2019,President's Chief of Staff
+Noh Young-min,9 January 2019,31 December 2020,President's Chief of Staff
+You Young-min,1 January 2021,9 May 2022,President's Chief of Staff
+Chung Eui-yong,21 May 2017,2 July 2020,Director of National Security Office
+Suh Hoon,3 July 2020,9 May 2022,Director of National Security Office
+Jang Ha-sung,21 May 2017,9 November 2018,Chief Presidential Secretary for Policy
+Kim Soo-hyun,10 November 2018,21 June 2019,Chief Presidential Secretary for Policy
+Kim Sang-jo,21 June 2019,29 March 2021,Chief Presidential Secretary for Policy
+Lee Ho-seung,29 March 2021,9 May 2022,Chief Presidential Secretary for Policy
+Hong Nam-ki,11 May 2017,9 November 2018,Minister for Government Policy Coordination
+Noh Hyeong-ouk,9 November 2018,8 May 2022,Minister for Government Policy Coordination
+Koo Yun-cheol,9 May 2020,Incumbent,Minister for Government Policy Coordination
+Pi Woo-jin,17 May 2017,14 August 2019,Minister of Patriots and Veterans Affairs
+Park Sam-duck,16 August 2019,30 December 2020,Minister of Patriots and Veterans Affairs
+Hwang Ki-chul,31 December 2020,12 May 2022,Minister of Patriots and Veterans Affairs
+Kim Pan-seok,13 July 2017,14 December 2018,Minister of Personnel Management
+Hwang Seo-chong,14 December 2018,26 March 2021,Minister of Personnel Management
+Kim Woo-ho,27 March 2021,13 May 2022,Minister of Personnel Management
+Kim Oe-sook,12 June 2017,27 May 2019,Minister of Government Legislation
+Kim Hyung-yeon,28 May 2019,14 August 2020,Minister of Government Legislation
+Lee Kang-seop,15 August 2020,13 May 2022,Minister of Government Legislation
+Ryu Youngjin,13 July 2017,7 March 2019,Minister of Food and Drug Safety
+Lee Eui-kyung,8 March 2019,1 November 2020,Minister of Food and Drug Safety
+Kim Ganglip,2 November 2020,26 May 2022,Minister of Food and Drug Safety
+Kim Sang-jo,13 June 2017,21 June 2019,Chairperson of Korea Fair Trade Commission
+Joh Sung-wook,9 September 2019,Incumbent,Chairperson of Korea Fair Trade Commission
+Choi Jong-gu,19 July 2017,8 September 2019,Chairperson of Financial Services Commission
+Eun Seong-soo,9 September 2019,30 August 2021,Chairperson of Financial Services Commission
+Koh Seungbeom,31 August 2021,Incumbent,Chairperson of Financial Services Commission
+Park Gi-young,7 August 2017,11 August 2017,"Vice Minister for Science, Technology and Innovation"
+Lim Dae-sik,31 August 2017,23 May 2019,"Vice Minister for Science, Technology and Innovation"
+Kim Sung-soo,23 May 2019,14 June 2021,"Vice Minister for Science, Technology and Innovation"
+Lee Gyung-su,14 June 2021,13 May 2022,"Vice Minister for Science, Technology and Innovation"
+Kim Hyun-jong,31 July 2017,27 February 2019,Minister for Trade
+Yoo Myung-hee,28 February 2019,6 August 2021,Minister for Trade
+Yeo Han-koo,9 August 2021,9 May 2022,Minister for Trade
+27 October 2011,9 July 2020,"",Mayor of Seoul
+8 April 2021,Incumbent,"",Mayor of Seoul
