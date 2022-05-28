@@ -6,6 +6,8 @@ require 'pry'
 
 class Korean < WikipediaDate
   def to_s
+    return if date_str.to_s.empty?
+
     date_str.gsub('일','').split(/[년월]/).map { |num| num.tidy.rjust(2, "0") }.join('-')
   end
 end
@@ -29,7 +31,7 @@ class OfficeholderList < OfficeholderListBase
     end
 
     def combo_date
-      raw_combo_date.tidy.split('~')
+      (raw_combo_date.tidy.split('~') + ['']).take(2)
     end
 
     def name_node
