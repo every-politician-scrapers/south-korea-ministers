@@ -4,7 +4,6 @@
 require 'every_politician_scraper/scraper_data'
 require 'pry'
 
-
 class Korean < WikipediaDate
   def to_s
     date_str.gsub('일','').split(/[년월]/).map { |num| num.tidy.rjust(2, "0") }.join('-')
@@ -27,10 +26,6 @@ class OfficeholderList < OfficeholderListBase
 
     def combo_date
       raw_combo_date.tidy.split('~')
-    end
-
-    def ignore_before
-      1999
     end
 
     def date_class
