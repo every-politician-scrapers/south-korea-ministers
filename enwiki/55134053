@@ -9,10 +9,11 @@
   "honorific_suffix": "CBE",
   "office": "38th Minister of Foreign Affairs",
   "president": "Yoon Suk-yeol",
+  "primeminister": "Han Duck-soo",
   "term_start": "12 May 2022",
   "predecessor": "Chung Eui-yong",
   "office1": "Member of the National Assembly",
-  "termstart1": "30 May 2020",
+  "term_start1": "30 May 2020",
   "predecessor1": "Jeon Hyun-hee",
   "constituency1": "Gangnam B",
   "term_start2": "9 August 2002",
@@ -28,5 +29,4 @@
   "branch": "Republic of Korea Navy",
   "serviceyears": "1980–1983",
   "rank": "SouthKorea-Navy-OF-1b.svg Lieutenant JG (Korean: Jungwi)",
-  "primeminister": "Kim Boo-kyum"
 }
