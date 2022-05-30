@@ -25,7 +25,7 @@ class OfficeholderList < OfficeholderListBase
     end
 
     def combo_date
-      raw_combo_date.tidy.split('~')
+      (raw_combo_date.tidy.split('~') + ['']).take(2)
     end
 
     def date_class
