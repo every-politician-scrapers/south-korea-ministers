@@ -6,7 +6,8 @@ require 'every_politician_scraper/comparison'
 # Not listed on the site
 SKIP = [
   ['---', 'Moon Jae-in',   'president of South Korea'],
-  ['---', 'Yoon Suk-yeol', 'president of South Korea']
+  ['---', 'Yoon Suk-yeol', 'president of South Korea'],
+  ['---', 'Yoon Suk-yeol', 'President of South Korea'],
 ].freeze
 
 diff = EveryPoliticianScraper::NulllessComparison.new('wikidata.csv', 'scraped.csv').diff
