@@ -1,12 +1,13 @@
 {
   "child": "yes",
   "rr": "Yun Seok-yeol",
-  "mr": "Yun Sŏngnyŏl"
+  "mr": "Yun Sŏgyŏl / Yun Sŏngnyŏl"
 }
 {
   "honorific-prefix": "His Excellency",
   "name": "Yoon Suk-yeol",
-  "native_name": "尹錫悅\n윤석열",
+  "native_name": "윤석열",
+  "native_name_lang": "ko-Hang-KR",
   "office": "13th President of South Korea",
   "primeminister": "Han Duck-soo",
   "term_start": "10 May 2022",
@@ -24,7 +25,7 @@
   "party": "People Power (2021–present)",
   "blank1": "Religion",
   "data1": "Catholicism (Christian name: Ambrose)",
-  "spouse": "Kim Kun-hee (m. 2012)",
+  "spouse": "Kim Keon-hee (m. 2012)",
   "father": "Yoon Ki-jung",
   "mother": "Choi Jeong-ja",
   "alma_mater": "Seoul National University (LLB, LLM)",
