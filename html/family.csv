@@ -1,7 +1,10 @@
 id,name,relationship,relative,relativename
 Q107443498,Choi Jae-hyung,father,Q16092163,Yohann Tschoi
+Q107805133,Kim Keon-hee,spouse,Q16090635,Yoon Suk-yeol
 Q10855915,Kim Han-gil,spouse,Q16177000,Lee Min-ah
 Q10855915,Kim Han-gil,spouse,Q623856,Choi Myung-gil
+Q11267083,Lee Hui-ho,child,Q12589320,Kim Hong-gul
+Q11267083,Lee Hui-ho,spouse,Q45785,Kim Dae-jung
 Q11464859,Yoon Mee-hyang,spouse,Q56256518,Kim Sam-seok
 Q12587534,Kim Boo-kyum,child,Q12610323,윤세인
 Q12587534,Kim Boo-kyum,relative,Q11266353,Lee Young-hoon
@@ -71,6 +74,9 @@ Q24000620,Park Kyung-mee,spouse,Q42326418,Heejoon Myung
 Q24000773,Chang Jung-sook,father,Q12614608,장영순
 Q24856148,Oh Se-jung,spouse,Q61716898,홍난실
 Q2947463,In Jae-keun,spouse,Q485574,Kim Geun-tae
+Q29881198,Kim Jung-sook,child,Q74499817,Moon Joon Yong
+Q29881198,Kim Jung-sook,child,Q74500749,Moon Da-hye
+Q29881198,Kim Jung-sook,spouse,Q21001,Moon Jae-in
 Q31178499,Oh Yeong-hwan,spouse,Q578141,Jain Kim
 Q356675,Han Seung-soo,child,Q56833518,Han Sang-jun
 Q356675,Han Seung-soo,spouse,Q56833272,Hong So-ja
@@ -80,6 +86,9 @@ Q45785,Kim Dae-jung,child,Q12589333,Kim Hong-il
 Q45785,Kim Dae-jung,father,Q57312654,Kim Won Sik
 Q45785,Kim Dae-jung,spouse,Q11267083,Lee Hui-ho
 Q45785,Kim Dae-jung,spouse,Q12618516,Cha Yong-ae
+Q482738,Kwon Yang-sook,father,Q16168020,권오석
+Q482738,Kwon Yang-sook,mother,Q16181683,박덕남
+Q482738,Kwon Yang-sook,spouse,Q14345,Roh Moo-hyun
 Q485574,Kim Geun-tae,spouse,Q2947463,In Jae-keun
 Q490114,Chung Mong-joon,child,Q55734052,Chung Kisun
 Q490114,Chung Mong-joon,father,Q468467,Jeong Ju-yung
@@ -93,6 +102,8 @@ Q496509,Lee Hoi-chang,father,Q16091306,I Hong-gyu
 Q496509,Lee Hoi-chang,mother,Q56804778,Kim Sa-sun
 Q496509,Lee Hoi-chang,sibling,Q21074800,Hoesung Lee
 Q496509,Lee Hoi-chang,spouse,Q56804591,Han In-ok
+Q496572,Kim Yoon-ok,child,Q56806003,I Su-yeon
+Q496572,Kim Yoon-ok,spouse,Q14342,Lee Myung-bak
 Q55728795,Roh Tae-ak,sibling,Q31178702,노태강
 Q5894111,Hong Jung-wook,father,Q6961101,Namkoong Won
 Q5894111,Hong Jung-wook,spouse,Q56434662,손정희
