@@ -8,11 +8,13 @@
   "name": "Kwon Young-se",
   "honorific_suffix": "MP",
   "birth_date": "February 24, 1959",
-  "nationality": "South Korean",
   "birth_place": "Seoul, South Korea",
   "native_name": "권영세",
+  "party": "People Power Party",
+  "alma_mater": "Seoul National University\nHarvard University",
   "office": "Minister of Unification",
   "president": "Yoon Suk-yeol",
+  "primeminister": "Han Duck-soo",
   "term_start": "13 May 2022",
   "predecessor": "Lee In-young",
   "office1": "Member of the National Assembly",
@@ -29,6 +31,5 @@
   "term_start3": "1 June 2013",
   "term_end3": "26 March 2015",
   "predecessor3": "Lee Kyu-hyung",
-  "successor3": "Kim Jang-soo",
-  "party": "People Power Party"
+  "successor3": "Kim Jang-soo"
 }
