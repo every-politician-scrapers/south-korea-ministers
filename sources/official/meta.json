@@ -8,13 +8,16 @@
       "start": "2022-05-10",
       "parent": "Q12585780"
     },
-    "source": {
-        "url":   "https://www.korea.net/Government/Administration/Cabinet",
-        "title": "Cabinet : Korea.net : The official website of the Republic of Korea",
-        "lang":  {
-            "code": "en",
-            "wikidata": "Q1860"
+    "reference": {
+        "P854":   "https://www.korea.net/Government/Administration/Cabinet",
+        "P1476": {
+            "text": "Cabinet : Korea.net : The official website of the Republic of Korea",
+            "language": "en"
         }
     },
-    "agent": "every-politican-scrapers/south-korea-ministers"
+    "current_only": "true",
+    "lang": "en",
+    "person_description": {
+        "en": "Korean politician"
+    }
 }
