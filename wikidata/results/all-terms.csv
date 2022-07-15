@@ -1,0 +1,21 @@
+ordinal,item,itemLabel,start,end,inception,inceptionPrecision,startTime,startTimePrecision,abolished,abolishedPrecision,endTime,endTimePrecision,replaces,replacesLabel,replacedBy,replacedByLabel,follows,followsLabel,followedBy,followedByLabel
+1,Q11233060,1st Legislative Assembly,,,,,,,,,,,,,,,,,Q16173123,2nd Legislative Assembly
+10,Q12592115,10th Legislative Assembly,,,,,,,,,,,,,,,Q16219525,9th Legislative Assembly,Q16172195,11th Legislative Assembly
+12,Q12592122,12th Legislative Assembly,,,,,,,,,,,,,,,Q16172195,11th Legislative Assembly,Q16172241,13th Legislative Assembly
+3,Q12592187,3rd Legislative Assembly,,,,,,,,,,,,,,,Q16173123,2nd Legislative Assembly,Q16173231,4th Legislative Assembly
+5,Q12592194,5th Legislative Assembly,,,,,,,,,,,,,,,Q16173231,4th Legislative Assembly,Q16173351,6th Legislative Assembly
+7,Q12592209,7th Legislative Assembly,,,,,,,,,,,,,,,Q16173351,6th Legislative Assembly,Q16173485,8th Legislative Assembly
+11,Q16172195,11th Legislative Assembly,,,,,,,,,,,,,,,Q12592115,10th Legislative Assembly,Q12592122,12th Legislative Assembly
+2,Q16173123,2nd Legislative Assembly,,,,,,,,,,,,,,,Q11233060,1st Legislative Assembly,Q12592187,3rd Legislative Assembly
+4,Q16173231,4th Legislative Assembly,,,,,,,,,,,,,,,Q12592187,3rd Legislative Assembly,Q12592194,5th Legislative Assembly
+6,Q16173351,6th Legislative Assembly,,,,,,,,,,,,,,,Q12592194,5th Legislative Assembly,Q12592209,7th Legislative Assembly
+8,Q16173485,8th Legislative Assembly,,,,,,,,,,,,,,,Q12592209,7th Legislative Assembly,Q16219525,9th Legislative Assembly
+9,Q16219525,9th Legislative Assembly,,,,,,,,,,,,,,,Q16173485,8th Legislative Assembly,Q12592115,10th Legislative Assembly
+13,Q16172241,13th Legislative Assembly,1988-05-30,1992-05-29,1988-05-30,11,,,1992-05-29,11,,,,,,,Q12592122,12th Legislative Assembly,Q12592135,14th Legislative Assembly
+14,Q12592135,14th Legislative Assembly,1992-05-30,1996-05-29,1992-05-30,11,,,1996-05-29,11,,,,,,,Q16172241,13th Legislative Assembly,Q16219527,15th Legislative Assembly
+15,Q16219527,15th Legislative Assembly,1996-05-30,2000-05-29,1996-05-30,11,,,2000-05-29,11,,,,,,,Q12592135,14th Legislative Assembly,Q12592148,16th Legislative Assembly
+16,Q12592148,16th Legislative Assembly,2000-05-30,2004-05-29,2000-05-30,11,,,2004-05-29,11,,,,,,,Q16219527,15th Legislative Assembly,Q12592151,17th Legislative Assembly
+17,Q12592151,17th Legislative Assembly,2004-05-30,2008-05-29,2004-05-30,11,,,2008-05-29,11,,,,,,,Q12592148,16th Legislative Assembly,Q16172903,18th Legislative Assembly
+18,Q16172903,18th Legislative Assembly,2008-05-30,2012-05-29,,,2008-05-30,11,,,2012-05-29,11,,,,,Q12592151,17th Legislative Assembly,Q12592166,19th Legislative Assembly
+19,Q12592166,19th Legislative Assembly,2012-05-30,2016-05-29,,,2012-05-30,11,,,2016-05-29,11,,,,,Q16172903,18th Legislative Assembly,Q22971549,20th Legislative Assembly
+20,Q22971549,20th Legislative Assembly,2016-05-30,2020-05-29,,,2016-05-30,11,,,2020-05-29,11,,,,,Q12592166,19th Legislative Assembly,Q90759969,21st Legislative Assembly of South Korea
