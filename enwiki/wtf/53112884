@@ -1,0 +1,224 @@
+{
+  "title": "Lee Choon-hee",
+  "pageID": 53112884,
+  "categories": [
+    "1955 births",
+    "Living people",
+    "Mayors of places in South Korea",
+    "Government ministers of South Korea",
+    "Minjoo Party of Korea politicians"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Lee Choon-hee (born 6 December 1955) is the mayor of Sejong City, South Korea.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Sejong City"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Lee Choon-hee"
+                ]
+              }
+            },
+            {
+              "text": "Previously, during the presidency of Roh Moo-Hyun, he was Vice Minister of the Ministry of Land, Infrastructure and Transport.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Roh Moo-Hyun"
+                },
+                {
+                  "text": "Ministry of Land, Infrastructure and Transport",
+                  "type": "internal",
+                  "page": "Ministry of Land, Infrastructure and Transport (South Korea)"
+                }
+              ]
+            },
+            {
+              "text": "He later moved on to become the first administrator of the National Agency for Administrative City Construction that oversaw the planning and construction of Sejong City.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "National Agency for Administrative City Construction"
+                }
+              ]
+            },
+            {
+              "text": "In his second attempt, he won the election and became Mayor of Sejong City in 2014.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Sejong City"
+                }
+              ]
+            },
+            {
+              "text": "He won the 2018 Mayoral election with 71.3% of the votes to serve his second term as Mayor of Sejong City."
+            },
+            {
+              "text": "Back in 1986-87 when he was with the Ministry of Construction, he attended a one-year non-degree Special Program in Urban Studies (SPURS) at the Department of Urban Studies and Planning (DUSP), Massachusetts Institute of Technology (MIT)."
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "list": [
+            "Lee",
+            ""
+          ],
+          "lang": "Korean",
+          "template": "family name hatnote"
+        },
+        {
+          "year": "1955",
+          "month": "12",
+          "day": "6",
+          "df": "y",
+          "template": "birth date and age"
+        },
+        {
+          "hangul": "이춘희",
+          "hanja": "李春熙",
+          "template": "korean"
+        }
+      ],
+      "infoboxes": [
+        {
+          "name": {
+            "text": "Lee Choon-hee"
+          },
+          "native_name": {
+            "text": "이춘희"
+          },
+          "image": {
+            "text": "이춘희 세종시장.jpg"
+          },
+          "office": {
+            "text": "Mayor of Sejong City",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Mayor of Sejong City"
+              }
+            ]
+          },
+          "term_start": {
+            "text": "1 July 2014"
+          },
+          "predecessor": {
+            "text": "Yoo Han-shik",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Yoo Han-shik"
+              }
+            ]
+          },
+          "birth_date": {
+            "text": "December 6, 1955"
+          },
+          "birth_place": {
+            "text": "Gochang, North Jeolla Province, South Korea",
+            "links": [
+              {
+                "text": "Gochang",
+                "type": "internal",
+                "page": "Gochang County"
+              },
+              {
+                "type": "internal",
+                "page": "North Jeolla Province"
+              },
+              {
+                "type": "internal",
+                "page": "South Korea"
+              }
+            ]
+          },
+          "alma_mater": {
+            "text": "Hanyang University Korea University Seoul National University",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Hanyang University"
+              },
+              {
+                "type": "internal",
+                "page": "Korea University"
+              },
+              {
+                "type": "internal",
+                "page": "Seoul National University"
+              }
+            ]
+          },
+          "party": {
+            "text": "Democratic",
+            "links": [
+              {
+                "text": "Democratic",
+                "type": "internal",
+                "page": "Democratic Party of Korea"
+              }
+            ]
+          },
+          "blank1": {
+            "text": "Religion"
+          },
+          "data1": {
+            "text": "Roman Catholic\n(Christian name : Francis Xavier)",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Roman Catholic"
+              },
+              {
+                "type": "internal",
+                "page": "Christian name"
+              }
+            ]
+          }
+        }
+      ],
+      "references": [
+        {
+          "url": "http://www.sejong.go.kr/eng/sub01_01.do",
+          "title": "Greetings from the Mayor > Happy City Sejong",
+          "last": "세종특별자치시청",
+          "work": "sejong.go.kr",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "http://www.gaok.or.kr/global/main/contents.do?menuNo=300027",
+          "title": "전국시도지사협의회",
+          "work": "gaok.or.kr",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        },
+        {
+          "template": "southkorea-mayor-stub"
+        }
+      ]
+    }
+  ]
+}
