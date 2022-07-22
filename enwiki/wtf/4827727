@@ -23,7 +23,7 @@
         {
           "sentences": [
             {
-              "text": "Han Deok-soo (born 18 June 1949) is a South Korean politician currently serving as the 44th Prime Minister of South Korea from May 2022.",
+              "text": "Han Duck-soo (born 18 June 1949) is a South Korean politician currently serving as the 44th Prime Minister of South Korea from May 2022.",
               "links": [
                 {
                   "text": "South Korean",
@@ -37,7 +37,7 @@
               ],
               "formatting": {
                 "bold": [
-                  "Han Deok-soo"
+                  "Han Duck-soo"
                 ]
               }
             },
@@ -152,7 +152,7 @@
             ]
           },
           "name": {
-            "text": "Han Deok-soo"
+            "text": "Han Duck-soo"
           },
           "native_name": {
             "text": "한덕수"
@@ -185,15 +185,11 @@
             "text": "21 May 2022"
           },
           "predecessor": {
-            "text": "Kim Boo-kyum\nChoo Kyung-ho (acting)",
+            "text": "Kim Boo-kyum",
             "links": [
               {
                 "type": "internal",
                 "page": "Kim Boo-kyum"
-              },
-              {
-                "type": "internal",
-                "page": "Choo Kyung-ho"
               }
             ]
           },
@@ -234,43 +230,7 @@
               }
             ]
           },
-          "president2": {
-            "text": "Roh Moo-hyun",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Roh Moo-hyun"
-              }
-            ]
-          },
-          "term_label2": {
-            "text": "Acting"
-          },
-          "term_start2": {
-            "text": "14 March 2006"
-          },
-          "term_end2": {
-            "text": "19 April 2006"
-          },
-          "predecessor2": {
-            "text": "Lee Hae-chan",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Lee Hae-chan"
-              }
-            ]
-          },
-          "successor2": {
-            "text": "Han Myeong-sook",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Han Myeong-sook"
-              }
-            ]
-          },
-          "office3": {
+          "office2": {
             "text": "South Korean Ambassador to the United States",
             "links": [
               {
@@ -280,7 +240,7 @@
               }
             ]
           },
-          "president3": {
+          "president2": {
             "text": "Lee Myung-bak",
             "links": [
               {
@@ -289,13 +249,13 @@
               }
             ]
           },
-          "term_start3": {
+          "term_start2": {
             "text": "9 March 2009"
           },
-          "term_end3": {
+          "term_end2": {
             "text": "17 February 2012"
           },
-          "predecessor3": {
+          "predecessor2": {
             "text": "Lee Tae-sik",
             "links": [
               {
@@ -304,7 +264,7 @@
               }
             ]
           },
-          "successor3": {
+          "successor2": {
             "text": "Choi Young-jin",
             "links": [
               {
@@ -313,7 +273,7 @@
               }
             ]
           },
-          "office4": {
+          "office3": {
             "text": "Deputy Prime Minister and\nMinister of Finance and Economy",
             "links": [
               {
@@ -328,7 +288,7 @@
               }
             ]
           },
-          "primeminister4": {
+          "primeminister3": {
             "text": "Lee Hae-chan\nHan Myeong-sook",
             "links": [
               {
@@ -341,13 +301,13 @@
               }
             ]
           },
-          "term_start4": {
+          "term_start3": {
             "text": "14 March 2005"
           },
-          "term_end4": {
+          "term_end3": {
             "text": "18 July 2006"
           },
-          "predecessor4": {
+          "predecessor3": {
             "text": "Lee Hun-jai",
             "links": [
               {
@@ -356,7 +316,7 @@
               }
             ]
           },
-          "successor4": {
+          "successor3": {
             "text": "Kwon O-kyu",
             "links": [
               {
@@ -528,7 +488,7 @@
       "references": [
         {
           "date": "9 March 2007",
-          "title": "Han Deok-Soo New Rok Pm-Designate",
+          "title": "Han Duck-Soo New Rok Pm-Designate",
           "url": "https://wikileaks.org/plusd/cables/07SEOUL705_a.html",
           "template": "citation",
           "type": "journal"
@@ -570,28 +530,14 @@
           "template": "s-off"
         },
         {
-          "before": "Kwon O-kyu",
+          "before": "Han Myeong-sook",
           "title": "Prime Minister of South Korea",
           "after": "Han Seung-soo",
           "years": "2007–2008",
           "template": "succession box"
         },
         {
-          "before": "Lee Hae-chan",
-          "after": "Han Myeong-sook",
-          "title": "Prime Minister of South Korea\nActing",
-          "years": "2006",
-          "template": "succession box"
-        },
-        {
           "template": "s-dip"
-        },
-        {
-          "before": "Yang Soo-gil",
-          "after": "Lee Kyung-tae",
-          "title": "Ambassador of Republic of Korea to the Organisation for Economic Co-operation and Development",
-          "years": "2001",
-          "template": "succession box"
         },
         {
           "before": "Lee Tae-sik",
