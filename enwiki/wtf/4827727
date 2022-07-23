@@ -138,16 +138,12 @@
         },
         {
           "honorific-prefix": {
-            "text": "His Excellency The Right Honourable",
+            "text": "His Excellency",
             "links": [
               {
                 "text": "His Excellency",
                 "type": "internal",
                 "page": "Excellency"
-              },
-              {
-                "type": "internal",
-                "page": "The Right Honourable"
               }
             ]
           },
