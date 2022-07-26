@@ -154,15 +154,24 @@
               }
             ]
           },
+          "primeminister": {
+            "text": "Han Duck-soo",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Han Duck-soo"
+              }
+            ]
+          },
           "term_start": {
             "text": "13 May 2022"
           },
           "predecessor": {
-            "text": "Roh Hyung-wook",
+            "text": "Noh Hyeong-ouk",
             "links": [
               {
                 "type": "internal",
-                "page": "Roh Hyung-wook"
+                "page": "Noh Hyeong-ouk"
               }
             ]
           },
