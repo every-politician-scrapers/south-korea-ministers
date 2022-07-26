@@ -1,0 +1,54 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2002-08-09",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Chung In-bong"
+    },
+    "P582": "2012-05-29",
+    "P1366": {
+      "links": [
+        "Chung Sye-kyun"
+      ],
+      "stated_as": "Chung Sye-kyun"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2020-05-30",
+    "P1365": {
+      "links": [
+        "Jeon Hyun-hee"
+      ],
+      "stated_as": "Jeon Hyun-hee"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Foreign Affairs (South Korea)"
+      ],
+      "stated_as": "40th Minister of Foreign Affairs"
+    },
+    "P580": "2022-05-12",
+    "P1365": {
+      "links": [
+        "Chung Eui-yong"
+      ],
+      "stated_as": "Chung Eui-yong"
+    }
+  }
+]

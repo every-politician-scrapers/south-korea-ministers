@@ -1,0 +1,46 @@
+[
+  {
+    "office": {
+      "links": [
+        "Ministry of Health and Welfare (South Korea)"
+      ],
+      "stated_as": "Vice Minister of Health and Welfare"
+    },
+    "P580": "2019-05-23",
+    "P1365": {
+      "links": [
+        "Kwon Deok-chul"
+      ],
+      "stated_as": "Kwon Deok-chul"
+    },
+    "P582": "2020-11-01",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Yang Seong-il Kang Do-tae"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Food and Drug Safety"
+      ],
+      "stated_as": "Minister of Food and Drug Safety"
+    },
+    "P580": "2020-11-02",
+    "P1365": {
+      "links": [
+        "Lee Eui-kyung"
+      ],
+      "stated_as": "Lee Eui-kyung"
+    },
+    "P582": "2022-05-26",
+    "P1366": {
+      "links": [
+        "Oh Yu-kyoung"
+      ],
+      "stated_as": "Oh Yu-kyoung"
+    }
+  }
+]

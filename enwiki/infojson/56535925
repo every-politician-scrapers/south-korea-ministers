@@ -1,0 +1,83 @@
+[
+  {
+    "office": {
+      "links": [
+        "Office for Government Policy Coordination"
+      ],
+      "stated_as": "Minister for Government Policy Coordination"
+    },
+    "P580": "2013-03-25",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Lim Jong-ryong"
+    },
+    "P582": "2014-07-22",
+    "P1366": {
+      "links": [
+        "Choo Kyung-ho"
+      ],
+      "stated_as": "Choo Kyung-ho"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Deputy Prime Minister of South Korea"
+      ],
+      "stated_as": "Deputy Prime Minister of South Korea"
+    },
+    "P580": "2017-06-09",
+    "P1365": {
+      "links": [
+        "Yoo Il-ho"
+      ],
+      "stated_as": "Yoo Il-ho"
+    },
+    "P582": "2018-12-10",
+    "P1366": {
+      "links": [
+        "Hong Nam-ki"
+      ],
+      "stated_as": "Hong Nam-ki"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Economy and Finance (South Korea)"
+      ],
+      "stated_as": "Minister of Economy and Finance"
+    },
+    "P580": "2017-06-10",
+    "P1365": {
+      "links": [
+        "Yoo Il-ho"
+      ],
+      "stated_as": "Yoo Il-ho"
+    },
+    "P582": "2018-12-10",
+    "P1366": {
+      "links": [
+        "Hong Nam-ki"
+      ],
+      "stated_as": "Hong Nam-ki"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Governor of Gyeonggi Province"
+      ],
+      "stated_as": "Governor of Gyeonggi Province"
+    },
+    "P580": "2022-07-01",
+    "P1365": {
+      "links": [
+        "Lee Jae-myung"
+      ],
+      "stated_as": "Lee Jae-myung (2021)"
+    }
+  }
+]

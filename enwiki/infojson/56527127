@@ -1,0 +1,28 @@
+[
+  {
+    "office": {
+      "links": [
+        "List of justices of the Constitutional Court of Korea",
+        "Constitutional Court of Korea"
+      ],
+      "stated_as": "Justice of the Constitutional Court of Korea"
+    },
+    "P580": "2017-11",
+    "P582": "2018-09"
+  },
+  {
+    "office": {
+      "links": [
+        "President of the Constitutional Court of Korea"
+      ],
+      "stated_as": "7th President of the Constitutional Court of Korea"
+    },
+    "P580": "2018-09-21",
+    "P1365": {
+      "links": [
+        "Lee Jin-sung"
+      ],
+      "stated_as": "Lee Jin-sung"
+    }
+  }
+]

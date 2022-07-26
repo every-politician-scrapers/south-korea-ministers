@@ -1,0 +1,84 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2004-05-30",
+    "P1365": {
+      "links": [
+        "Yoo Heung-soo (politician)"
+      ],
+      "stated_as": "Yoo Heung-soo"
+    },
+    "P582": "2008-05-29",
+    "P1366": {
+      "links": [
+        "Yoo Jae-jung"
+      ],
+      "stated_as": "Yoo Jae-jung"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Senior Presidential Secretary"
+      ],
+      "stated_as": "Senior Secretary to the President for Political Affairs"
+    },
+    "P580": "2009-09-01",
+    "P1365": {
+      "links": [
+        "Maeng Hyung-kyu"
+      ],
+      "stated_as": "Maeng Hyung-kyu"
+    },
+    "P582": "2010-07-16",
+    "P1366": {
+      "links": [
+        "Chung Jin-suk (politician)"
+      ],
+      "stated_as": "Chung Jin-suk"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Secretary-General of the National Assembly"
+    },
+    "P580": "2014-09-01",
+    "P1365": {
+      "links": [
+        "Chung Jin-suk (politician)"
+      ],
+      "stated_as": "Chung Jin-suk"
+    },
+    "P582": "2016-06-20",
+    "P1366": {
+      "links": [
+        "Woo Yoon-keun"
+      ],
+      "stated_as": "Woo Yoon-keun"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Mayor of Busan"
+      ],
+      "stated_as": "Mayor of Busan"
+    },
+    "P580": "2021-04-08",
+    "P1365": {
+      "links": [
+        "Oh Keo-don",
+        "Byeon Sung-wan"
+      ],
+      "stated_as": "Oh Keo-don Byeon Sung-wan (acting)"
+    }
+  }
+]
