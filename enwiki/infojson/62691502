@@ -1,0 +1,39 @@
+[
+  {
+    "office": {
+      "links": [
+        "Joint Chiefs of Staff (South Korea)"
+      ],
+      "stated_as": "Vice Chairman of the Joint Chiefs of Staff"
+    },
+    "P580": "2017-09-26",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Lee Bum-rim"
+    },
+    "P582": "2018-11-22",
+    "P1366": {
+      "links": [
+        "Won In-choul"
+      ],
+      "stated_as": "Won In-choul"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of National Defense (South Korea)"
+      ],
+      "stated_as": "Minister of National Defense"
+    },
+    "P580": "2022-05-10",
+    "P1365": {
+      "links": [
+        "Suh Wook"
+      ],
+      "stated_as": "Suh Wook"
+    }
+  }
+]

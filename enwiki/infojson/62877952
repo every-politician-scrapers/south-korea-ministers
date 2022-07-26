@@ -1,0 +1,39 @@
+[
+  {
+    "office": {
+      "links": [
+        "Prosecutor General of South Korea"
+      ],
+      "stated_as": "Prosecutor General of South Korea"
+    },
+    "P580": "2019-07-25",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Moon Moo-il"
+    },
+    "P582": "2021-03-04",
+    "P1366": {
+      "links": [
+        "Kim Oh-soo"
+      ],
+      "stated_as": "Cho Nam-kwan (acting) Kim Oh-soo"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "President of South Korea"
+      ],
+      "stated_as": "13th President of South Korea"
+    },
+    "P580": "2022-05-10",
+    "P1365": {
+      "links": [
+        "Moon Jae-in"
+      ],
+      "stated_as": "Moon Jae-in"
+    }
+  }
+]

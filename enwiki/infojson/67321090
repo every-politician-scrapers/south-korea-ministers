@@ -1,0 +1,76 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2002-08-08",
+    "P1365": {
+      "links": [
+        "Kim Min-seok (politician)"
+      ],
+      "stated_as": "Kim Min-seok"
+    },
+    "P582": "2012-05-29",
+    "P1366": {
+      "links": [
+        "Shin Kyoung-min"
+      ],
+      "stated_as": "Shin Kyoung-min"
+    }
+  },
+  {
+    "office": {
+      "links": [
+
+      ],
+      "stated_as": "South Korean Ambassador to China"
+    },
+    "P580": "2013-06-01",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Lee Kyu-hyung"
+    },
+    "P582": "2015-03-26",
+    "P1366": {
+      "links": [
+        "Kim Jang-soo"
+      ],
+      "stated_as": "Kim Jang-soo"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2020-05-30",
+    "P1365": {
+      "links": [
+        "Chin Young"
+      ],
+      "stated_as": "Chin Young"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Unification"
+      ],
+      "stated_as": "Minister of Unification"
+    },
+    "P580": "2022-05-13",
+    "P1365": {
+      "links": [
+        "Lee In-young"
+      ],
+      "stated_as": "Lee In-young"
+    }
+  }
+]

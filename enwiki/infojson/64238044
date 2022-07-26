@@ -1,0 +1,36 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2008-05-30",
+    "P582": "2012-05-29"
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2020-05-30"
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Deputy Speaker of the National Assembly"
+    },
+    "P580": "2020-06-05",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Lee Joo-young Joo Seung-yong"
+    }
+  }
+]

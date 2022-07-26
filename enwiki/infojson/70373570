@@ -1,0 +1,77 @@
+[
+  {
+    "office": {
+      "links": [
+        "Financial Services Commission (South Korea)"
+      ],
+      "stated_as": "Vice Chairman of Financial Services Commission"
+    },
+    "P580": "2008-03-15",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "post created"
+    },
+    "P582": "2009-11-09",
+    "P1366": {
+      "links": [
+        "Kwon Hyouk-se"
+      ],
+      "stated_as": "Kwon Hyouk-se"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Asian Development Bank"
+      ],
+      "stated_as": "Chief Economist of the Asian Development Bank"
+    },
+    "P580": "2011-03",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Jong-Wha Lee"
+    },
+    "P582": "2013",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Shang-Jin Wei"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "International Monetary Fund"
+      ],
+      "stated_as": "Director of Asia and Pacific Department at the IMF"
+    },
+    "P580": "2014-02-10",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Anoop Singh"
+    },
+    "P582": "2022-03"
+  },
+  {
+    "office": {
+      "links": [
+        "Bank of Korea"
+      ],
+      "stated_as": "26th Governor of the Bank of Korea"
+    },
+    "P580": "2022-04-21",
+    "P1365": {
+      "links": [
+        "Lee Ju-yeol"
+      ],
+      "stated_as": "Lee Ju-yeol"
+    }
+  }
+]

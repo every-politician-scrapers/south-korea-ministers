@@ -1,0 +1,39 @@
+[
+  {
+    "office": {
+      "links": [
+        "Ministry of Economy and Finance (South Korea)"
+      ],
+      "stated_as": "2nd Vice Minister of Economy and Finance"
+    },
+    "P580": "2018-12-15",
+    "P1365": {
+      "links": [
+        "Kim Yongjin"
+      ],
+      "stated_as": "Kim Yongjin"
+    },
+    "P582": "2020-05-08",
+    "P1366": {
+      "links": [
+        "Ahn Il-hwan"
+      ],
+      "stated_as": "Ahn Il-hwan"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Office for Government Policy Coordination"
+      ],
+      "stated_as": "Minister for Government Policy Coordination"
+    },
+    "P580": "2020-05-09",
+    "P1365": {
+      "links": [
+        "Noh Hyeong-ouk"
+      ],
+      "stated_as": "Noh Hyeong-ouk"
+    }
+  }
+]

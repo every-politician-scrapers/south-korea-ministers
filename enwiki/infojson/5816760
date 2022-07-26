@@ -1,0 +1,61 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly of the Republic of Korea"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2000-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Hong Sa-duk"
+    },
+    "P582": "2004-05-29",
+    "P1366": {
+      "links": [
+        "Gong Sung-jin"
+      ],
+      "stated_as": "Gong Sung-jin"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Mayor of Seoul"
+      ],
+      "stated_as": "Mayor of Seoul"
+    },
+    "P580": "2006-07-01",
+    "P1365": {
+      "links": [
+        "Lee Myung-Bak"
+      ],
+      "stated_as": "Lee Myung-Bak"
+    },
+    "P582": "2011-08-26",
+    "P1366": {
+      "links": [
+        "Park Won-soon"
+      ],
+      "stated_as": "Park Won-soon"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Mayor of Seoul"
+      ],
+      "stated_as": "Mayor of Seoul"
+    },
+    "P580": "2021-04-08",
+    "P1365": {
+      "links": [
+        "Park Won-soon"
+      ],
+      "stated_as": "Park Won-soon"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2016-05-30",
+    "P1365": {
+      "links": [
+        "Kim Tae-ho (politician)"
+      ],
+      "stated_as": "Kim Tae-ho"
+    },
+    "P582": "2018-05-14",
+    "P1366": {
+      "links": [
+        "Kim Jung-ho"
+      ],
+      "stated_as": "Kim Jung-ho"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Governor of South Gyeongsang Province"
+      ],
+      "stated_as": "37th Governor of South Gyeongsang Province"
+    },
+    "P580": "2018-07-01",
+    "P1365": {
+      "links": [
+        "Hong Jun-pyo"
+      ],
+      "stated_as": "Hong Jun-pyo"
+    },
+    "P582": "2021-07-21",
+    "P1366": {
+      "links": [
+        "Ha Byung-pil",
+        "Park Wan-soo"
+      ],
+      "stated_as": "Ha Byung-pil (acting)\nPark Wan-soo"
+    }
+  }
+]

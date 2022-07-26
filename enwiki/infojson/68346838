@@ -1,0 +1,163 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)",
+        "Gongju",
+        "Yeongi County"
+      ],
+      "stated_as": "Member of the National Assembly for Gongju-Yeongi"
+    },
+    "P580": "2000-05-30",
+    "P1365": {
+      "links": [
+        "Chung Suk-mo",
+        "Kim Goh-sung"
+      ],
+      "stated_as": "Chung Suk-mo (Gongju) Kim Goh-sung (Yeongi)"
+    },
+    "P582": "2004-05-29",
+    "P1366": {
+      "links": [
+        "Oh Si-deok"
+      ],
+      "stated_as": "Oh Si-deok"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)",
+        "Gongju",
+        "Yeongi County"
+      ],
+      "stated_as": "Member of the National Assembly for Gongju-Yeongi"
+    },
+    "P580": "2005-05-01",
+    "P1365": {
+      "links": [
+        "Oh Si-deok"
+      ],
+      "stated_as": "Oh Si-deok"
+    },
+    "P582": "2008-05-29",
+    "P1366": {
+      "links": [
+        "Shim Dae-pyung"
+      ],
+      "stated_as": "Shim Dae-pyung"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)",
+        "Proportional representation"
+      ],
+      "stated_as": "Member of the National Assembly (Proportional)"
+    },
+    "P580": "2008-05-30",
+    "P582": "2010-07-16"
+  },
+  {
+    "office": {
+      "links": [
+        "Senior Presidential Secretary"
+      ],
+      "stated_as": "Senior Secretary to the President for Political Affairs"
+    },
+    "P580": "2010-07-16",
+    "P1365": {
+      "links": [
+        "Park Heong-joon"
+      ],
+      "stated_as": "Park Heong-joon"
+    },
+    "P582": "2011-06-10",
+    "P1366": {
+      "links": [
+        "Kim Hyo-jae"
+      ],
+      "stated_as": "Kim Hyo-jae"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Secretary-General of the National Assembly"
+    },
+    "P580": "2013-01-01",
+    "P1365": {
+      "links": [
+        "Yoon Won-joong"
+      ],
+      "stated_as": "Yoon Won-joong"
+    },
+    "P582": "2014-02-28",
+    "P1366": {
+      "links": [
+        "Park Heong-joon"
+      ],
+      "stated_as": "Park Heong-joon"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Saenuri Party"
+      ],
+      "stated_as": "President of the Saenuri Party"
+    },
+    "P580": "2016-05-11",
+    "P1365": {
+      "links": [
+        "Won Yoo-chul"
+      ],
+      "stated_as": "Won Yoo-chul (acting)"
+    },
+    "P582": "2016-06-01",
+    "P1366": {
+      "links": [
+        "Kim Hee-ok"
+      ],
+      "stated_as": "Kim Hee-ok (acting)"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)",
+        "Gongju",
+        "Buyeo County",
+        "Cheongyang County"
+      ],
+      "stated_as": "Member of the National Assembly for Gongju-Buyeo-Cheongyang"
+    },
+    "P580": "2016-05-30",
+    "P1365": {
+      "links": [
+        "Park Soo-hyun (politician)",
+        "Lee Wan-koo"
+      ],
+      "stated_as": "Park Soo-hyun (Gongju) Lee Wan-koo (Buyeo-Cheongyang)"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Deputy Speaker of the National Assembly"
+    },
+    "P580": "2021-08-31",
+    "P1365": {
+      "links": [
+        "Lee Joo-young (politician)",
+        "Joo Seung-yong"
+      ],
+      "stated_as": "Lee Joo-young Joo Seung-yong"
+    }
+  }
+]

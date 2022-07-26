@@ -1,0 +1,84 @@
+[
+  {
+    "office": {
+      "links": [
+        "Deputy Prime Minister of South Korea",
+        "Ministry of Economy and Finance (South Korea)"
+      ],
+      "stated_as": "Deputy Prime Minister and\nMinister of Finance and Economy"
+    },
+    "P580": "2005-03-14",
+    "P1365": {
+      "links": [
+        "Lee Hun-jai"
+      ],
+      "stated_as": "Lee Hun-jai"
+    },
+    "P582": "2006-07-18",
+    "P1366": {
+      "links": [
+        "Kwon O-kyu"
+      ],
+      "stated_as": "Kwon O-kyu"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Prime Minister of South Korea"
+      ],
+      "stated_as": "34th and 44th Prime Minister of South Korea"
+    },
+    "P580": "2007-04-02",
+    "P1365": {
+      "links": [
+        "Han Myeong-sook"
+      ],
+      "stated_as": "Han Myeong-sook"
+    },
+    "P582": "2008-02-29",
+    "P1366": {
+      "links": [
+        "Han Seung-soo"
+      ],
+      "stated_as": "Han Seung-soo"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "List of ambassadors of South Korea to the United States"
+      ],
+      "stated_as": "South Korean Ambassador to the United States"
+    },
+    "P580": "2009-03-09",
+    "P1365": {
+      "links": [
+        "Lee Tae-sik"
+      ],
+      "stated_as": "Lee Tae-sik"
+    },
+    "P582": "2012-02-17",
+    "P1366": {
+      "links": [
+        "Choi Young-jin"
+      ],
+      "stated_as": "Choi Young-jin"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Prime Minister of South Korea"
+      ],
+      "stated_as": "34th and 44th Prime Minister of South Korea"
+    },
+    "P580": "2022-05-21",
+    "P1365": {
+      "links": [
+        "Kim Boo-kyum"
+      ],
+      "stated_as": "Kim Boo-kyum"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly of South Korea"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "1992-05-30",
+    "P582": "1996-05-29"
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Culture, Sports and Tourism"
+      ],
+      "stated_as": "Minister of Culture, Sports and Tourism"
+    },
+    "P580": "1999-05-23",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Shin Nak-gyun"
+    },
+    "P582": "2000-09-19",
+    "P1366": {
+      "links": [
+        "Kim Han-gil"
+      ],
+      "stated_as": "Kim Han-gil"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Chief Presidential Secretary"
+      ],
+      "stated_as": "Chief Presidential Secretary"
+    },
+    "P580": "2002-04-15",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Jeon Yun-churl"
+    },
+    "P582": "2003-02-24",
+    "P1366": {
+      "links": [
+        "Moon Hee-sang"
+      ],
+      "stated_as": "Moon Hee-sang"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly of South Korea"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2008-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Lee Sang-yeol"
+    },
+    "P582": "2020-05-29",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Won-i"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "People's Party (South Korea, 2016)"
+      ],
+      "stated_as": "Floor Leader of the People's Party"
+    },
+    "P580": "2016-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Position Established"
+    },
+    "P582": "2016-12-29",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Joo Syung-yong"
+    }
+  },
+  {
+    "office": {
+      "links": [
+
+      ],
+      "stated_as": "Leader of the People's Party"
+    },
+    "P580": "2016-06-29",
+    "P1365": {
+      "links": [
+        "Ahn Cheol-soo",
+        "Chun Jung-bae"
+      ],
+      "stated_as": "Ahn Cheol-soo Chun Jung-bae"
+    },
+    "P582": "2016-12-05",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Dong-cheol (Interim)"
+    }
+  },
+  {
+    "office": {
+      "links": [
+
+      ],
+      "stated_as": "Leader of the People's Party"
+    },
+    "P580": "2017-01-15",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Dong-cheol (Interim)"
+    },
+    "P582": "2017-05-10",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Joo Seung-yong (Acting)"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "List of directors of the National Intelligence Service (South Korea) and predecessor organizations"
+      ],
+      "stated_as": "Director of the National Intelligence Service"
+    },
+    "P580": "2020-07-29",
+    "P1365": {
+      "links": [
+        "Suh Hoon"
+      ],
+      "stated_as": "Suh Hoon"
+    },
+    "P582": "2022-05-11"
+  }
+]

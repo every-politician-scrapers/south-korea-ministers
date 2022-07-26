@@ -1,0 +1,27 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2016-05-30",
+    "P582": "2022-04-29"
+  },
+  {
+    "office": {
+      "links": [
+        "Governor of Jeju Province"
+      ],
+      "stated_as": "Governor of Jeju Province"
+    },
+    "P580": "2022-07-01",
+    "P1365": {
+      "links": [
+        "Won Hee-ryong"
+      ],
+      "stated_as": "Won Hee-ryong (2021)"
+    }
+  }
+]

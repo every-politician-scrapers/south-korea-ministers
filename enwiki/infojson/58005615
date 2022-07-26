@@ -1,0 +1,145 @@
+[
+  {
+    "office": {
+      "links": [
+        "Office for Government Policy Coordination"
+      ],
+      "stated_as": "Minister for Government Policy Coordination"
+    },
+    "P580": "2002-07-11",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Ho-shik"
+    },
+    "P582": "2003-02-26",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Lee Young-tak"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Economy and Finance (South Korea)",
+        "Deputy Prime Minister of South Korea"
+      ],
+      "stated_as": "Minister of Finance and Economy ex officio Deputy Prime Minister of South Korea"
+    },
+    "P580": "2003-03-27",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Jeon Yoon-chul"
+    },
+    "P582": "2004-02-10",
+    "P1366": {
+      "links": [
+        "Lee Hun-jai"
+      ],
+      "stated_as": "Lee Hun-jai"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2004-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "New constituency"
+    },
+    "P582": "2014-05-15",
+    "P1366": {
+      "links": [
+        "Park Kwang-on"
+      ],
+      "stated_as": "Park Kwang-on"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Education (South Korea)",
+        "Deputy Prime Minister of South Korea"
+      ],
+      "stated_as": "Minister of Education and Human Resources Development ex officio Deputy Prime Minister of South Korea"
+    },
+    "P580": "2005-01-28",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Young-shik (acting)"
+    },
+    "P582": "2006-07-20",
+    "P1366": {
+      "links": [
+        "Kim Byong-joon"
+      ],
+      "stated_as": "Kim Byong-joon"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Democratic Party (South Korea, 2008)",
+        "Democratic Party (South Korea, 2011)"
+      ],
+      "stated_as": "Floor leader of Democratic Party and its succeeding party"
+    },
+    "P580": "2011-05-29",
+    "P1365": {
+      "links": [
+        "Park Jie-won"
+      ],
+      "stated_as": "Park Jie-won"
+    },
+    "P582": "2012-05-04",
+    "P1366": {
+      "links": [
+        "Park Jie-won"
+      ],
+      "stated_as": "Park Jie-won"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2016-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "New constituency"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Speaker of the National Assembly of South Korea"
+      ],
+      "stated_as": "Speaker of the National Assembly"
+    },
+    "P580": "2022-07-04",
+    "P1365": {
+      "links": [
+        "Park Byeong-seug"
+      ],
+      "stated_as": "Park Byeong-seug"
+    }
+  }
+]

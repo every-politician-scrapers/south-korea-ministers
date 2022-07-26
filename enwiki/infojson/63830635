@@ -1,0 +1,46 @@
+[
+  {
+    "office": {
+      "links": [
+        "Ministry of Science and ICT"
+      ],
+      "stated_as": "Minister of Science and ICT"
+    },
+    "P580": "2017-07-11",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "office established"
+    },
+    "P582": "2019-09-08",
+    "P1366": {
+      "links": [
+        "Choi Ki-young"
+      ],
+      "stated_as": "Choi Ki-young"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Chief of Staff to the President (South Korea)"
+      ],
+      "stated_as": "Chief of Staff to the President"
+    },
+    "P580": "2021-01-01",
+    "P1365": {
+      "links": [
+        "Noh Young-min"
+      ],
+      "stated_as": "Noh Young-min"
+    },
+    "P582": "2022-05-09",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Dae-ki"
+    }
+  }
+]

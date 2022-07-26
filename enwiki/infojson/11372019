@@ -1,0 +1,61 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly (South Korea)"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2000-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Park Bum-jin"
+    },
+    "P582": "2012-05-29",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Kil Jeong-woo"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Governor of Jeju Province"
+      ],
+      "stated_as": "Governor of Jeju Province"
+    },
+    "P580": "2014-07-01",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Woo Keun-min"
+    },
+    "P582": "2021-08-11",
+    "P1366": {
+      "links": [
+        "Koo Man-sub"
+      ],
+      "stated_as": "Koo Man-sub (acting)"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Ministry of Land, Infrastructure and Transport (South Korea)"
+      ],
+      "stated_as": "Minister of Land, Infrastructure and Transport"
+    },
+    "P580": "2022-05-13",
+    "P1365": {
+      "links": [
+        "Noh Hyeong-ouk"
+      ],
+      "stated_as": "Noh Hyeong-ouk"
+    }
+  }
+]

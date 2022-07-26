@@ -1,0 +1,151 @@
+[
+  {
+    "office": {
+      "links": [
+        "National Assembly of South Korea"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "1996-05-30",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Cho Soon-hwan"
+    },
+    "P582": "1999-03-09",
+    "P1366": {
+      "links": [
+        "Lee Hoi-chang"
+      ],
+      "stated_as": "Lee Hoi-chang"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly of South Korea"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2001-10-26",
+    "P1365": {
+      "links": [
+
+      ],
+      "stated_as": "Kim Young-koo"
+    },
+    "P582": "2012-05-29",
+    "P1366": {
+      "links": [
+        "Min Byung-doo"
+      ],
+      "stated_as": "Min Byung-doo"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Grand National Party",
+        "Liberty Korea Party"
+      ],
+      "stated_as": "Leader of the Grand National Party/Liberty Korea Party"
+    },
+    "P580": "2011-07-04",
+    "P1365": {
+      "links": [
+        "Jeong Ui-ha"
+      ],
+      "stated_as": "Jeong Ui-ha"
+    },
+    "P582": "2011-12-09",
+    "P1366": {
+      "links": [
+        "Na Kyung-won"
+      ],
+      "stated_as": "Na Kyung-won"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Governor of South Gyeongsang Province"
+      ],
+      "stated_as": "Governor of South Gyeongsang Province"
+    },
+    "P580": "2012-12-20",
+    "P1365": {
+      "links": [
+        "Kim Doo-kwan"
+      ],
+      "stated_as": "Kim Doo-kwan"
+    },
+    "P582": "2017-04-09",
+    "P1366": {
+      "links": [
+        "Kim Kyoung-soo"
+      ],
+      "stated_as": "Kim Kyoung-soo"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Grand National Party",
+        "Liberty Korea Party"
+      ],
+      "stated_as": "Leader of the Grand National Party/Liberty Korea Party"
+    },
+    "P580": "2017-07-03",
+    "P1365": {
+      "links": [
+        "Chung Woo-taik"
+      ],
+      "stated_as": "Chung Woo-taik"
+    },
+    "P582": "2018-06-14",
+    "P1366": {
+      "links": [
+        "Kim Sung-tae"
+      ],
+      "stated_as": "Kim Sung-tae"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "National Assembly of South Korea"
+      ],
+      "stated_as": "Member of the National Assembly"
+    },
+    "P580": "2020-05-30",
+    "P1365": {
+      "links": [
+        "Joo Ho-young"
+      ],
+      "stated_as": "Joo Ho-young"
+    },
+    "P582": "2022-04-26",
+    "P1366": {
+      "links": [
+
+      ],
+      "stated_as": "Lee In-seon"
+    }
+  },
+  {
+    "office": {
+      "links": [
+        "Mayor of Daegu"
+      ],
+      "stated_as": "Mayor of Daegu"
+    },
+    "P580": "2022-07-01",
+    "P1365": {
+      "links": [
+        "Kwon Young-jin (politician)"
+      ],
+      "stated_as": "Kwon Young-jin"
+    }
+  }
+]
