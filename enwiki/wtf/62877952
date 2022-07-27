@@ -250,7 +250,7 @@
             "text": "South Korea President Yoon Suk-yeol profile.jpg"
           },
           "caption": {
-            "text": "Yoon in May 2022"
+            "text": "Official portrait, May 2022"
           },
           "native_name": {
             "text": "윤석열"
@@ -371,7 +371,7 @@
             "text": "Yoon Ki-jung"
           },
           "mother": {
-            "text": "Choi Seong-ja"
+            "text": "Choi Jeong-ja"
           },
           "alma_mater": {
             "text": "Seoul National University (LLB, LLM)",
@@ -389,6 +389,16 @@
                 "text": "LLM",
                 "type": "internal",
                 "page": "Master of Laws"
+              }
+            ]
+          },
+          "residence": {
+            "text": "Presidential residence",
+            "links": [
+              {
+                "text": "Presidential residence",
+                "type": "internal",
+                "page": "Presidential Residence of South Korea"
               }
             ]
           },
@@ -527,7 +537,7 @@
               ]
             },
             {
-              "text": "His mother, Choi Seong-ja was born in Gangneung and was a lecturer at Ewha Womans University before leaving the position after getting married.",
+              "text": "His mother, Choi Jeong-ja was born in Gangneung and was a lecturer at Ewha Womans University before leaving the position after getting married.",
               "links": [
                 {
                   "type": "internal",
@@ -2065,11 +2075,6 @@
                   "text": "Ministry of National Defense",
                   "type": "internal",
                   "page": "Ministry of National Defense (South Korea)"
-                },
-                {
-                  "text": "building",
-                  "type": "internal",
-                  "page": "Ministry of National Defense building"
                 },
                 {
                   "type": "internal",
