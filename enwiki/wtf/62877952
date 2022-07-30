@@ -250,7 +250,7 @@
             "text": "South Korea President Yoon Suk-yeol profile.jpg"
           },
           "caption": {
-            "text": "Official portrait, May 2022"
+            "text": "Official portrait"
           },
           "native_name": {
             "text": "윤석열"
@@ -2121,6 +2121,101 @@
           "type": "inline",
           "data": {},
           "inline": {}
+        }
+      ]
+    },
+    {
+      "title": "2022 police bureau proposal",
+      "depth": 1,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "In late July 2022, Yoon proposed the creation of a \"police bureau\", in order to ensure greater government oversight of the police force."
+            },
+            {
+              "text": "In response, several police officers protested, claiming the measure was a dictatorial measure to compromise the political neutrality of the police."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In response to the protests, Lee Sang-min, Yoon's Interior Minister, compared them to the 1979 Coup d'état of December Twelfth, though he later walked back the remarks.",
+              "links": [
+                {
+                  "text": "Lee Sang-min",
+                  "type": "internal",
+                  "page": "Lee Sang-min (lawyer)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Coup d'état of December Twelfth"
+                }
+              ]
+            },
+            {
+              "text": "Yoon himself also criticised the protests, saying, \"Like many, I am also deeply concerned about the collective protest of the police chiefs,\" and calling it a \"serious breach\" of police discipline."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Following the protests, the presidential office threatened to punish police officers."
+            },
+            {
+              "text": "Additional remarks by Yoon Hee-keun, President Yoon's choice as Commissioner General of the National Police Agency, suggesting that police should focus on wages rather than the establishment of a police bureau, further enflamed tensions.",
+              "links": [
+                {
+                  "text": "National Police Agency",
+                  "type": "internal",
+                  "page": "National Police Agency (South Korea)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Within less than three months into his presidency, Yoon's approval rating dropped to less than 30 percent."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "25 July 2022",
+          "title": "Gathering of Korea's police chiefs touches off storm of disciplinary action by higher-ups",
+          "work": "The Hankyoreh",
+          "url": "https://english.hani.co.kr/arti/english_edition/e_national/1052289.html",
+          "access-date": "28 July 2022",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "title": "Yoon's approval rating sinks below 30 pct amid inflation, controversy over personnel appointments",
+          "url": "https://en.yna.co.kr/view/AEN20220729003500315?section=national/politics",
+          "access-date": "29 July 2022",
+          "work": "Yonhap News Agency",
+          "date": "29 July 2022",
+          "language": "en",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "last": "Lee",
+          "first": "Jeong-Ho",
+          "last2": "Cha",
+          "first2": "Sangmi",
+          "date": "26 July 2022",
+          "title": "Feud With Police Adds to South Korea President’s Early Struggles",
+          "work": "Bloomberg News",
+          "url": "https://www.bloomberg.com/news/articles/2022-07-26/feud-with-police-adds-to-south-korea-president-s-early-struggles",
+          "access-date": "28 July 2022",
+          "template": "citation",
+          "type": "news"
         }
       ]
     },
