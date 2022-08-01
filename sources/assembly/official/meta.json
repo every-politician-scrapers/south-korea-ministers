@@ -1,0 +1,19 @@
+{
+    "position": "Q14850694",
+    "term": {
+        "id":       "Q90759969",
+        "start":    "2020-05-30"
+    },
+    "lang": "en",
+    "reference": {
+        "P854": "https://korea.assembly.go.kr:447/mem/mem_01.jsp",
+        "P1476": {
+            "text": "Members by Alphabet < Members < The National Assembly of the Republic of Korea",
+            "language": "en"
+        }
+    },
+    "current_only": "true",
+    "person_description": {
+        "en": "Korean politician"
+    }
+}

@@ -1,0 +1,752 @@
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>Members by Alphabet &lt; Members &lt; The National Assembly of the Republic of Korea</title>
+
+<script language="javascript" src="/inc/jquery-1.6.3.min.js"></script>
+
+<script type="text/javascript">
+<!--
+	function memInfo(memCode)
+	{
+		//var url = "/mem/mem_pro.jsp?mem_code="+ encodeURIComponent(memCode);
+		var url = "/mem/mem_pro.jsp?mem_code="+memCode;
+		window.open( url,"","width=490, height=495, scrollbars=yes");
+	}
+	
+	function fnClickAlpha(index){
+		
+		$("#alphaList li").removeClass();
+		$("#alphaList li:eq("+index+")").addClass("on");
+	
+	}
+	
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<script type="text/javascript" src="/js/common.js"></script>
+
+</head>
+
+<body>
+
+	<ul class="skip_new">
+		<li><a href="#contents">Skip To Main Content</a></li>
+		<li><a href="#header">Skip To Top Navigation</a></li>
+		<li><a href="#left">Skip To Sub Navigation</a></li>
+	</ul>
+	<div id="container">
+	
+		<div id="header">
+			<ul id="gnb" class="ufl">
+				<li><a href="/"><img src="/images/common/header/g_01.gif" alt="HOME" /></a></li>
+				<li><a href="http://www.assembly.go.kr"><img src="/images/common/header/g_02.gif" alt="KOREAN" /></a></li>
+				<li><a href="/com/guide_02.jsp"><img src="/images/common/header/g_04.gif" alt="FAQ" /></a></li>
+				<li><a href="#" onclick="zoomInBtn();return false;"><img src="/images/common/header/btn_zoomin.gif" alt="Font Zoomin" /></a></li>
+				<li><a href="#" onclick="zoomDefault(); return false;"><img src="/images/common/header/btn_zoom.gif" alt="Font default" /></a></li>
+				<li><a href="#" onclick="zoomOutBtn();return false;"><img src="/images/common/header/btn_zoomout.gif" alt="Font Zoomout" /></a></li>
+			</ul>
+			<h1><a href="/"><img src="/images/common/header/logo.gif" alt="THE NATIONAL ASSEMBLY OF THE REPUBLIC OF KOREA" /></a></h1>
+			<div id="search">
+			<script type="text/javascript">
+			function searchFrm()
+			{
+				if (document.searchtotalForm.searchterm.value == "" || document.searchtotalForm.searchterm.value == "SEARCH")
+				{
+					alert("Please enter one or more words in the search box.");
+					document.searchtotalForm.searchterm.focus();
+					return;
+				}
+				document.searchtotalForm.submit();
+			}
+			function setDefualt(obj)
+			{
+				if (obj.value = "SEARCH")
+				{
+					obj.value = "";
+					obj.focus();
+				}
+			}
+			function menuOpenClose()
+			{
+				var status = document.getElementById('menuAllView').style.display;
+				if(status == "block"){
+					javascript:allMenuClose();
+				}
+				else{
+					javascript:allMenuView();
+				}
+			}
+			</script>
+				<form name="searchtotalForm" action="/etc/search_result.jsp" method="get">
+					<input type="text" name="searchterm" title="SEARCH Input" value="SEARCH" onfocus="setDefualt(this);" />
+					<a href="#" onclick="searchFrm(); return false;"><img src="/images/common/header/btn_search.gif" alt="SEARCH" /></a>
+				</form>
+			</div>
+			<ul id="top_menu">
+				<li><a href="/int/org_02.jsp" onmouseover="menu_over(1)" onfocus="menu_over(1)"><img src="/images/common/header/m_01.png" alt="INTRODUCTION" id="m1" /></a>
+					<div id="sub1" class="hide">
+						<ul>
+							<li><a href="/int/org_02.jsp"><img src="/images/common/header/m_0101.png" alt="Leadership" id="m11" /></a></li>
+							<li><a href="/int/org_01.jsp"><img src="/images/common/header/m_0102.png" alt="Organization" id="m12" /></a></li>
+							<li><a href="/int/act_01.jsp"><img src="/images/common/header/m_0103.png" alt="Activities &amp; Powers" id="m13" /></a></li>
+							<li><a href="/int/his_01.jsp"><img src="/images/common/header/m_0104.png" alt="History" id="m14" /></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="/cha/int.jsp" onmouseover="menu_over(2)" onfocus="menu_over(2)"><img src="/images/common/header/m_02.png" alt="MEMBERS" id="m2" /></a>
+					<div id="sub2" class="hide">
+						<ul>
+							<li><a href="/cha/int.jsp"><img src="/images/common/header/m_0201.png" alt="Speaker" id="m21" /></a></li>
+							<li><a href="/cha/spro.jsp"><img src="/images/common/header/m_0202.png" alt="Deputy Speakers" id="m22" /></a></li>
+							<li><a href="/mem/mem_01.jsp"><img src="/images/common/header/m_0203.png" alt="Members" id="m23" /></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="/wha/plenary_list.jsp" onmouseover="menu_over(3)" onfocus="menu_over(3)"><img src="/images/common/header/m_03.png" alt="WHAT'S ON" id="m3" /></a>
+					<div id="sub3" class="hide">
+						<ul>
+							<li><a href="/wha/plenary_list.jsp"><img src="/images/common/header/m_0301.png" alt="Legislative Schedule" id="m31" /></a></li>
+							<li><a href="/wha/new2_list.jsp?boardid=1000000027"><img src="/images/common/header/m_0302.png" alt="What's New" id="m32" /></a></li>
+							<li><a href="/wha/pre_list.jsp?boardid=1000000028"><img src="/images/common/header/m_0303.png" alt="Press Releases" id="m33" /></a></li>
+							<li><a href="/wha/photos_list.jsp?boardid=1000000342"><img src="/images/common/header/m_0304.png" alt="National Assembly in Photos    " id="m34" /></a></li>
+							<li><a href="/wha/new_list.jsp?boardid=1000000025"><img src="/images/common/header/m_0305.png" alt="In the Press" id="m35" /></a></li>
+							<li><a href="/abo/zin_list.jsp"><img src="/images/common/header/m_0306.png" alt="Monthly Webzine" id="m36" /></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="/res/low_01_read.jsp?boardid=1000000035" onmouseover="menu_over(4)" onfocus="menu_over(4)"><img src="/images/common/header/m_04.png" alt="LAWS &amp; BILLS" id="m4" /></a>
+					<div id="sub4" class="hide" style="left:300px;">
+						<ul>
+							<li><a href="/res/low_01_read.jsp?boardid=1000000035"><img src="/images/common/header/m_0401.png" alt="Constitution of the Republic ok korea" id="m41" /></a></li>
+<!--							<li><a href="/res/low_02_read.jsp?boardid=1000000036"><img src="/images/common/header/m_0402.png" alt="National Assembly Act" id="m42" /></a></li>	-->
+<!--							<li><a href="/res/low_03_list.jsp?boardid=1000000037"><img src="/images/common/header/m_0403.png" alt="Foreigner-related Laws" id="m43" /></a></li>	-->
+							<li><a href="/res/low_06_list.jsp"><img src="/images/common/header/m_0406.png" alt="National Assembly-related Laws" id="m43" /></a></li>
+							<li><a href="/res/tra_list.jsp?boardid=1000000024"><img src="/images/common/header/m_0404.png" alt="Recently Passed Bills" id="m44" /></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="/com/guide_02.jsp" onmouseover="menu_over(5)" onfocus="menu_over(5)"><img src="/images/common/header/m_05.png" alt="INFO" id="m5" /></a>
+					<div id="sub5" class="hide">
+						<ul>
+							<li><a href="/com/guide_02.jsp"><img src="/images/common/header/m_0501.png" alt="FAQ" id="m51" /></a></li>
+							<li><a href="/com/fre_list.jsp?boardid=1000000034"><img src="/images/common/header/m_0502.png" alt="Maessage Board" id="m52" /></a></li>
+							<li><a href="/com/guide_01.jsp"><img src="/images/common/header/m_0503.png" alt="Visitors" id="m53" /></a></li>
+							<li><a href="/com/att_list.jsp?boardid=1000000463"><img src="/images/common/header/m_0506.png" alt="Contact Attach&#233;s" id="m56" /></a></li>
+							<li><a href="/res/guide_03_01.jsp"><img src="/images/common/header/m_0504.png" alt="Download" id="m54" /></a></li>
+							<li><a href="/com/guide_07.jsp"><img src="/images/common/header/m_0505.png" alt="Links" id="m55" /></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div id="menuAll"><a href="javascript:menuOpenClose()"><img src="/images/common/header/btn_menuAll.png" alt="MENU ALL +" /></a></div>
+		</div>
+		<!-- 전체메뉴 보기 -->
+		<div id="menuAllView" class="hide">
+			<ul class="fl w190">
+				<li><img src="/images/common/header/map_01.gif" alt="INTRODUCTION" />
+					<ul class="t25">
+						<li><a href="/int/org_02.jsp"><img src="/images/common/header/map_0101.gif" alt="Leadership" /></a></li>
+						<li><a href="/int/org_01.jsp"><img src="/images/common/header/map_0102.gif" alt="Organization" /></a>
+							<ul>
+								<li><a href="/int/org_01.jsp"><img src="/images/common/header/map_010201.gif" alt="- Organization Chart" /></a></li>
+								<li><a href="/int/org_03.jsp"><img src="/images/common/header/map_010202.gif" alt="- Members" /></a></li>
+								<li><a href="/int/org_04.jsp"><img src="/images/common/header/map_010203.gif" alt="- Plenary Session" /></a></li>
+								<li><a href="/int/org_05.jsp"><img src="/images/common/header/map_010204.gif" alt="- Whole House Committee" /></a></li>
+								<li><a href="/int/org_06.jsp"><img src="/images/common/header/map_010205.gif" alt="- Committees" /></a></li>
+								<li><a href="/int/org_07.jsp"><img src="/images/common/header/map_010206.gif" alt="- Negotiation Groups" /></a></li>
+								<li><a href="/int/sup.jsp"><img src="/images/common/header/map_010207.gif" alt="- Support Organizations" /></a></li>
+							</ul>
+						</li>
+						<li><a href="/int/act_01.jsp"><img src="/images/common/header/map_0103.gif" alt="Activities &amp; Powers" /></a>
+							<ul>
+								<li><a href="/int/act_01.jsp"><img src="/images/common/header/map_010301.gif" alt="- on Legislation" /></a></li>
+								<li><a href="/int/aut_02.jsp"><img src="/images/common/header/map_010302.gif" alt="- on Finance" /></a></li>
+								<li><a href="/int/act_03.jsp"><img src="/images/common/header/map_010303.gif" alt="- on National Administration" /></a></li>
+								<li><a href="/int/act_04_02.jsp"><img src="/images/common/header/map_010304.gif" alt="- on Parliamentary Diplomacy" /></a></li>
+							</ul>
+						</li>
+						<li><a href="/int/his_01.jsp"><img src="/images/common/header/map_0104.gif" alt="History" /></a>
+							<ul>
+								<li><a href="/int/his_01.jsp"><img src="/images/common/header/map_010401.gif" alt="- NA in the past" /></a></li>
+								<li><a href="/int/past_01.jsp"><img src="/images/common/header/map_010402.gif" alt="- Past Members" /></a></li>
+								<li><a href="/int/past_02.jsp"><img src="/images/common/header/map_010403.gif" alt="- Past Leaderships" /></a></li>
+								<li><a href="/int/past_03.jsp"><img src="/images/common/header/map_010404.gif" alt="- Past Parties" /></a></li>
+								<li><a href="/int/past_04.jsp"><img src="/images/common/header/map_010405.gif" alt="- Bill statistics" /></a></li>
+								<li><a href="/int/past_05.jsp"><img src="/images/common/header/map_010406.gif" alt="- NA Building in the past" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="fl w180">
+				<li><img src="/images/common/header/map_02.gif" alt="MEMBERS" />
+					<ul class="t25">
+						<li><a href="/cha/int.jsp"><img src="/images/common/header/map_0201.gif" alt="SPEAKER" /></a>
+							<ul>
+								<li><a href="/cha/int.jsp"><img src="/images/common/header/map_020101.gif" alt="- Message from the Speaker" /></a></li>
+								<li><a href="/cha/pro.jsp"><img src="/images/common/header/map_020102.gif" alt="- Biography" /></a></li>
+								<li><a href="/cha/mov_list.jsp?boardid=1000000283"><img src="/images/common/header/map_020103.gif" alt="- Main Activities" /></a></li>
+								<li><a href="/cha/add_list.jsp?boardid=1000000284"><img src="/images/common/header/map_020104.gif" alt="- Speeches" /></a></li>
+							</ul>
+						</li>
+						<li><a href="/cha/spro.jsp"><img src="/images/common/header/map_0202.gif" alt="Vice Speakers" /></a></li>
+						<li><a href="/mem/mem_01.jsp"><img src="/images/common/header/map_0203.gif" alt="Members" /></a>
+							<ul>
+								<li><a href="/mem/mem_01.jsp"><img src="/images/common/header/map_020301.gif" alt="- By alphabet" /></a></li>
+								<li><a href="/mem/mem_02.jsp"><img src="/images/common/header/map_020302.gif" alt="- By City or Province" /></a></li>
+								<li><a href="/mem/mem_03.jsp"><img src="/images/common/header/map_020303.gif" alt="- By Committee" /></a></li>
+								<li><a href="/mem/mem_04.jsp"><img src="/images/common/header/map_020304.gif" alt="- By Negotiation Group" /></a></li>
+								<li><a href="/mem/mem_05.jsp"><img src="/images/common/header/map_020305.gif" alt="- By Term" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="fl w203">
+				<li><img src="/images/common/header/map_03.gif" alt="WHAT'S ON" />
+					<ul class="t25">
+						<li><a href="/wha/who_list.jsp"><img src="/images/common/header/map_0301.gif" alt="Legislative Schedule" /></a>
+							<ul>
+								<li><a href="/wha/plenary_list.jsp"><img src="/images/common/header/map_030101.gif" alt="- Plenary Schedule" /></a></li>
+								<li><a href="/wha/tod.jsp"><img src="/images/common/header/map_030102.gif" alt="- Committee Schedule" /></a></li>
+								<li><a href="/wha/who_list.jsp"><img src="/images/common/header/map_030103.gif" alt="- Session Overview" /></a></li>
+							</ul>
+						</li>
+						<li><a href="/wha/new2_list.jsp?boardid=1000000027"><img src="/images/common/header/map_0302.gif" alt="What's New" /></a></li>
+						<li><a href="/wha/pre_list.jsp?boardid=1000000028"><img src="/images/common/header/map_0303.gif" alt="Press Releases" /></a></li>
+						<li><a href="/wha/photos_list.jsp?boardid=1000000342"><img src="/images/common/header/map_0304.gif" alt="National Assembly in Photos" /></a></li>
+						<li><a href="/wha/new_list.jsp?boardid=1000000025"><img src="/images/common/header/map_0305.gif" alt="In the Press" /></a></li>
+						<li><a href="/abo/zin_list.jsp"><img src="/images/common/header/map_0306.gif" alt="Monthly Webzine" /></a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="fl w250">
+				<li><img src="/images/common/header/map_04.gif" alt="LAWS &amp; BILls" />
+					<ul class="t25">
+						<li><a href="/res/low_01_read.jsp?boardid=1000000035"><img src="/images/common/header/map_0401.gif" alt="Constitution of the Republic of Korea" /></a></li>
+						<li><a href="/res/low_06_list.jsp"><img src="/images/common/header/map_0406.gif" alt="National Assembly-Related Laws" /></a></li>
+<!-- 						<li><a href="/res/low_02_read.jsp?boardid=1000000036"><img src="/images/common/header/map_0402.gif" alt="National Assembly Act" /></a></li>
+						<li><a href="/res/low_03_list.jsp?boardid=1000000037"><img src="/images/common/header/map_0403.gif" alt="Foreigner-related Laws" /></a></li> -->
+						<li><a href="/res/tra_list.jsp?boardid=1000000024"><img src="/images/common/header/map_0404.gif" alt="Recently Passed Bills" /></a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="fl">
+				<li><img src="/images/common/header/map_05.gif" alt="INFO" />
+					<ul class="t25">
+						<li><a href="/com/guide_02.jsp"><img src="/images/common/header/map_0501.gif" alt="FAQ" /></a></li>
+						<li><a href="/com/fre_list.jsp?boardid=1000000034"><img src="/images/common/header/map_0502.gif" alt="Message Board" /></a></li>
+						<li><a href="/com/guide_01.jsp"><img src="/images/common/header/map_0503.gif" alt="Visitors" /></a></li>
+						<li><a href="/com/att_list.jsp?boardid=1000000463"><img src="/images/common/header/map_0506.gif" alt="Contact Attach&#233;s" /></a></li>
+						<li><a href="/res/guide_03_01.jsp"><img src="/images/common/header/map_0504.gif" alt="Download" /></a>
+							<ul>
+								<li><a href="/res/guide_03_01.jsp"><img src="/images/common/header/map_050401.gif" alt="- Photos" /></a></li>
+								<li><a href="/res/guide_04_list.jsp"><img src="/images/common/header/map_050402.gif" alt="- Site tools" /></a></li>
+							</ul>
+						</li>
+						<li><a href="/com/guide_07.jsp"><img src="/images/common/header/map_0505.gif" alt="Links" /></a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="allMenuClose"><a href="javascript:allMenuClose()" onClick="allMenuClose()"><img src="/images/common/header/btn_close.gif" alt="All Menu Close" /></a></div>
+		</div> 
+		
+
+		<!-- Left 영역 -->
+		<div id="left">
+			<h2><img src="/images/common/left/h2_02.gif" alt="MEMBERS" /></h2>
+			<ul id="leftMenu">
+				<li><a href="/cha/int.jsp"><img src="/images/common/left/l_0201.gif" alt="SPEAKER" /></a>
+					<ul>
+						<li>
+							<a href="/cha/int.jsp">
+								<img src="/images/common/left/l_0201_01.gif" alt="Message from the Speaker" />
+							</a>
+						</li>
+						<li>
+							<a href="/cha/pro.jsp">
+								<img src="/images/common/left/l_0201_02.gif" alt="Biography" />
+							</a>
+						</li>
+						<li>
+							<a href="/cha/mov_list.jsp?boardid=1000000283">
+								<img src="/images/common/left/l_0201_03.gif" alt="Main Activities" />
+							</a>
+						</li>
+						<li>
+							<a href="/cha/add_list.jsp?boardid=1000000284">
+								<img src="/images/common/left/l_0201_04.gif" alt="Speeches" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="/cha/spro.jsp"><img src="/images/common/left/l_0202.gif" alt="Vice Speaker" /></a></li>
+				<li><a href="/mem/mem_01.jsp"><img src="/images/common/left/l_0203on.gif" alt="Members" /></a>
+					<ul>
+						<li>
+							<a href="/mem/mem_01.jsp">
+								<img src="/images/common/left/l_0203_01on.gif" alt="By alphabet" />
+							</a>
+						</li>
+						<li>
+							<a href="/mem/mem_02.jsp">
+								<img src="/images/common/left/l_0203_02.gif" alt="By City or Province" />
+							</a>
+						</li>
+						<li>
+							<a href="/mem/mem_03.jsp">
+								<img src="/images/common/left/l_0203_03.gif" alt="By Committee" />
+							</a>
+						</li>
+						<li>
+							<a href="/mem/mem_04.jsp">
+								<img src="/images/common/left/l_0203_04.gif" alt="By Negotiation Group" />
+							</a>
+						</li>
+						<li>
+							<a href="/mem/mem_05.jsp">
+								<img src="/images/common/left/l_0203_05.gif" alt="By Term" />
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+<div id="printBtn">
+	<a href="#a" title="Open a new window" onclick="sendPrint();" ><img type="image" src="../images/common/btn/btn_print.gif" alt="PRINT" style="cursor: pointer;"  /></a>
+</div>
+		
+		<!-- Contents 영역 -->
+		<div id="contents">
+			<h3><img src="/images/common/title/h3_0203_01.gif" alt="By Alphabet" /></h3>
+			<p id="location"><img src="/images/common/symbol/icon_h.gif" alt="Home" /> >  MEMBERS > Members > <strong>By Alphabet</strong></p>
+
+			<!-- 본문 시작 -->
+			<ul class="azList mt20" id="alphaList">
+				<li class="on"><a href="#Alphabet01" onclick="fnClickAlpha(0);">A ~ C</a></li>
+				<li><a href="#Alphabet02" onclick="fnClickAlpha(1);">D ~ F</a></li>
+				<li><a href="#Alphabet03" onclick="fnClickAlpha(2);">G ~ I</a></li>
+				<li><a href="#Alphabet04" onclick="fnClickAlpha(3);">J ~ L</a></li>
+				<li><a href="#Alphabet05" onclick="fnClickAlpha(4);">M ~ O</a></li>
+				<li><a href="#Alphabet06" onclick="fnClickAlpha(5);">P ~ R</a></li>
+				<li><a href="#Alphabet07" onclick="fnClickAlpha(6);">S ~ U</a></li>
+				<li><a href="#Alphabet08" onclick="fnClickAlpha(7);">V ~ X</a></li>
+				<li><a href="#Alphabet09" onclick="fnClickAlpha(8);">Y ~ Z</a></li>
+			</ul>
+			<div class="cb"></div>
+			<p class="ar b mt30 b10">Mon, Aug 1, '22</p>
+			<div class="boxType03">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet01" src="/images/member/az_01.gif" alt="A ~ C" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('sYRde0JJy%2Bo%3D'); return false">AHN CHEOLSOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('CZZ%2FXtMzG6I%3D'); return false">AHN GYUBACK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Dk9I3JdkdOE%3D'); return false">AN BYUNGGIL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2FOBFnd0w2GI%3D'); return false">AN HOYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2FHudQcuH%2Fa8%3D'); return false">AN MINSUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('YC8sNYvCc8E%3D'); return false">BACK HYERYUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('XKHGb%2BQW5EE%3D'); return false">BAE HYUNJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('FZ8rSSgRmPA%3D'); return false">BAE JINGYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('cjKGQfFJN5s%3D'); return false">BAE JUNEYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('2b4CJrS6wVg%3D'); return false">BAEK JONGHEAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ynMOKqv1IRs%3D'); return false">BYUN JAEILL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('tmbA3bL1uqk%3D'); return false">CHANG JEWON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Cr9MEdlgOxI%3D'); return false">CHEON JUNHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ERcEIVb5gik%3D'); return false">CHO EUNGCHEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('F01zj7OL0Do%3D'); return false">CHO HAEJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2FENAVizDEtU%3D'); return false">CHO JEONGSIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('INWGcIv3FKA%3D'); return false">CHO JUNGHUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('SGohadE0PYw%3D'); return false">CHO KYOUNGTAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('UgBaVzReAvI%3D'); return false">CHO SUJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('A8%2FQhaccxyc%3D'); return false">CHOE KANGWOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('cwVEhRAN9AE%3D'); return false">CHOEJAEHYEONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7eRgRGiWwvM%3D'); return false">CHOEUNHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('aMdpt5TpioQ%3D'); return false">CHOI CHUNSIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7AoK4A59vtU%3D'); return false">CHOI HYEYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('o7hrHoQdx1Y%3D'); return false">CHOI HYUNGDU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('C8pxmmqA5Lc%3D'); return false">CHOI INHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4%2FAsetNtbPs%3D'); return false">CHOI JONGYOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('S4HnwsOdQdY%3D'); return false">CHOI KISANG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('LqRI2TOQ7P4%3D'); return false">CHOI SEUNGJAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4ldzomIMnb8%3D'); return false">CHOI YOUNGHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('QfSsVotAroo%3D'); return false">CHOI YOUNSUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('1C9clvPUUvM%3D'); return false">CHOO KYUNGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('LBkUIdwphUI%3D'); return false">CHULMIN JANG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('W28aMsQHTLo%3D'); return false">CHUN JAESOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2FbybTf0Xsw0%3D'); return false">CHUNG ILYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('DAR04tC%2F9Hw%3D'); return false">CHUNG JINSUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('N%2FouBhvIphg%3D'); return false">CHUNG WOONCHUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('nw9feTwUe9Q%3D'); return false">CHUNG WOOTAIK</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet02" src="/images/member/az_02.gif" alt="D ~ F" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('Jg97LCqv6wI%3D'); return false">DO JONGHWAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('e9yIME1l0c4%3D'); return false">EOH KIYKU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('l8boykw7%2BIM%3D'); return false">EOM TAEYOUNG</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet03" src="/images/member/az_03.gif" alt="G ~ I" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('h7R%2FkwIb%2FyA%3D'); return false">HA TAEKEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('euqlpPsGk%2Bw%3D'); return false">HA YOUNGJE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Kp3mfoJZxfc%3D'); return false">HAN BYUNGDO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('q5blKqu%2BGhI%3D'); return false">HAN JEOUNGAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('kNizHBOxYDg%3D'); return false">HAN JUNHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('LI%2FLrI7cXJM%3D'); return false">HAN KIHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('zAvQn9mAJUM%3D'); return false">HAN MOOKYUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('wGDvgSo%2FbZs%3D'); return false">HEO JONGSIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('EhZ6p40LLmg%3D'); return false">HER EUNA</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('pNm6UznwNs4%3D'); return false">HONG IHKPYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('FXVXGdPt2r4%3D'); return false">HONG JUNGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ZwXQ%2Fdp2%2BN8%3D'); return false">HONG KEEWON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('1J2sS0CtoU4%3D'); return false">HONG MOONPYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('tyBySmJ7l4A%3D'); return false">HONG SUKJOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('D71f2ER6aVE%3D'); return false">HONG SUNGKOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('S68lBtaoKhg%3D'); return false">HONG YOUNGPYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('SqhiXoifeCs%3D'); return false">HUH YOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('R%2B%2FiM1NGjVo%3D'); return false">HWANG HEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('DnGtU9qzRNc%3D'); return false">HWANG UNHA</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('KbBP1fR7JR0%3D'); return false">HWANGBO SEUNGHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('8uwnww9qem4%3D'); return false">IN JAEKEUN</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet04" src="/images/member/az_04.gif" alt="J ~ L" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('scSwupm07BQ%3D'); return false">JANG DONGHYEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('vD%2FZFqvRE58%3D'); return false">JANG HYEYEONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('01Max8u2Mnk%3D'); return false">JANG KYUNGTAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('YTmH661kWQA%3D'); return false">JEON BONGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('uF9x20jnIlM%3D'); return false">JEON HAECHEOL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ik6KUlsQoY4%3D'); return false">JEON YONGGI</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('RWEMte%2FfPI8%3D'); return false">JEONG DONGMAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('aEB75GbCFD0%3D'); return false">JEONG JEOMSIG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('xaqScGeVTAM%3D'); return false">JI SEONGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('C1ao1zSmu%2Bs%3D'); return false">JIN SUNGJOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('BKNPn1ZQdv8%3D'); return false">JIN SUNMEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('aXAiJd33wFc%3D'); return false">JO MYUNGHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('EnJgQ8Pj2%2Fg%3D'); return false">JO OSEOP</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('QULsXHt2EC8%3D'); return false">JO SEOUNGLAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('u2f2Q40Qz10%3D'); return false">JOO HOYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('nWXLfZxG9RQ%3D'); return false">JU CHEOLHYEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('oIVuhXytvb4%3D'); return false">JUN HYESOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('wvLPFh7i%2FP8%3D'); return false">JUN JOOHYAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ZsDITXvlDbE%3D'); return false">JUNG CHANMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('nUga8r8YUTU%3D'); return false">JUNG CHOUNSOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('E6fo3LuY16o%3D'); return false">JUNG CHUNGRAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('WNYdpgmEAmg%3D'); return false">JUNG HEEYONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2BvF0NNHgvmI%3D'); return false">JUNG PILMO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('wf5tmOmocvw%3D'); return false">JUNG SUNGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('RNFikUHL1gk%3D'); return false">JUNG TAEHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('jB1NNSLrOM4%3D'); return false">KANG BYUNGWON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('jA1VjLmzg8w%3D'); return false">KANG DAESIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('HW2T5IpWhU4%3D'); return false">KANG DEUKGU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7MUAle%2ByjzM%3D'); return false">KANG EUNMI</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('lafVLI2T%2B1A%3D'); return false">KANG GIYUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('1JVkKNn6fz0%3D'); return false">KANG HOONSIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('F8V0eX5eDZE%3D'); return false">KANG JUNHYEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('wzMWrb8LgYc%3D'); return false">KANG MINJUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('OvzU3Iz%2B95c%3D'); return false">KANG MINKUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('lNjEZJxIGt0%3D'); return false">KANG SUNWOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('QgiLme4VrGQ%3D'); return false">KI DONGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('u%2BS8ZWi9xJU%3D'); return false">KIM BYONGWOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('G%2F%2FluifLyvk%3D'); return false">KIM BYUNGJOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('6jyns7hH5Zg%3D'); return false">KIM BYUNGKEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('XOmcuQa5SDU%3D'); return false">KIM BYUNGWOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('CpSBL4ZaUIw%3D'); return false">KIM CHEOLMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('POSiUDvppZU%3D'); return false">KIM DOEUP</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4mrKu%2BbOp60%3D'); return false">KIM DUKWAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('5VkM%2FXaePpM%3D'); return false">KIM GIHYEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('WOK1QeFR0y4%3D'); return false">KIM HACKYONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7K%2Bcx%2B91yfQ%3D'); return false">KIM HANJUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('9xG5N54n5pU%3D'); return false">KIM HANKYU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('faWmvgQNYPc%3D'); return false">KIM HEEGON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('OFYzVt6%2BnHU%3D'); return false">KIM HEEKUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2BWfl0VvMjrU%3D'); return false">KIM HOIJAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('eoqdXWdS9TE%3D'); return false">KIM HONGGUL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Sutl06zxvig%3D'); return false">KIM HYUNGDONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ruH6Ey1daMw%3D'); return false">KIM JINPYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('N%2BcdUOhYrx4%3D'); return false">KIM JONGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Nyb56emP258%3D'); return false">KIM JUNGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('uFJkZ9Cphg8%3D'); return false">KIM JUNGJAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('luBO1J1Xzh0%3D'); return false">KIM JUYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('EX4GGXX55Pg%3D'); return false">KIM KYOHEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('phd8IKA2Jj4%3D'); return false">KIM KYUNGHYUP</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('MVz9UGII9AA%3D'); return false">KIM KYUNGMAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('8jldB1h3oJc%3D'); return false">KIM MIAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('TDUk6mM9IA4%3D'); return false">KIM MINCHUL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('rxsheNi7kIw%3D'); return false">KIM MINKI</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7dWl3CuS%2BLo%3D'); return false">KIM MINSEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('uWoJ0ujJxbw%3D'); return false">KIM NAMKUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('MnjbIP%2F5w64%3D'); return false">KIM SANGHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('j2WTxhLCy1M%3D'); return false">KIM SANGHOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('5TdfT6KsJac%3D'); return false">KIM SEOKKI</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('GMrkRq7QRTI%3D'); return false">KIM SEUNGNAM</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('2gGdjfErgA4%3D'); return false">KIM SEUNGSU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('HecVb8olY1s%3D'); return false">KIM SEUNGWON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('st%2BC1nYS24E%3D'); return false">KIM SOOHEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('LHdAK1L4qsQ%3D'); return false">KIM SUNGJOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('MNk1jayNdSg%3D'); return false">KIM SUNGWHAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('vv2RUVHMOpU%3D'); return false">KIM SUNGWON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('dZZlHadWQJ8%3D'); return false">KIM SUNGYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('jHHohJyGb08%3D'); return false">KIM TAEHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('odfiNgc88Gk%3D'); return false">KIM TAENYEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('aEenkVxFz8I%3D'); return false">KIM WONI</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('MycbsPZGDt8%3D'); return false">KIM WOONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('1qP3RUrCGT8%3D'); return false">KIM YEAJI</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('g4tfSz%2BJ94c%3D'); return false">KIM YEUNGSHIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('RjzSrs5ObfU%3D'); return false">KIM YONGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('flQjiVbsAWA%3D'); return false">KIM YONGPAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('pjYy4KWMdo0%3D'); return false">KIM YOUNG SUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('l6uRsbQI30E%3D'); return false">KIM YOUNGBAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4obiX5n7UA8%3D'); return false">KIM YOUNGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('iwvk15qZ6qo%3D'); return false">KIM YOUNGJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('xPAHI8QzW1w%3D'); return false">KIM YOUNGJOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Q1ARDvp%2BbGk%3D'); return false">KIM YUNDUCK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('i4hmKsLmgpg%3D'); return false">KIMEUIKYEOM</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('fFFQM%2FgkSyw%3D'); return false">KO MINJUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Hby4giVxNoE%3D'); return false">KO YOUNGIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('aH6MpDRpoHU%3D'); return false">KOH YONGJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('fO%2Fb%2BN1yS1Q%3D'); return false">KU JAKEUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('nBZ5INcVxbM%3D'); return false">KWEON SEONGDONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('MdEdnyXsRh4%3D'); return false">KWON CHILSEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('otpyAweOgSI%3D'); return false">KWON EUNHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('38bM3l9sIz8%3D'); return false">KWON INSOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('9NaxXlRnfbw%3D'); return false">KWON MYUNGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('P%2F%2BV0cb%2BsuA%3D'); return false">KWON YOUNGSE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4AU7xyHhIAo%3D'); return false">Kyung Hee Chung</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('HXFTPd%2BQOHs%3D'); return false">LEE BYUNGHOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Ohp%2B85aWW%2FE%3D'); return false">LEE CHEIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('l7y4W15UxBg%3D'); return false">LEE CHULGYU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('FJLiJN4aefU%3D'); return false">LEE DALGON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Lk9vusiY3Jc%3D'); return false">LEE DONGJU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('DLqCi9120RA%3D'); return false">LEE EUNJU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('y4Jw9wa6KSk%3D'); return false">LEE HACKYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('WEK0AgzXUXE%3D'); return false">LEE HAESIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('IHHu5pg9F28%3D'); return false">LEE HUNSEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('IFDoL0XyVFA%3D'); return false">LEE HYUNGSEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('2SthQI5RaUI%3D'); return false">LEE INSEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('2X3MmUr5dGg%3D'); return false">LEE INYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Whg6naUaOCc%3D'); return false">LEE JAEJUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('a2BEFRMXjkg%3D'); return false">LEE JAEMYUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('22IUEBubJ24%3D'); return false">LEE JANGSUB</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('xggmJMvPqUs%3D'); return false">LEE JONGBAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('G69SUp1Nnvo%3D'); return false">LEE JONGSEONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Xb8JcilfOHY%3D'); return false">LEE JOOHWAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('x1NQPwXQRNI%3D'); return false">LEE JUNGMUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Yd5IeFw8pws%3D'); return false">LEE KAIHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('LmC%2BHaBXlo4%3D'); return false">LEE MANHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('CpEfomDiXKc%3D'); return false">LEE MYOUNGSU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('BiTOFCuelDs%3D'); return false">LEE SANGHEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('GhF4BKvuc2k%3D'); return false">LEE SANGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('vcnmUMsHUVw%3D'); return false">LEE SOOJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ZrVeJs%2BwJck%3D'); return false">LEE SOYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('l%2FLEJTvjljs%3D'); return false">LEE SUJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('nqM5kH2whsw%3D'); return false">LEE SUNGMAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('1sbNGyNgyvI%3D'); return false">LEE TAEKYU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('r3fmKpJx5sw%3D'); return false">LEE TAHNEY</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ZPmk2qKRJLI%3D'); return false">LEE WONTAEG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('UXuZE4dK73c%3D'); return false">LEE WONWOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('MRFgUa8lAmk%3D'); return false">LEE YANGSOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('kQKtGrPQwMA%3D'); return false">LEE YONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('guBF91WDMQk%3D'); return false">LEE YONGBIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('ZRtwxEPJzqk%3D'); return false">LEE YONGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Wuul1GJb68I%3D'); return false">LEE YONGSUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('uIPuIsvFVsI%3D'); return false">LEE YONGWOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('fip3aSHp2MU%3D'); return false">LIM BYUNGHEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('bgR2sZPOo50%3D'); return false">LIM HOSEON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Z6WJf2QDQRk%3D'); return false">LIM JONGSEONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('EFH90Qjt98w%3D'); return false">LIM LEEJA</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Jqi2ZbbohWY%3D'); return false">LIM OKYEONG</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet05" src="/images/member/az_05.gif" alt="M ~ O" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('HxBMSt1O8%2BU%3D'); return false">MAENG SUNGKYU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('O9t5Wp7FzGs%3D'); return false">MIN BYOUNGDUG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('N5Pwl6rD8MU%3D'); return false">MIN HONGCHUL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('N9Mx%2FnMlNzI%3D'); return false">MIN HYUNGBAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('csIXGSp9BB8%3D'); return false">MOON JEONGBOG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('E3yJYy4kKrE%3D'); return false">MOON JINSEOG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('0E98rievwXA%3D'); return false">NAM INSOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('skbIbq%2FWDPI%3D'); return false">NOH WOONGRAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4Gdn4O5%2B%2FHE%3D'); return false">OH GIHYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('NDx66X9yTN4%3D'); return false">OH YEONGHWAN</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet06" src="/images/member/az_06.gif" alt="P ~ R" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('%2BVJ4N3yV3II%3D'); return false">PARK BEOMKYE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('vzhWUjxju4A%3D'); return false">PARK BYEONGSEUG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('i5X2gIS3Y1k%3D'); return false">PARK CHANDAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('IUVTN%2BTbMwk%3D'); return false">PARK DAECHUL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('GigbeD5RVJA%3D'); return false">PARK DAESOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('hJ7DniaYGYE%3D'); return false">PARK DUKHYUM</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('4Crvhqicjk8%3D'); return false">PARK HONGKEUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('aAn7k1YVqXs%3D'); return false">PARK HYEUNGSOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('L0B37ln%2F%2Be8%3D'); return false">PARK JAEHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2BsECV5KbPdY%3D'); return false">PARK JEONGHA</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('vycCioxHE8Y%3D'); return false">PARK JEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('wltpCEfcwTo%3D'); return false">PARK JIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('3d4%2BEKKW5VY%3D'); return false">PARK JUMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('yZkGRIz4wFw%3D'); return false">PARK KWANGON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('N0v621Rqzgk%3D'); return false">PARK SANGHYUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('rN4CJnuBTVE%3D'); return false">PARK SEONGMIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('8RCT67VBYwE%3D'); return false">PARK SOOYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7Lqzcz9Az6I%3D'); return false">PARK SUNGJOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('upMGWdpxIAo%3D'); return false">PARK SUNGJOONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('6NBifL8EMEE%3D'); return false">PARK WANJOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Fwx2B8zRw5U%3D'); return false">PARK YONGJIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('FHqHknW3%2FhU%3D'); return false">PARK YOUNGSOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('WvHake7msWs%3D'); return false">RHO YONGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('r%2BPrvVx2ml8%3D'); return false">RYU HOJEONG</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet07" src="/images/member/az_07.gif" alt="S ~ U" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('eK0wgqM6BOg%3D'); return false">SEO DONGYONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('coVRsj2iPxc%3D'); return false">SEO ILJUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('DObXmgMprAA%3D'); return false">SEO SAMSEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('gWxLKlg%2BIV0%3D'); return false">SEO YOUNGKYO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('g4eMxHk216w%3D'); return false">SEO YOUNGSEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('l4mHrVTbzeQ%3D'); return false">SHIN DONGKUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('G7qWGqxYXVQ%3D'); return false">SHIN HYUNYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('prQXqBaY9JQ%3D'); return false">SHIN JEONGHOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('8EA0Afv0Rtg%3D'); return false">SHIN WONSIK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('HdRUOv%2BJFlI%3D'); return false">SHIN YEONGDAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('tCokruw2kVY%3D'); return false">SIM SANGJEUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('T8V8YPWZJlI%3D'); return false">SO BYUNGCHUL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('H%2F96ZhprtD4%3D'); return false">SO BYUNGHOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('A5YR4OTfgwk%3D'); return false">SONG EONSEOG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('QKcfH%2FbN9nI%3D'); return false">SONG GABSEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('86joG6BcOPw%3D'); return false">SONG JAEHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('s68GDKqRayU%3D'); return false">SONG KI HUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7Lv378o7FLI%3D'); return false">SONG OKJOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Fo01h%2B2KoKw%3D'); return false">SONG SEOGJUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('pCX7b8GWq%2FU%3D'); return false">SUH BUMSOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('JaOfdD60sTI%3D'); return false">SUH BYUNGSOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Bkv9eUOqo24%3D'); return false">SUH JUNGSOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('AX48iGj6Bhc%3D'); return false">SUL HOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('Dm8Xmphm380%3D'); return false">SUNG ILJONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('m%2BzQPrQwR%2Fw%3D'); return false">TAE YONGHO</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet08" src="/images/member/az_08.gif" alt="V ~ X" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('G%2BA2Bz3w%2B%2Fw%3D'); return false">WI SEONGGON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('3fTUQpCj2Hc%3D'); return false">WOO SANGHO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('i77k%2F9J5ZN0%3D'); return false">WOO WONSHIK</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+			<div class="boxType03 mt50">
+				<div class="boxT">&nbsp;</div>
+				<div class="mt_36"><img id="Alphabet09" src="/images/member/az_09.gif" alt="Y ~ Z" /></div>
+				<ul class="dotList3">
+					<li><a title="Open a new window" href="#" onclick="memInfo('2iEdUaCIEQo%3D'); return false">YANG HYANGJA</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('z6WP1Gass%2FU%3D'); return false">YANG JUNGSUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('sjaJijIC0WM%3D'); return false">YANG KIDAE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('zAPIYMAQv%2Fc%3D'); return false">YANG KUMHEE</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('STgpqwlxcoY%3D'); return false">YANG KYUNGSOOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('hhnV3CVZIdk%3D'); return false">YANG YIWONYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('UOnSHF0LZMY%3D'); return false">YONG HYEIN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('O%2BJhhSz55S4%3D'); return false">YOO DONGSOO</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('KvMutbwlexQ%3D'); return false">YOO GYEONGJOON</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('6BWB1Ld%2BgYU%3D'); return false">YOO JUNGJU</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('pUohTo5pSPc%3D'); return false">YOO KIHONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('h6b80tdD%2B8w%3D'); return false">YOO SANGBUM</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('7HL1jEcbX3U%3D'); return false">YOO SUNGKULL</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('lBr%2Bpvj5mRw%3D'); return false">YOON DOOHYUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('e40dCtuCSbs%3D'); return false">YOON HANHONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('KfSyaU7W2pM%3D'); return false">YOON HUDUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('mCYyyaduHlY%3D'); return false">YOON JAEKAB</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('RxajLat59%2FU%3D'); return false">YOON JOONBYEONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('p8lcyZ%2BGu10%3D'); return false">YOON SANGHYUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('O6lhDbyiDdk%3D'); return false">YOON YOUNGCHAN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('xIYdRS2MQ%2FU%3D'); return false">YOON YOUNGDEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('fBz9mnxkjq4%3D'); return false">YOON YOUNGSEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('q12%2BSDBpl4w%3D'); return false">YOUN KUNYOUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('n9KSfg%2FOarY%3D'); return false">YOUN KWANSUK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('%2FhYpr1xnWi4%3D'); return false">YOUN MEEHYANG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('vM0tySqzWBg%3D'); return false">YU EUIDONG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('wwgdm%2B2CFfk%3D'); return false">YUN CHANGHYUN</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('YXeVvmIniTA%3D'); return false">YUN HOJUNG</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('YcCUg%2B9Cl%2F0%3D'); return false">YUN JAEOK</a></li>	
+<li><a title="Open a new window" href="#" onclick="memInfo('odNnmT1z7z4%3D'); return false">YUN JUKEYNG</a></li>	
+
+				</ul>
+				<div class="boxB">&nbsp;</div>
+			</div>
+		</div>
+		
+	<div id="topBtn"><a href="#"><img src="../images/common/btn/btn_top.gif" alt="Top" /></a></div>
+		<div class="cb"></div>
+	</div>
+	
+	<div id="footer">
+		<div id="footerIn">
+			<p style="float:right;padding-right:50px;"><a href="/privacy/privacyPolicy.jsp"><strong class="fcGr">Privacy Policy</strong></a></p>
+			<p><strong class="fcGr">E-mail</strong> : <a href="mailto:english@assembly.go.kr;">ENGLISH@assembly.go.kr</a></p>
+			<p>Copyright (c) 2012 The National Assembly. All rights reserved.</p>
+			<address>1, Uisadang-daero, Yeongdeungpo-gu, Seoul, 07233, Republic of Korea</address>
+			<div class="foot-mark">
+				<a title="Link to the website of the Korea Web Accessibility Assessment Service" href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank">
+					<img class="wa" alt="The certification mark of the Korea Web Accessibility Assessment Service" src="/images/common/footer/img-wamark.gif" width="60" height="43"/>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
+ 
