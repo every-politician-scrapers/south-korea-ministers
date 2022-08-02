@@ -137,6 +137,11 @@
           "template": "short description"
         },
         {
+          "1": "Yoon Suk Yeol",
+          "2": "Talk:Yoon Suk-yeol#Requested move 1 August 2022",
+          "template": "user:rmcd bot/subject notice"
+        },
+        {
           "list": [
             "Yoon",
             ""
@@ -247,10 +252,10 @@
             "text": "Yoon Suk-yeol"
           },
           "image": {
-            "text": "South Korea President Yoon Suk-yeol profile.jpg"
+            "text": "South Korea President Yoon Suk Yeol portrait.jpg"
           },
           "caption": {
-            "text": "Official portrait, 2021"
+            "text": "Official portrait, 2022"
           },
           "native_name": {
             "text": "윤석열"

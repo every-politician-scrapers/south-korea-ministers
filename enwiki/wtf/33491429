@@ -25,17 +25,26 @@
         {
           "sentences": [
             {
-              "text": "Hong Joon-pyo (born 20 November 1953), also spelled as Hong Jun-pyo, is a South Korean prosecutor-turned-politician who is the current Mayor of Daegu.",
+              "text": "Hong Joon-pyo (born 20 November 1953), also spelled as Hong Jun-pyo, is a South Korean politician and former prosecutor who is the current Mayor of Daegu.",
               "links": [
+                {
+                  "text": "politician",
+                  "type": "internal",
+                  "page": "politician"
+                },
                 {
                   "text": "prosecutor",
                   "type": "internal",
                   "page": "prosecutor"
                 },
                 {
-                  "text": "politician",
+                  "text": "Mayor",
                   "type": "internal",
-                  "page": "politician"
+                  "page": "Mayor of Daegu"
+                },
+                {
+                  "type": "internal",
+                  "page": "Daegu"
                 }
               ],
               "formatting": {
@@ -46,21 +55,16 @@
               }
             },
             {
-              "text": "He served as a member of the National Assembly in his fifth term.",
-              "links": [
-                {
-                  "text": "National Assembly",
-                  "type": "internal",
-                  "page": "National Assembly (South Korea)"
-                }
-              ]
-            },
-            {
-              "text": "He was the governor of South Gyeongsang Province, and the party leader of the conservative Grand National Party in 2011 and its successor incarnation the Liberty Korea Party from 2017 to 2018.",
+              "text": "He previous served as the governor of South Gyeongsang Province, a member of the National Assembly for five terms, and the party leader of the conservative Grand National Party in 2011 and its successor incarnation the Liberty Korea Party from 2017 to 2018.",
               "links": [
                 {
                   "type": "internal",
                   "page": "South Gyeongsang Province"
+                },
+                {
+                  "text": "National Assembly",
+                  "type": "internal",
+                  "page": "National Assembly (South Korea)"
                 },
                 {
                   "text": "conservative",
@@ -213,6 +217,39 @@
             ]
           },
           "office1": {
+            "text": "Governor of South Gyeongsang Province",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Governor of South Gyeongsang Province"
+              }
+            ]
+          },
+          "predecessor1": {
+            "text": "Kim Doo-kwan",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Kim Doo-kwan"
+              }
+            ]
+          },
+          "successor1": {
+            "text": "Kim Kyoung-soo",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Kim Kyoung-soo"
+              }
+            ]
+          },
+          "term_start1": {
+            "text": "20 December 2012"
+          },
+          "term_end1": {
+            "text": "9 April 2017"
+          },
+          "office2": {
             "text": "Member of the National Assembly",
             "links": [
               {
@@ -221,38 +258,6 @@
                 "page": "National Assembly of South Korea"
               }
             ]
-          },
-          "constituency1": {
-            "text": "Daegu Suseong B",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Daegu"
-              },
-              {
-                "text": "Suseong",
-                "type": "internal",
-                "page": "Suseong District"
-              }
-            ]
-          },
-          "predecessor1": {
-            "text": "Joo Ho-young",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Joo Ho-young"
-              }
-            ]
-          },
-          "successor1": {
-            "text": "Lee In-seon"
-          },
-          "term_start1": {
-            "text": "30 May 2020"
-          },
-          "term_end1": {
-            "text": "26 April 2022"
           },
           "term_start2": {
             "text": "30 May 1996"
@@ -318,6 +323,38 @@
           "term_end3": {
             "text": "29 May 2012"
           },
+          "constituency4": {
+            "text": "Daegu Suseong B",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Daegu"
+              },
+              {
+                "text": "Suseong",
+                "type": "internal",
+                "page": "Suseong District"
+              }
+            ]
+          },
+          "predecessor4": {
+            "text": "Joo Ho-young",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Joo Ho-young"
+              }
+            ]
+          },
+          "successor4": {
+            "text": "Lee In-seon"
+          },
+          "term_start4": {
+            "text": "30 May 2020"
+          },
+          "term_end4": {
+            "text": "26 April 2022"
+          },
           "office5": {
             "text": "Leader of the Grand National Party/Liberty Korea Party",
             "links": [
@@ -378,39 +415,6 @@
                 "page": "Kim Sung-tae"
               }
             ]
-          },
-          "office7": {
-            "text": "Governor of South Gyeongsang Province",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Governor of South Gyeongsang Province"
-              }
-            ]
-          },
-          "predecessor7": {
-            "text": "Kim Doo-kwan",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Doo-kwan"
-              }
-            ]
-          },
-          "successor7": {
-            "text": "Kim Kyoung-soo",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kim Kyoung-soo"
-              }
-            ]
-          },
-          "term_start7": {
-            "text": "20 December 2012"
-          },
-          "term_end7": {
-            "text": "9 April 2017"
           },
           "party": {
             "text": "People Power",
@@ -488,15 +492,6 @@
       ],
       "references": [
         {
-          "url": "https://m.koreaherald.com/amp/view.php?ud=20220602000732",
-          "title": "Hong adds Daegu mayor to his unconventional career trajectory",
-          "newspaper": "The Korea Herald",
-          "date": "2 June 2022",
-          "access-date": "5 June 2022",
-          "template": "citation",
-          "type": "news"
-        },
-        {
           "url": "http://m.koreaherald.com/view.php?ud=20170702000253#cb",
           "title": "Will new leader turn around Liberty Korea Party?",
           "newspaper": "The Korea Herald",
@@ -513,15 +508,6 @@
           "access-date": "10 November 2017",
           "template": "citation",
           "type": "web"
-        },
-        {
-          "title": "South Korean opposition leader: Nukes are the only way to guarantee peace",
-          "url": "http://www.cnn.com/2017/10/18/asia/south-korea-trump-nukes/index.html",
-          "work": "CNN",
-          "date": "18 October 2017",
-          "access-date": "30 October 2017",
-          "template": "citation",
-          "type": "news"
         }
       ]
     },
@@ -803,6 +789,16 @@
       ],
       "references": [
         {
+          "url": "http://www.abc.net.au/news/2017-05-08/south-korean-election-candidates/8508008",
+          "title": "Meet the candidates in South Korea's unusual election",
+          "date": "2017-05-08",
+          "work": "ABC News",
+          "access-date": "2017-05-08",
+          "language": "en-AU",
+          "template": "citation",
+          "type": "news"
+        },
+        {
           "url": "http://www.cnn.com/2017/05/09/asia/south-korea-election/index.html",
           "title": "South Korea election: Moon Jae-in declared winner",
           "author1": "K. J. Kwon",
@@ -813,16 +809,6 @@
           "access-date": "2017-05-10",
           "template": "citation",
           "type": "web"
-        },
-        {
-          "url": "http://www.abc.net.au/news/2017-05-08/south-korean-election-candidates/8508008",
-          "title": "Meet the candidates in South Korea's unusual election",
-          "date": "2017-05-08",
-          "work": "ABC News",
-          "access-date": "2017-05-08",
-          "language": "en-AU",
-          "template": "citation",
-          "type": "news"
         }
       ]
     },
@@ -961,6 +947,9 @@
             },
             {
               "text": "On 26 April 2022, Hong resigned from the National Assembly after he was chosen as the People Power's nominee for the mayor of Daegu."
+            },
+            {
+              "text": "He would go on to win the election for mayor of Daegu and begin his term on 1 July 2022."
             }
           ]
         }
@@ -988,6 +977,15 @@
           "date": "5 November 2021",
           "template": "citation",
           "type": "web"
+        },
+        {
+          "url": "https://m.koreaherald.com/amp/view.php?ud=20220602000732",
+          "title": "Hong adds Daegu mayor to his unconventional career trajectory",
+          "newspaper": "The Korea Herald",
+          "date": "2 June 2022",
+          "access-date": "5 June 2022",
+          "template": "citation",
+          "type": "news"
         }
       ]
     },
@@ -1076,8 +1074,22 @@
             },
             {
               "text": "He supports \"armed peace.\""
+            },
+            {
+              "text": "Hong has stated that he supports the nuclear armament of South Korea."
             }
           ]
+        }
+      ],
+      "references": [
+        {
+          "title": "South Korean opposition leader: Nukes are the only way to guarantee peace",
+          "url": "http://www.cnn.com/2017/10/18/asia/south-korea-trump-nukes/index.html",
+          "work": "CNN",
+          "date": "18 October 2017",
+          "access-date": "30 October 2017",
+          "template": "citation",
+          "type": "news"
         }
       ]
     },
