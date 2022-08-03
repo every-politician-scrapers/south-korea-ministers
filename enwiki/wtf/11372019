@@ -1,0 +1,516 @@
+{
+  "title": "Won Hee-ryong",
+  "pageID": 11372019,
+  "categories": [
+    "1964 births",
+    "Living people",
+    "Members of the National Assembly (South Korea)",
+    "Liberty Korea Party politicians",
+    "Wonju Won clan",
+    "People Power Party (South Korea) politicians",
+    "Seoul National University School of Law alumni",
+    "People from Jeju Province",
+    "Government ministers of South Korea",
+    "South Korean prosecutors",
+    "Hanyang University alumni"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Won Hee-ryong (born February 14, 1964) is a South Korean politician who is the Minister of Land, Infrastructure and Transport since May 11, 2022.",
+              "links": [
+                {
+                  "text": "Minister of Land, Infrastructure and Transport",
+                  "type": "internal",
+                  "page": "Ministry of Land, Infrastructure and Transport (South Korea)"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Won Hee-ryong"
+                ]
+              }
+            },
+            {
+              "text": "He was a member of the 16th, 17th, and 18th National Assembly, and a Supreme Council Member of the conservative Grand National Party.",
+              "links": [
+                {
+                  "text": "National Assembly",
+                  "type": "internal",
+                  "page": "National Assembly of South Korea"
+                },
+                {
+                  "type": "internal",
+                  "page": "Grand National Party"
+                }
+              ]
+            },
+            {
+              "text": "He was governor of Jeju Province until his resignation on 11 August 2021.",
+              "links": [
+                {
+                  "text": "governor",
+                  "type": "internal",
+                  "page": "List of provincial-level governors in South Korea"
+                },
+                {
+                  "type": "internal",
+                  "page": "Jeju Province"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He is known to be a moderating force during his time in the conservative Saenuri Party (GNP's successor) and does not always adopt his party's policies and convictions.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Saenuri Party"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "description": "South Korean politician",
+          "template": "short description"
+        },
+        {
+          "list": [
+            "Won",
+            ""
+          ],
+          "lang": "Korean",
+          "template": "family name hatnote"
+        },
+        {
+          "year": "1964",
+          "month": "2",
+          "day": "14",
+          "df": "y",
+          "template": "birth date and age"
+        },
+        {
+          "list": [
+            "元",
+            "喜",
+            "龍"
+          ],
+          "template": "linktext"
+        }
+      ],
+      "infoboxes": [
+        {
+          "honorific-prefix": {
+            "text": "The Honourable",
+            "links": [
+              {
+                "type": "internal",
+                "page": "The Honourable"
+              }
+            ]
+          },
+          "name": {
+            "text": "Won Hee-ryong"
+          },
+          "native_name": {
+            "text": "원희룡"
+          },
+          "native_name_lang": {
+            "text": "ko"
+          },
+          "image": {
+            "text": "Won Heeryong - 2 in 2016 (cropped).jpg"
+          },
+          "alt": {
+            "text": "Won Hee-ryong in 2016"
+          },
+          "office": {
+            "text": "Minister of Land, Infrastructure and Transport",
+            "links": [
+              {
+                "text": "Minister of Land, Infrastructure and Transport",
+                "type": "internal",
+                "page": "Ministry of Land, Infrastructure and Transport (South Korea)"
+              }
+            ]
+          },
+          "president": {
+            "text": "Yoon Suk-yeol",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Yoon Suk-yeol"
+              }
+            ]
+          },
+          "primeminister": {
+            "text": "Han Duck-soo",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Han Duck-soo"
+              }
+            ]
+          },
+          "term_start": {
+            "text": "13 May 2022"
+          },
+          "predecessor": {
+            "text": "Noh Hyeong-ouk",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Noh Hyeong-ouk"
+              }
+            ]
+          },
+          "office1": {
+            "text": "Governor of Jeju Province",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Governor of Jeju Province"
+              }
+            ]
+          },
+          "term_start1": {
+            "text": "1 July 2014"
+          },
+          "term_end1": {
+            "text": "11 August 2021"
+          },
+          "predecessor1": {
+            "text": "Woo Keun-min"
+          },
+          "successor1": {
+            "text": "Koo Man-sub (acting)",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Koo Man-sub"
+              }
+            ]
+          },
+          "office2": {
+            "text": "Member of the National Assembly",
+            "links": [
+              {
+                "text": "National Assembly",
+                "type": "internal",
+                "page": "National Assembly (South Korea)"
+              }
+            ]
+          },
+          "term_start2": {
+            "text": "30 May 2000"
+          },
+          "term_end2": {
+            "text": "29 May 2012"
+          },
+          "constituency2": {
+            "text": "Yangcheon A (Seoul)",
+            "links": [
+              {
+                "text": "Yangcheon A",
+                "type": "internal",
+                "page": "Yangcheon"
+              },
+              {
+                "type": "internal",
+                "page": "Seoul"
+              }
+            ]
+          },
+          "predecessor2": {
+            "text": "Park Bum-jin"
+          },
+          "successor2": {
+            "text": "Kil Jeong-woo"
+          },
+          "birth_date": {
+            "text": "February 14, 1964"
+          },
+          "birth_place": {
+            "text": "Seogwipo, Jeju, South Korea",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Seogwipo"
+              },
+              {
+                "text": "Jeju",
+                "type": "internal",
+                "page": "Jeju Province"
+              },
+              {
+                "type": "internal",
+                "page": "South Korea"
+              }
+            ]
+          },
+          "party": {
+            "text": "People Power Party",
+            "links": [
+              {
+                "text": "People Power Party",
+                "type": "internal",
+                "page": "People Power Party (South Korea)"
+              }
+            ]
+          },
+          "alma_mater": {
+            "text": "Seoul National University (LLB) Hanyang University (MA)",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Seoul National University"
+              },
+              {
+                "text": "LLB",
+                "type": "internal",
+                "page": "Bachelor of Laws"
+              },
+              {
+                "type": "internal",
+                "page": "Hanyang University"
+              },
+              {
+                "text": "MA",
+                "type": "internal",
+                "page": "Master of Arts"
+              }
+            ]
+          }
+        },
+        {
+          "hangul": {
+            "text": "원희룡"
+          },
+          "rr": {
+            "text": "Won Hui-ryong"
+          },
+          "mr": {
+            "text": "Wŏn Hŭiryong"
+          }
+        }
+      ],
+      "references": [
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        }
+      ]
+    },
+    {
+      "title": "Early life and education",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "He graduated from the college of law in Seoul National University.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Seoul National University"
+                }
+              ]
+            },
+            {
+              "text": "He is well known for being ranked first in two major state examinations: the College Scholastic Ability Test (1982) and the National Judicial Exam (1992)."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "During his youth, he was a member of the Korean labour and student movements for 7 years, fighting for the right of labour and democratization."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Passing the 34th National Judicial Exam (1992) and completing courses at Judicial Research and Training Institute, he worked as a public prosecutor in Seoul, Yeoju, and Busan from 1995 to August 1998.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Judicial Research and Training Institute"
+                },
+                {
+                  "text": "public prosecutor",
+                  "type": "internal",
+                  "page": "public prosecutor"
+                },
+                {
+                  "type": "internal",
+                  "page": "Seoul"
+                },
+                {
+                  "type": "internal",
+                  "page": "Yeoju"
+                },
+                {
+                  "type": "internal",
+                  "page": "Busan"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Political career",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "In 2000, Won was elected as a member of the National Assembly for Yangchon A District."
+            },
+            {
+              "text": "He was re-elected twice in 2004 and 2008."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He served as a member of the Science, Technology, Information & Telecommunication Committee, Legislation & Judiciary Committee (2002), Unification, Foreign Affairs & Trade Committee (2004), Finance & Economy Committee (2006), and Commerce, Industry & Energy Committee (2007) in the National Assembly."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He has been a member of World Economic Forum since 2003 and was elected as a young global leader by WEF (2005 ).",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "World Economic Forum"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In 2005, Won wrote his life \"I Am Dreaming Of Sub-Three.\"",
+              "formatting": {
+                "italic": [
+                  "I Am Dreaming Of Sub-Three"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In 2007, Won ran for the party presidential candidacy; he gained only 1% of the votes."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "After retiring from the national assembly in 2012, Won ran and was elected the Governor of Jeju Province in 2014.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Governor of Jeju Province"
+                }
+              ]
+            },
+            {
+              "text": "He won re-election in 2018 as an independent candidate."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Won resigned as governor on August 11, 2021, to focus on his second presidential campaign."
+            },
+            {
+              "text": "He survived primary and secondary elimination of the People Power Party presidential primaries and advanced to the final runoff.",
+              "links": [
+                {
+                  "text": "People Power Party",
+                  "type": "internal",
+                  "page": "People Power Party (South Korea)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In April 2022, he was nominated as Minister of Land, Infrastructure and Transport by Yoon Suk-yeol, then-president-elect.",
+              "links": [
+                {
+                  "text": "Minister of Land, Infrastructure and Transport",
+                  "type": "internal",
+                  "page": "Ministry of Land, Infrastructure and Transport (South Korea)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Yoon Suk-yeol"
+                }
+              ]
+            },
+            {
+              "text": "Controversies around his use of public money on omakase, and various traffic violations he committed over the years rose during his confirmation hearing.",
+              "links": [
+                {
+                  "text": "omakase",
+                  "type": "internal",
+                  "page": "omakase"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        }
+      ]
+    },
+    {
+      "title": "Notes",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        }
+      ]
+    }
+  ]
+}

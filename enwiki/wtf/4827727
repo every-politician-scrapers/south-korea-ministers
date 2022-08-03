@@ -1,0 +1,563 @@
+{
+  "title": "Han Duck-soo",
+  "pageID": 4827727,
+  "categories": [
+    "1949 births",
+    "Living people",
+    "People from Jeonju",
+    "Kyunggi High School alumni",
+    "Seoul National University alumni",
+    "Harvard University alumni",
+    "Government ministers of South Korea",
+    "Finance ministers of South Korea",
+    "Deputy Prime Ministers of South Korea",
+    "South Korean diplomats",
+    "Ambassadors of South Korea to the United States",
+    "Cheongju Han clan"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Han Duck-soo (born 18 June 1949) is a South Korean politician currently serving as the 44th Prime Minister of South Korea from May 2022.",
+              "links": [
+                {
+                  "text": "South Korean",
+                  "type": "internal",
+                  "page": "Republic of Korea"
+                },
+                {
+                  "type": "internal",
+                  "page": "Prime Minister of South Korea"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Han Duck-soo"
+                ]
+              }
+            },
+            {
+              "text": "Han is the fifth person to serve as the prime minister twice having served as the 38th Prime Minister under President Roh Moo-hyun from 2007 to 2008.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Roh Moo-hyun"
+                }
+              ]
+            },
+            {
+              "text": "He was the ambassador to the United States from 2009 to 2012."
+            },
+            {
+              "text": "He served as Chairman of the Korea International Trade Association from 2012 to 2015."
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "description": "Prime Minister of South Korea",
+          "template": "short description"
+        },
+        {
+          "list": [
+            "the founder and former chairman of Chongryon",
+            "Han Duk-su"
+          ],
+          "template": "for"
+        },
+        {
+          "list": [
+            "Han",
+            ""
+          ],
+          "lang": "Korean",
+          "template": "family name hatnote"
+        },
+        {
+          "date": "July 2013",
+          "template": "use dmy dates"
+        },
+        {
+          "year": "1949",
+          "month": "6",
+          "day": "18",
+          "df": "y",
+          "template": "birth date and age"
+        },
+        {
+          "list": [
+            "한",
+            "덕",
+            "수"
+          ],
+          "template": "linktext"
+        },
+        {
+          "list": [
+            "韓",
+            "悳",
+            "洙"
+          ],
+          "template": "linktext"
+        },
+        {
+          "list": [
+            "한",
+            "덕",
+            "수"
+          ],
+          "template": "linktext"
+        }
+      ],
+      "infoboxes": [
+        {
+          "child": {
+            "text": "yes"
+          },
+          "title": {
+            "text": "Korean name",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Korean name"
+              }
+            ]
+          },
+          "rr": {
+            "text": "Han Deok-su"
+          },
+          "mr": {
+            "text": "Han Tŏk-su"
+          }
+        },
+        {
+          "honorific-prefix": {
+            "text": "His Excellency",
+            "links": [
+              {
+                "text": "His Excellency",
+                "type": "internal",
+                "page": "Excellency"
+              }
+            ]
+          },
+          "name": {
+            "text": "Han Duck-soo"
+          },
+          "native_name": {
+            "text": "한덕수"
+          },
+          "native_name_lang": {
+            "text": "ko"
+          },
+          "image": {
+            "text": "Han Duk-Soo, Prime Minister South Korea and Dominik Knoll, CEO of the World Trade Center (cropped).jpg"
+          },
+          "caption": {
+            "text": "Han in 2012"
+          },
+          "office": {
+            "text": "34th and 44th Prime Minister of South Korea",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Prime Minister of South Korea"
+              }
+            ]
+          },
+          "president": {
+            "text": "Yoon Suk-yeol",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Yoon Suk-yeol"
+              }
+            ]
+          },
+          "term_start": {
+            "text": "21 May 2022"
+          },
+          "predecessor": {
+            "text": "Kim Boo-kyum",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Kim Boo-kyum"
+              }
+            ]
+          },
+          "president1": {
+            "text": "Roh Moo-hyun Lee Myung-bak",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Roh Moo-hyun"
+              },
+              {
+                "type": "internal",
+                "page": "Lee Myung-bak"
+              }
+            ]
+          },
+          "term_start1": {
+            "text": "2 April 2007"
+          },
+          "term_end1": {
+            "text": "29 February 2008"
+          },
+          "predecessor1": {
+            "text": "Han Myeong-sook",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Han Myeong-sook"
+              }
+            ]
+          },
+          "successor1": {
+            "text": "Han Seung-soo",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Han Seung-soo"
+              }
+            ]
+          },
+          "office2": {
+            "text": "South Korean Ambassador to the United States",
+            "links": [
+              {
+                "text": "South Korean Ambassador to the United States",
+                "type": "internal",
+                "page": "List of ambassadors of South Korea to the United States"
+              }
+            ]
+          },
+          "president2": {
+            "text": "Lee Myung-bak",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Myung-bak"
+              }
+            ]
+          },
+          "term_start2": {
+            "text": "9 March 2009"
+          },
+          "term_end2": {
+            "text": "17 February 2012"
+          },
+          "predecessor2": {
+            "text": "Lee Tae-sik",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Tae-sik"
+              }
+            ]
+          },
+          "successor2": {
+            "text": "Choi Young-jin",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Choi Young-jin"
+              }
+            ]
+          },
+          "office3": {
+            "text": "Deputy Prime Minister and\nMinister of Finance and Economy",
+            "links": [
+              {
+                "text": "Deputy Prime Minister",
+                "type": "internal",
+                "page": "Deputy Prime Minister of South Korea"
+              },
+              {
+                "text": "Minister of Finance and Economy",
+                "type": "internal",
+                "page": "Ministry of Economy and Finance (South Korea)"
+              }
+            ]
+          },
+          "primeminister3": {
+            "text": "Lee Hae-chan\nHan Myeong-sook",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Hae-chan"
+              },
+              {
+                "type": "internal",
+                "page": "Han Myeong-sook"
+              }
+            ]
+          },
+          "term_start3": {
+            "text": "14 March 2005"
+          },
+          "term_end3": {
+            "text": "18 July 2006"
+          },
+          "predecessor3": {
+            "text": "Lee Hun-jai",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Lee Hun-jai"
+              }
+            ]
+          },
+          "successor3": {
+            "text": "Kwon O-kyu",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Kwon O-kyu"
+              }
+            ]
+          },
+          "birth_date": {
+            "text": "June 18, 1949"
+          },
+          "birth_place": {
+            "text": "Jeonju, South Korea",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Jeonju"
+              },
+              {
+                "type": "internal",
+                "page": "South Korea"
+              }
+            ]
+          },
+          "education": {
+            "text": "Seoul National University (BA) Harvard University (MA, PhD)",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Seoul National University"
+              },
+              {
+                "text": "BA",
+                "type": "internal",
+                "page": "Bachelor of Arts"
+              }
+            ]
+          },
+          "party": {
+            "text": "Independent",
+            "links": [
+              {
+                "text": "Independent",
+                "type": "internal",
+                "page": "Independent politician"
+              }
+            ]
+          }
+        }
+      ],
+      "references": [
+        {
+          "date": "2022-05-21",
+          "title": "[속보] 윤 대통령, 한덕수 국무총리 임명",
+          "url": "https://www.hankyung.com/politics/article/2022052116377",
+          "access-date": "2022-05-22",
+          "website": "hankyung.com",
+          "language": "ko",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "http://kita.org/about/ceoFormer.do",
+          "title": "Former Chairmen of the Korea International Trade Association",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "http://www.kita.org/about/newsView.do?id=&no=980&searchWrd=&result_url=",
+          "title": "Former Prime Minister Han Duk-soo Appointed as the Next KITA Chairman",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Han graduated from Seoul National University with a bachelor's degree in economics in 1971.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Seoul National University"
+                }
+              ]
+            },
+            {
+              "text": "He received a master's degree in economics in 1979 and a doctorate in economics in 1984 from Harvard University.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Harvard University"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Career",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "His career spans over 35 years, starting at the National Tax Service in 1970 and the Economic Planning Board four years later."
+            },
+            {
+              "text": "In 1982, he moved to what is now the Ministry of Trade, Industry and Energy, where he rose to Vice Minister in 1997–1998, during the Asian financial crisis; he later became Minister of Trade Affairs (1998–2000), handling trade negotiations with foreign governments."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Han subsequently became Minister of Finance of South Korea and served as Acting Prime Minister from 14 March 2006 to 19 April 2006.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Minister of Finance of South Korea"
+                }
+              ]
+            },
+            {
+              "text": "He resigned as Finance Minister in July 2006 and instead became a special presidential advisor for free trade agreement affairs."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "On 9 March 2007, Han was nominated as Prime Minister by President Roh Moo-hyun following the resignation of Han Myeong-sook.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Roh Moo-hyun"
+                },
+                {
+                  "type": "internal",
+                  "page": "Han Myeong-sook"
+                }
+              ]
+            },
+            {
+              "text": "His nomination was approved by the National Assembly on 2 April 2007.",
+              "links": [
+                {
+                  "text": "National Assembly",
+                  "type": "internal",
+                  "page": "National Assembly of South Korea"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In 2022, Han became prime minister again at the age of 72 and 11 months, becoming the oldest person to take the office."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "9 March 2007",
+          "title": "Han Duck-Soo New Rok Pm-Designate",
+          "url": "https://wikileaks.org/plusd/cables/07SEOUL705_a.html",
+          "template": "citation",
+          "type": "journal"
+        },
+        {
+          "title": "Han Duck-soo appointed prime minister after rocky confirmation process",
+          "url": "https://koreajoongangdaily.joins.com/2022/05/22/national/politics/Han-Ducksoo-Korea-Yoon-Sukyeol/20220522152029182.html",
+          "access-date": "2022-07-10",
+          "website": "koreajoongangdaily.joins.com",
+          "language": "en",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        },
+        {
+          "template": "s-start"
+        },
+        {
+          "template": "s-off"
+        },
+        {
+          "before": "Han Myeong-sook",
+          "title": "Prime Minister of South Korea",
+          "after": "Han Seung-soo",
+          "years": "2007–2008",
+          "template": "succession box"
+        },
+        {
+          "template": "s-dip"
+        },
+        {
+          "before": "Lee Tae-sik",
+          "title": "Ambassador of Republic of Korea to United States",
+          "years": "2009–2012",
+          "after": "Choi Young-jin",
+          "template": "succession box"
+        },
+        {
+          "template": "prime ministers of south korea"
+        },
+        {
+          "template": "ambassadors of south korea to the us"
+        },
+        {
+          "template": "authority control"
+        },
+        {
+          "template": "southkorea-politician-stub"
+        }
+      ]
+    }
+  ]
+}

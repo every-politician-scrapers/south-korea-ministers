@@ -1,0 +1,172 @@
+{
+  "title": "Sim Seung-seob",
+  "pageID": 62509175,
+  "categories": [
+    "Chiefs of Naval Operations (South Korea)",
+    "Living people",
+    "1963 births"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": []
+        },
+        {
+          "sentences": [
+            {
+              "text": "Sim Seung-seob (, born January 28, 1963 ) is the 33rd Chief of Naval Operations for the Republic of Korea Navy.",
+              "links": [
+                {
+                  "text": "Chief of Naval Operations",
+                  "type": "internal",
+                  "page": "Chief of Naval Operations (South Korea)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Republic of Korea Navy"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Sim Seung-seob"
+                ]
+              }
+            },
+            {
+              "text": "He was sworn in on July 18, 2019."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He was born in Jeonbuk Province and attended the Korea Naval Academy.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Jeonbuk Province"
+                },
+                {
+                  "type": "internal",
+                  "page": "Korea Naval Academy"
+                }
+              ]
+            },
+            {
+              "text": "He previously held the position of Chief Directorate of Strategic Planning for the Joint Chiefs of Staff of the Republic of Korea and served as commander of the South Korean 1st Fleet.",
+              "links": [
+                {
+                  "text": "Joint Chiefs of Staff of the Republic of Korea",
+                  "type": "internal",
+                  "page": "Joint Chiefs of Staff (South Korea)"
+                }
+              ]
+            },
+            {
+              "text": "He holds the rank of Admiral.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Admiral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Navy_(ROKN)_Admiral_Sim_Seung-seob_해군대장_심승섭_(US_Navy_photo_181011-N-TB148-0110_JEJU_ISLAND,_Republic_of_Korea).jpg",
+          "thumb": "https://wikipedia.org/wiki/Special:Redirect/file/Navy_(ROKN)_Admiral_Sim_Seung-seob_%ED%95%B4%EA%B5%B0%EB%8C%80%EC%9E%A5_%EC%8B%AC%EC%8A%B9%EC%84%AD_(US_Navy_photo_181011-N-TB148-0110_JEJU_ISLAND%2C_Republic_of_Korea).jpg?width=300",
+          "url": "https://wikipedia.org/wiki/Special:Redirect/file/Navy_(ROKN)_Admiral_Sim_Seung-seob_%ED%95%B4%EA%B5%B0%EB%8C%80%EC%9E%A5_%EC%8B%AC%EC%8A%B9%EC%84%AD_(US_Navy_photo_181011-N-TB148-0110_JEJU_ISLAND%2C_Republic_of_Korea).jpg",
+          "caption": "Sim Seung-seob in 2018",
+          "links": []
+        }
+      ],
+      "templates": [
+        {
+          "hangul": "심승섭",
+          "template": "korean"
+        }
+      ],
+      "references": [
+        {
+          "last1": "He-suk",
+          "first1": "Choi",
+          "title": "Moon swears in new head of Navy",
+          "url": "http://www.koreaherald.com/view.php?ud=20180719000545",
+          "accessdate": "5 December 2019",
+          "publisher": "The Korea Herald",
+          "date": "July 19, 2019",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "title": "Chief of Naval Operations Profile",
+          "url": "http://www.navy.mil.kr/mbshome/mbs/eng/subview.do?id=eng_010102000000",
+          "website": "Republic of Korea Navy",
+          "accessdate": "5 December 2019",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "See also",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": []
+        }
+      ],
+      "lists": [
+        [
+          {
+            "text": "History of the Republic of Korea Navy",
+            "links": [
+              {
+                "type": "internal",
+                "page": "History of the Republic of Korea Navy"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        }
+      ]
+    },
+    {
+      "title": "External links",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": []
+        }
+      ],
+      "templates": [
+        {
+          "list": [
+            "Sim Seung-seob"
+          ],
+          "template": "commons category-inline"
+        },
+        {
+          "template": "authority control"
+        },
+        {
+          "template": "southkorea-mil-bio-stub"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "title": "Kim Myeong-soo",
+  "pageID": 56415634,
+  "categories": [
+    "1959 births",
+    "Living people",
+    "South Korean judges",
+    "Chief Justices of the Supreme Court of Korea",
+    "Seoul National University School of Law alumni"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Kim Myeong-soo (born 12 October 1959) is a South Korean jurist and the 16th Chief Justice of the Supreme Court of Korea, inaugurated on 25 September 2017, succeeding the outgoing Yang Sung-tae.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Chief Justice of the Supreme Court of Korea"
+                },
+                {
+                  "type": "internal",
+                  "page": "Yang Sung-tae"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Kim Myeong-soo"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "description": "16th Supreme Court Chief Justice in South Korea",
+          "template": "short description"
+        },
+        {
+          "date": "January 2018",
+          "template": "blp sources"
+        },
+        {
+          "year": "1959",
+          "month": "10",
+          "day": "12",
+          "df": "y",
+          "template": "birth date and age"
+        },
+        {
+          "hangul": "김명수",
+          "hanja": "金命洙",
+          "template": "korean"
+        }
+      ],
+      "infoboxes": [
+        {
+          "name": {
+            "text": "Kim Myeong-soo"
+          },
+          "native_name": {
+            "text": "김명수"
+          },
+          "native_name_lang": {
+            "text": "ko"
+          },
+          "office": {
+            "text": "16th Chief Justice of the Supreme Court of Korea",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Chief Justice of the Supreme Court of Korea"
+              }
+            ]
+          },
+          "term_start": {
+            "text": "25 September 2017"
+          },
+          "nominator": {
+            "text": "Moon Jae-in",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Moon Jae-in"
+              }
+            ]
+          },
+          "predecessor": {
+            "text": "Yang Sung-tae",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Yang Sung-tae"
+              }
+            ]
+          },
+          "occupation": {
+            "text": "Jurist"
+          },
+          "alma_mater": {
+            "text": "Seoul National University School of Law",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Seoul National University"
+              }
+            ]
+          },
+          "birth_place": {
+            "text": "Busan, South Korea",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Busan"
+              },
+              {
+                "text": "South Korea",
+                "type": "internal",
+                "page": "First Republic of Korea"
+              }
+            ]
+          },
+          "birth_date": {
+            "text": "October 12, 1959"
+          },
+          "image": {
+            "text": "Kim Myeong-soo official portrait (cropped).jpg"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Biography",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Kim graduated from the Seoul National University School of Law in 1981, and passed the National Judicial Examination in 1983.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Seoul National University School of Law"
+                }
+              ]
+            },
+            {
+              "text": "He began his career at the Northern Branch Court of Seoul District Court in 1986."
+            },
+            {
+              "text": "In February 2016, he was assigned as the Chief Judge of Chuncheon District.",
+              "links": [
+                {
+                  "text": "Chuncheon District",
+                  "type": "internal",
+                  "page": "Chuncheon"
+                }
+              ]
+            },
+            {
+              "text": "He began his 6-year term as Chief Justice on 25 September 2017, after being elected in a 160–134 vote of parliamentary approval."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "url": "https://www.scourt.go.kr/eboard/ExchangeViewAction.work?pageIndex=1&pageSize=5&gubun=56&seqnum=226&group=",
+          "title": "Inauguration Ceremony of Chief Justice KIM Myeong-su",
+          "date": "26 September 2017",
+          "publisher": "Supreme Court of Korea",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "http://m.koreaherald.com/view.php?ud=20170925000585",
+          "title": "Moon appoints new chief justice, calls for judicial reform",
+          "date": "25 September 2017",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        },
+        {
+          "template": "authority control"
+        },
+        {
+          "template": "southkorea-bio-stub"
+        }
+      ]
+    }
+  ]
+}
